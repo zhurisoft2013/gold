@@ -1,0 +1,80 @@
+[ 2014-05-27T14:44:21+08:00 ] ::1 /library/index.php/Admin/Book/update_pictitle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `my_book_attachment` [ RunTime:0.067884s ]
+SQL: UPDATE `my_book_attachment` SET `title`='婚纱',`description`='婚纱描述' WHERE ( `id` = 2 ) [ RunTime:0.066790s ]
+
+[ 2014-05-27T20:34:46+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.010457s ]
+ERR: 非法数据对象！:[time=>1401193980]
+
+[ 2014-05-27T20:35:54+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.008301s ]
+ERR: 非法数据对象！:[time=>1401194100]
+
+[ 2014-05-27T20:36:29+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+ERR: 非法访问
+
+[ 2014-05-27T20:39:59+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.009235s ]
+SQL: UPDATE `my_lecture` SET `time`=1401194100,`address`='江西南昌',`num`=6 WHERE ( `id` = 2 ) [ RunTime:0.000603s ]
+
+[ 2014-05-27T20:41:12+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.010834s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401194100,'江西南昌',6) [ RunTime:0.065087s ]
+
+[ 2014-05-27T21:39:28+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.020610s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401197940,'香港TVB',8) [ RunTime:0.011849s ]
+
+[ 2014-05-27T21:49:18+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.012933s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401206400,'香港TVB',5) [ RunTime:0.000581s ]
+
+[ 2014-05-27T21:49:33+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.010446s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (1,1401120000,'江西南昌',6) [ RunTime:0.000500s ]
+
+[ 2014-05-27T22:11:13+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008019s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (1,1401292800,'香港TVB',6) [ RunTime:0.000467s ]
+
+[ 2014-05-27T22:16:35+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008060s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (1,1401120000,'江西南昌',8) [ RunTime:0.000448s ]
+
+[ 2014-05-27T22:16:41+08:00 ] ::1 /library/index.php/Admin/Book/delLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008409s ]
+SQL: DELETE FROM `my_lecture` WHERE ( `id` = 6 ) [ RunTime:0.020071s ]
+

@@ -1,0 +1,114 @@
+<extend name="Tmpl:base" />
+<block name="title">用户信息修改</block>
+<block name="js">
+
+	<script>
+
+	$(function(){
+ 		$('ul.role input:checkbox').click(function(event){
+			// event.stopPropagation();
+			// event.preventDefault();
+			// alert($(this).val());
+ 			//$(this).parent().parent().parent().parent().find(':checkbox').attr("checked","checked");
+
+ 		})
+
+	})
+	</script>
+</block>
+<block name="content">
+	<div class="FormWrap">
+		<h3>用户信息编辑</h3>
+		<div class="division">
+			<form action="{:U('Admin/User/update')}" method="post" id="frmEditUser">
+				<table class="liststyle data" width="100%">
+					<tbody>
+						<tr>
+							<th>登录名</th>
+							<td>
+								<strong> {$user.username}</strong>
+								<input type="hidden" name="id" value="{$user.id}" />
+							</td>
+						</tr>
+						<tr>
+							<th>昵称</th>
+							<td>
+								<input type="text" name="nickname" id="nickname" value="{$user.nickname}" />
+							</td>
+						</tr>
+								
+						<tr>
+							<th>状态</th>
+							<td>
+								<select name="status" id="status" >
+									<option value="1" 
+									<eq name="user['status']" value="1">
+									selected="selected"
+									</eq>
+									>正常</option>
+									<option value="0" 
+									<eq name="user['status']" value="0">
+									selected="selected"
+									</eq>
+									>锁定</option>
+									
+								</select>
+	
+							</td>
+						</tr>
+						<tr>
+							<th>管理模块</th>
+							<td>
+								<ul class="role">
+									<volist name="category" id="vo">
+									<li>
+									<label><input type="checkbox" name="role[]" id="" value="{$vo.id}" 
+									<in name="vo['id']" value="$role">
+									 checked="checked" 
+									</in>
+									/>{$vo.title}</label>
+									<notempty name="vo['child']">
+									<ul>
+									</notempty>
+									<volist name="vo['child']" id="v">
+										<li><label><input type="checkbox" name="role[]" id="" value="{$v.id}" 
+										<in name="v['id']" value="$role">
+									 	 checked="checked"  
+										</in>
+										/>{$v.title}</label>
+										<notempty name="v['child']">
+										<ul>
+										</notempty>
+											<volist name="v['child']" id="v1">
+												<li><label><input type="checkbox" name="role[]" id="" value="{$v1.id}" 
+												<in name="v1['id']" value="$role">
+											 	 checked="checked"  
+												</in>
+												/>{$v1.title}</label></li>
+											</volist>
+										<notempty name="v['child']">	
+										</ul>
+										</notempty>
+										</li>
+									</volist>
+									<notempty name="vo['child']">
+									</ul>
+									</notempty>
+									</li>
+									</volist>
+								</ul>
+
+							</td>
+						</tr>						
+
+						<tr>
+							<td colspan="2" class="ta-center">
+								<input type="submit" value="保存添加" />
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+	</div>
+</block>

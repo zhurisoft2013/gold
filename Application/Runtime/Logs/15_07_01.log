@@ -1,0 +1,909 @@
+[ 2015-07-01T11:10:45+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016686s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.177751s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.001100s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000700s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.269550s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008162s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000543s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.073855s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.003581s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000391s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.010534s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000512s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('6') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.002876s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('7') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000477s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.004090s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('9') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.002300s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('10') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000626s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('11') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000348s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('12') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000378s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('13') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.240804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.241126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016950s ]
+
+[ 2015-07-01T11:10:52+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2193.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.010259s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.006638s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2193 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.005172s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2193 ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005379s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2193 ) [ RunTime:0.044246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2015-07-01T11:22:55+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.011558s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000431s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.020617s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.006271s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000735s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.004953s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.003245s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000521s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.002571s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000532s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('6') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.003076s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('7') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000403s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.019160s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('9') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.001996s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('10') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000549s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('11') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000366s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('12') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('13') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2015-07-01T11:23:59+08:00 ] ::1 /gold/index.php/home/index/stat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.024041s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2015-07-01T11:38:44+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2189.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.025465s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.022503s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2189 ) LIMIT 1   [ RunTime:0.000445s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.007076s ]
+SQL: SELECT * FROM `my_stat` WHERE ( `stat_month` = '2015-07' ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: INSERT INTO `my_stat` (`stat_year`,`stat_month`) VALUES ('2015','2015-07') [ RunTime:0.016805s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.005159s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2189 ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008990s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2189 ) [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2015-07-01T11:38:48+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2186.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.017769s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.015190s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2186 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.011334s ]
+SQL: SELECT * FROM `my_stat` WHERE ( `stat_month` = '2015-07' ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.005300s ]
+SQL: UPDATE `my_stat` SET `click`=click+1 WHERE ( `stat_month` = '2015-07' ) [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007101s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2186 ) LIMIT 1   [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.006895s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2186 ) [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001510s ]
+
+[ 2015-07-01T11:39:16+08:00 ] ::1 /gold/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2015-07-01T11:39:24+08:00 ] ::1 /gold/index.php/Admin/Stat/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.074111s ]
+SQL: SELECT `id`,`username`,`nickname` FROM `my_user`  [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) LIMIT 1   [ RunTime:0.073900s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) AND ( `create_time` > 1435117164 ) LIMIT 1   [ RunTime:0.004175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) AND ( `create_time` > 1433129964 ) LIMIT 1   [ RunTime:0.004177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) LIMIT 1   [ RunTime:0.004703s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) AND ( `create_time` > 1435117164 ) LIMIT 1   [ RunTime:0.005977s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) AND ( `create_time` > 1433129964 ) LIMIT 1   [ RunTime:0.004177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2015-07-01T11:39:27+08:00 ] ::1 /gold/index.php/Admin/Stat/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.011955s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.020388s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 1   [ RunTime:0.014167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 1   [ RunTime:0.000623s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('29') ) LIMIT 1   [ RunTime:0.000465s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('29') ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('30') ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('30') ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('31') ) LIMIT 1   [ RunTime:0.002822s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('31') ) LIMIT 1   [ RunTime:0.000570s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('32') ) LIMIT 1   [ RunTime:0.002921s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('32') ) LIMIT 1   [ RunTime:0.000490s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) LIMIT 1   [ RunTime:0.004565s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) LIMIT 1   [ RunTime:0.000617s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('33','34','35','36','37','38','39') ) LIMIT 1   [ RunTime:0.002353s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('33','34','35','36','37','38','39') ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('34') ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('34') ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('35') ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('35') ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('36') ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('36') ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('37') ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('37') ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('38') ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('38') ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('39') ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('39') ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('40') ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('40') ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('41') ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('41') ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('42') ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('42') ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('44') ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('44') ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('45') ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('45') ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) LIMIT 1   [ RunTime:0.002216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) LIMIT 1   [ RunTime:0.000800s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('46') ) LIMIT 1   [ RunTime:0.000878s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('46') ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('47') ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('47') ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('48') ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('48') ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('49') ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('49') ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('6') ) LIMIT 1   [ RunTime:0.001884s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('6') ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('7') ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('7') ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) LIMIT 1   [ RunTime:0.002669s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('50') ) LIMIT 1   [ RunTime:0.001215s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('50') ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('51') ) LIMIT 1   [ RunTime:0.001507s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('51') ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('9') ) LIMIT 1   [ RunTime:0.001494s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('9') ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('10') ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('10') ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('11') ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('11') ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('12') ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('12') ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('13') ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('13') ) LIMIT 1   [ RunTime:0.000180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2015-07-01T11:39:52+08:00 ] ::1 /gold/index.php/Admin/Stat/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.013099s ]
+SQL: SELECT `id`,`username`,`nickname` FROM `my_user`  [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.021924s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) LIMIT 1   [ RunTime:0.003363s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) AND ( `create_time` > 1435117192 ) LIMIT 1   [ RunTime:0.004797s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) AND ( `create_time` > 1433129992 ) LIMIT 1   [ RunTime:0.004684s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) LIMIT 1   [ RunTime:0.004197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) AND ( `create_time` > 1435117192 ) LIMIT 1   [ RunTime:0.003428s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) AND ( `create_time` > 1433129992 ) LIMIT 1   [ RunTime:0.004531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001573s ]
+
+[ 2015-07-01T11:39:59+08:00 ] ::1 /gold/index.php/Admin/Stat/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.022166s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007387s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 1   [ RunTime:0.004606s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 1   [ RunTime:0.001360s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('29') ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('29') ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('30') ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('30') ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('31') ) LIMIT 1   [ RunTime:0.001779s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('31') ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('32') ) LIMIT 1   [ RunTime:0.001913s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('32') ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) LIMIT 1   [ RunTime:0.003380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) LIMIT 1   [ RunTime:0.000641s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('33','34','35','36','37','38','39') ) LIMIT 1   [ RunTime:0.001835s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('33','34','35','36','37','38','39') ) LIMIT 1   [ RunTime:0.000392s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('34') ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('34') ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('35') ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('35') ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('36') ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('36') ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('37') ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('37') ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('38') ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('38') ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('39') ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('39') ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('40') ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('40') ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('41') ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('41') ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('42') ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('42') ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('44') ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('44') ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('45') ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('45') ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) LIMIT 1   [ RunTime:0.001969s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) LIMIT 1   [ RunTime:0.000372s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('46') ) LIMIT 1   [ RunTime:0.000679s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('46') ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('47') ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('47') ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('48') ) LIMIT 1   [ RunTime:0.000739s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('48') ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('49') ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('49') ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('6') ) LIMIT 1   [ RunTime:0.001785s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('6') ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('7') ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('7') ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) LIMIT 1   [ RunTime:0.002755s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) LIMIT 1   [ RunTime:0.000409s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('50') ) LIMIT 1   [ RunTime:0.001839s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('50') ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('51') ) LIMIT 1   [ RunTime:0.001535s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('51') ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('9') ) LIMIT 1   [ RunTime:0.001550s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('9') ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('10') ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('10') ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('11') ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('11') ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('12') ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('12') ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('13') ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('13') ) LIMIT 1   [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002606s ]
+
+[ 2015-07-01T11:55:01+08:00 ] ::1 /gold/index.php/Admin/Stat/year.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.024744s ]
+SQL: SELECT `year`,sum(click) FROM `my_stat` GROUP BY year  [ RunTime:0.016277s ]
+ERR: 1054:Unknown column 'year' in 'field list'
+ [ SQL语句 ] : SELECT `year`,sum(click) FROM `my_stat` GROUP BY year 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000893s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2015-07-01T11:55:04+08:00 ] ::1 /gold/index.php/Admin/Stat/year.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.011465s ]
+SQL: SELECT `year`,sum(click) FROM `my_stat` GROUP BY year  [ RunTime:0.000237s ]
+ERR: 1054:Unknown column 'year' in 'field list'
+ [ SQL语句 ] : SELECT `year`,sum(click) FROM `my_stat` GROUP BY year 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2015-07-01T11:55:34+08:00 ] ::1 /gold/index.php/Admin/Stat/year.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.018596s ]
+SQL: SELECT * FROM `my_stat`  [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined index: all_count D:\wamp\www\gold\Application\Runtime\Cache\Admin\16aa9876b63473f90efafa1fb67e9a17.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2015-07-01T11:55:52+08:00 ] ::1 /gold/index.php/Admin/Stat/year.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.009487s ]
+SQL: SELECT `stat_year`,sum(click) FROM `my_stat` GROUP BY stat_year  [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\gold\Application\Runtime\Cache\Admin\16aa9876b63473f90efafa1fb67e9a17.php 第 152 行.
+NOTIC: [8] Undefined index: all_count D:\wamp\www\gold\Application\Runtime\Cache\Admin\16aa9876b63473f90efafa1fb67e9a17.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2015-07-01T11:55:55+08:00 ] ::1 /gold/index.php/Admin/Stat/year.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.031982s ]
+SQL: SELECT `stat_year`,sum(click) FROM `my_stat` GROUP BY stat_year  [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\gold\Application\Runtime\Cache\Admin\16aa9876b63473f90efafa1fb67e9a17.php 第 152 行.
+NOTIC: [8] Undefined index: all_count D:\wamp\www\gold\Application\Runtime\Cache\Admin\16aa9876b63473f90efafa1fb67e9a17.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2015-07-01T11:56:52+08:00 ] ::1 /gold/index.php/Admin/Stat/year.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.031369s ]
+SQL: SELECT `stat_year`,sum(click) allclick FROM `my_stat` GROUP BY stat_year  [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: all_click D:\wamp\www\gold\Application\Runtime\Cache\Admin\16aa9876b63473f90efafa1fb67e9a17.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2015-07-01T11:57:09+08:00 ] ::1 /gold/index.php/Admin/Stat/year.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.022281s ]
+SQL: SELECT `stat_year`,sum(click) all_click FROM `my_stat` GROUP BY stat_year  [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2015-07-01T12:38:36+08:00 ] ::1 /gold/index.php/Admin/Stat/year.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.010869s ]
+SQL: SELECT `stat_year`,sum(click) all_click FROM `my_stat` GROUP BY stat_year  [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2015-07-01T12:38:53+08:00 ] ::1 /gold/index.php/Admin/Stat/year.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.012567s ]
+SQL: SELECT `stat_year`,sum(click) all_click FROM `my_stat` GROUP BY stat_year  [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2015-07-01T12:43:33+08:00 ] ::1 /gold/index.php/Home/Stat/month/year/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+ERR: 无法加载控制器:Stat
+
+[ 2015-07-01T12:44:14+08:00 ] ::1 /gold/index.php/Admin/Stat/year.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.009295s ]
+SQL: SELECT `stat_year`,sum(click) all_click FROM `my_stat` GROUP BY stat_year  [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2015-07-01T12:44:16+08:00 ] ::1 /gold/index.php/Admin/Stat/month/year/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.009193s ]
+SQL: SELECT * FROM `my_stat` WHERE ( `stat_year` = '2015' )  [ RunTime:0.000312s ]
+ERR: 模板不存在:D:\wamp\www\gold/Application/Admin/View/Stat/month.html
+
+[ 2015-07-01T12:45:43+08:00 ] ::1 /gold/index.php/Admin/Stat/month/year/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.010049s ]
+SQL: SELECT * FROM `my_stat` WHERE ( `stat_year` = '2015' )  [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2015-07-01T12:46:12+08:00 ] ::1 /gold/index.php/Admin/Stat/month/year/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.011307s ]
+SQL: SELECT * FROM `my_stat` WHERE ( `stat_year` = '2015' )  [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2015-07-01T13:19:22+08:00 ] ::1 /gold/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.275214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.275535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016540s ]
+
+[ 2015-07-01T13:19:23+08:00 ] ::1 /gold/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2015-07-01T13:19:23+08:00 ] ::1 /gold/index.php/Admin/Login/verify/0.10352147720844984
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2015-07-01T13:19:23+08:00 ] ::1 /gold/index.php/Admin/Login/verify/0.7473004311161165
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2015-07-01T15:20:55+08:00 ] ::1 /gold/index.php/Admin/Stat/month/year/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023474s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_stat` [ RunTime:0.056882s ]
+SQL: SELECT * FROM `my_stat` WHERE ( `stat_year` = '2015' )  [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000794s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.222415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.222625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023519s ]
+
+[ 2015-07-01T15:21:06+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.044462s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.049968s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000312s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.033998s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.004911s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000500s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.160085s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.078754s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000459s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.014208s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000379s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('6') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.046544s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('7') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000425s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.042738s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('9') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.055186s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('10') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000497s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('11') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000271s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('12') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('13') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002170s ]
+

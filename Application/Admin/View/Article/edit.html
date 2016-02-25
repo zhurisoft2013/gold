@@ -1,0 +1,225 @@
+<extend name="Tmpl:base" />
+<block name="title">编辑文章</block>
+<block name="js">
+    <js href="__PUBLIC__/ueditor/ueditor.config.js" />    
+    <js href="__PUBLIC__/ueditor/ueditor.all.min.js" />
+
+	<script>
+
+	$(function(){
+
+		       var url='{:U('Admin/Ueditor/Index')}';
+		       var ue = UE.getEditor('editor',{
+		            serverUrl :url,
+		            UEDITOR_HOME_URL:'__PUBLIC__/ueditor/',
+		            initialFrameWidth : 800,
+		            toolbars: [
+				    [
+				        // 'anchor', //锚点
+				       'source', //源代码
+				       'undo', //撤销
+				       'redo', //重做
+				       '|',
+				       'paragraph', //段落格式
+				        'fontfamily', //字体
+				        'fontsize', //字号
+				       'bold', //加粗				        
+				        // 'snapscreen', //截图
+				        'italic', //斜体
+				        'underline', //下划线
+				        // 'strikethrough', //删除线
+
+				        'subscript', //下标
+				        // 'fontborder', //字符边框
+				        'superscript', //上标
+				        'formatmatch', //格式刷
+				        'forecolor', //字体颜色
+				        'backcolor', //背景色
+				        '|',
+				       'pasteplain', //纯文本粘贴模式
+				       '|',
+				        'justifyleft', //居左对齐
+				        'justifyright', //居右对齐
+				        'justifycenter', //居中对齐
+				        'justifyjustify', //两端对齐
+				        '|',
+				        'insertorderedlist', //有序列表
+				        'insertunorderedlist', //无序列表
+				        '|',
+				        'selectall', //全选
+				        'removeformat', //清除格式
+				        'cleardoc', //清空文档
+				        '|',
+
+				        'fullscreen', //全屏
+
+				       'inserttable', //插入表格
+				        'mergecells', //合并多个单元格
+  				       'simpleupload', //单图上传
+				        'insertimage', //多图上传
+				         'attachment', //附件
+				        // 'blockquote', //引用	       
+				        'insertvideo', //视频
+				         'music', //音乐
+				         'emotion', //表情
+				        'horizontal', //分隔线
+				        
+				        // 'time', //时间
+				        'date', //日期
+				         'link', //超链接
+				        'unlink', //取消链接
+				        '|',
+				        // 'insertrow', //前插入行
+				        // 'insertcol', //前插入列
+				        // 'mergeright', //右合并单元格
+				        // 'mergedown', //下合并单元格
+				        // 'deleterow', //删除行
+				        // 'deletecol', //删除列
+				        // 'splittorows', //拆分成行
+				        // 'splittocols', //拆分成列
+				        // 'splittocells', //完全拆分单元格
+				        // 'deletecaption', //删除表格标题
+				        // 'inserttitle', //插入标题
+				       
+				        // 'deletetable', //删除表格
+
+				        // 'insertparagraphbeforetable', //"表格前插入行" 
+				      
+				        // 'edittable', //表格属性
+				        // 'edittd', //单元格属性 
+				       
+				        // 'spechars', //特殊字符
+				        'searchreplace', //查询替换
+				        // 'map', //Baidu地图
+				        // 'gmap', //Google地图
+				       
+				        // 'help', //帮助
+				       
+				        // 'directionalityltr', //从左向右输入
+				        // 'directionalityrtl', //从右向左输入
+				        '|',
+				        'indent', //首行缩进 
+				        'rowspacingtop', //段前距
+				        'rowspacingbottom', //段后距
+				        // 'pagebreak', //分页
+				        // 'insertframe', //插入Iframe
+				        // 'imagenone', //默认
+				        // 'imageleft', //左浮动
+				        // 'imageright', //右浮动
+				       
+				        // 'imagecenter', //居中
+				        // 'wordimage', //图片转存
+				        'lineheight', //行间距
+				        // 'edittip ', //编辑提示
+				        // 'customstyle', //自定义标题
+				        'autotypeset', //自动排版
+				        '|',
+				        // 'webapp', //百度应用
+				        // 'touppercase', //字母大写
+				        // 'tolowercase', //字母小写
+				        'background', //背景
+				        
+				        // 'scrawl', //涂鸦 
+				        // 'drafts', // 从草稿箱加载
+				        // 'charts', // 图表
+				        // 'insertcode', //代码语言
+				        '|',
+				       'preview', //预览
+				       'print', //打印
+				       'template', //模板
+
+				    ]
+				]
+		        });
+
+		        ue.ready(function(){
+		            ue.execCommand('serverparam', {
+		               'userid' : '{$Think.session.userid}',
+		               'username': '{$Think.session.username}', 
+		               'module':'{$Think.MODULE_NAME}',
+		               'controller':'{$Think.CONTROLLER_NAME}',
+		               'actionname':'{$Think.ACTION_NAME}',
+		            });
+		        });
+
+ 		var validator = $("#frmEditArticle").validate({
+			rules: {
+				title: "required",
+				category:{required: true,min:1},
+			},
+			messages: {
+				title: "请输入标题",
+				category: "必须选择文章分类" ,
+			},
+			// the errorPlacement has to take the layout into account
+			errorPlacement: function(error, element) {
+				error.insertAfter(element.parent().find('label:first'));
+			},
+			// set new class to error-labels to indicate valid fields
+			success: function(label) {
+				// set &nbsp; as text for IE
+				label.html("&nbsp;").addClass("ok");
+			}
+		});
+	})
+	</script>
+</block>
+<block name="content">
+	<div class="FormWrap">
+		<h3>编辑文章</h3>
+		<div class="division">
+			<form action="{:U('Admin/Article/update')}" method="post" id="frmEditArticle">
+				<table class="liststyle data" width="100%">
+					<tbody>
+						<tr>
+							<th>标题</th>
+							<td>
+								<input type="text" name="title" id="title" class="half" value="{$article.title}" />
+								<label for="title" class="required"></label>
+							</td>
+						</tr>
+						<tr>
+							<th>所属分类</th>
+							<td>
+								<select name="category_id" id="category" >
+									<option value="" >==请选择分类==</option>
+									<foreach name="category" item="vo">
+										<option value="{$vo.id}" 
+										<eq name="article['category_id']" value="$vo['id']"> selected="selected" </eq>
+										>{$vo.fullname}</option>
+									</foreach>
+
+								</select>
+								<label for="category" class="required"></label>
+							</td>
+						</tr>
+						<tr>
+							<th>是否置顶</th>
+							<td>
+								<label><input type="checkbox" name="top" value="1" <eq name="article['top']" value="1">checked="checked"</eq> />置顶</label>
+							</td>
+						</tr>
+						<tr>
+							<th>文章排序</th>
+							<td>
+								<input type="text" name="sort" value="100" value="{$article.sort}" />
+							</td>
+						</tr>
+						<tr>
+							<th>文章内容</th>
+							<td>
+								<script id="editor" type="text/plain" name="content" >{$article.content}</script>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="ta-center">
+								<input type="hidden" value="{$article.id}" name="id" />
+								<input type="submit" value="保存修改" />
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+	</div>
+</block>

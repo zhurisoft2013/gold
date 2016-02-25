@@ -1,0 +1,76 @@
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>错误</title>
+        <link rel="stylesheet" type="text/css" href="/gold/Public/jqmobile/jquery.mobile-1.4.5.min.css" />
+        <style>
+           h1{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+
+            h3 {
+                margin: 1.5em 0 0.5em;
+            }
+
+
+
+            ul {
+                padding: 0 0 0 40px;
+                margin: 1em 0;
+            }
+
+            .container {
+                max-width: 380px;
+                _width: 380px;
+                margin: 0 auto;
+            }
+
+
+            input::-moz-focus-inner {
+                padding: 0;
+                border: 0;
+            }
+            .jump{ padding-top: 10px}
+            .jump a{ color: #333;}
+            .success, .error{ line-height: 1.8em; font-size: 36px }
+            .detail{ font-size: 12px; line-height: 20px; margin-top: 12px; display:none}
+        </style>
+    </head>
+    <body>
+        <div data-role="page" id="pageone">
+            <!-- <div data-role="header"  data-position="fixed">
+                <h1>错误</h1>
+            </div> -->
+
+            <div data-role="content">
+                 <?php if(isset($message)): ?><h1>:)</h1>
+                <p class="success"><?php echo($message); ?></p>
+                <?php else: ?>
+                <h1>:(</h1>
+                <p class="error"><?php echo($error); ?></p><?php endif; ?>
+                <p class="detail"></p>
+                <p class="jump">
+                页面自动 <a id="href" href="<?php echo($jumpUrl); ?>">跳转</a> 等待时间： <b id="wait"><?php echo($waitSecond); ?></b>
+                </p>
+            </div>
+        </div>
+
+    <script type="text/javascript" src="/gold/Public/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="/gold/Public/jqmobile/jquery.mobile-1.4.5.min.js"></script>
+
+ <script type="text/javascript">
+(function(){
+var wait = document.getElementById('wait'),href = document.getElementById('href').href;
+var interval = setInterval(function(){
+    var time = --wait.innerHTML;
+    if(time <= 0) {
+        location.href = href;
+        clearInterval(interval);
+    };
+}, 1000);
+})();
+</script>   
+
+
+    </body>
+</html>

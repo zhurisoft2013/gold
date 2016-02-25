@@ -1,0 +1,154 @@
+[ 2014-05-30T10:52:29+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.008246s ]
+SQL: INSERT INTO `my_book` (`bookname`,`reg_time`) VALUES ('测试',1401418349) [ RunTime:0.283699s ]
+
+[ 2014-05-30T10:52:57+08:00 ] ::1 /library/index.php/Admin/Book/delete/id/5.html
+ERR: 非法操作:delete
+
+[ 2014-05-30T11:14:20+08:00 ] ::1 /library/index.php/Admin/Attachment/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2014-05-30T11:14:25+08:00 ] ::1 /library/index.php/Admin/Upload/index.html
+ERR: 无法加载控制器:Upload
+
+[ 2014-05-30T13:08:46+08:00 ] ::1 /library/index.php/Admin/Lecture/LectureShow/lid/5.html
+ERR: 模板不存在:D:\wamp\www\library/Application/Admin/View/Lecture/LectureShow.html
+
+[ 2014-05-30T14:22:08+08:00 ] ::1 /library/index.php/Admin/Lecture/apply/id/4.html
+ERR: 非法操作:apply
+
+[ 2014-05-30T20:22:08+08:00 ] ::1 /library/index.php/Admin/User/changePWD.html
+ERR: 无法加载控制器:User
+
+[ 2014-05-30T20:37:38+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+
+[ 2014-05-30T20:37:39+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+
+[ 2014-05-30T20:37:42+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+
+[ 2014-05-30T20:37:44+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+
+[ 2014-05-30T21:17:23+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.020729s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000423s ]
+
+[ 2014-05-30T21:17:31+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.007573s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000408s ]
+
+[ 2014-05-30T21:17:39+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.017662s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000434s ]
+
+[ 2014-05-30T21:20:08+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+
+[ 2014-05-30T21:20:35+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+
+[ 2014-05-30T21:21:36+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.009739s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000508s ]
+
+[ 2014-05-30T21:22:39+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.007713s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000457s ]
+
+[ 2014-05-30T21:23:43+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.009009s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000561s ]
+
+[ 2014-05-30T21:24:01+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.008075s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000398s ]
+
+[ 2014-05-30T21:24:11+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.009610s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000446s ]
+
+[ 2014-05-30T21:25:30+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002419s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011037s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000913s ]
+
+[ 2014-05-30T21:25:38+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.022199s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000422s ]
+
+[ 2014-05-30T21:26:32+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.074386s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000654s ]
+
+[ 2014-05-30T21:28:12+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.008702s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000537s ]
+
+[ 2014-05-30T21:28:41+08:00 ] ::1 /library/index.php/Admin/User/savePWD.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.007940s ]
+SQL: SELECT * FROM `my_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: UPDATE `my_user` SET `password`='c4ca4238a0b923820dcc509a6f75849b' WHERE ( `id` = 1 ) [ RunTime:0.000492s ]
+
+[ 2014-05-30T21:44:05+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.069944s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (4,1402036200,'上海浦东',6) [ RunTime:0.000563s ]
+

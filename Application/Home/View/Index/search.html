@@ -1,0 +1,25 @@
+<extend name="Tmpl:base" />
+<block name="title">搜索结果</block>
+<block name="css">
+<style>
+
+</style>
+</block>
+<block name="content">
+    <div class="result">
+     <h3>搜索结果</h3>
+    <ul>
+        <volist name="list" id="vo">
+            <li>
+                    <div class="result-header">
+                        <a href="{:U('Home/Index/article',array('id'=>$vo['id']))}"><span class="bookname">{$vo.title}</span>&nbsp;&nbsp;/{$vo.createtime|date="Y-m-d",###} /  {$vo.category}</a>
+                    </div>
+                    <div class="result-content">
+                    <p>{$vo.content}...</p>
+                    </div>
+                </li>
+        </volist>
+    </ul>       
+    </div>
+
+</block>

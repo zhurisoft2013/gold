@@ -1,0 +1,24 @@
+[ 2014-05-29T13:24:54+08:00 ] ::1 /library/index.php/Admin/Book/add_reserve.html
+ERR: 非法操作:add_reserve
+
+[ 2014-05-29T13:25:43+08:00 ] ::1 /library/index.php/Admin/Book/add_reserve
+ERR: 非法操作:add_reserve
+
+[ 2014-05-29T13:26:55+08:00 ] ::1 /library/index.php/Admin/Book/AddReserve.html
+ERR: 非法操作:AddReserve
+
+[ 2014-05-29T13:27:51+08:00 ] ::1 /library/index.php/Admin/Book/AddReserve.html
+ERR: 非法操作:AddReserve
+
+[ 2014-05-29T13:27:59+08:00 ] ::1 /library/index.php/Admin/Book/AddReserve.html
+ERR: 非法操作:AddReserve
+
+[ 2014-05-29T13:28:35+08:00 ] ::1 /library/index.php/Admin/Book/AddReserve.html
+ERR: 非法操作:AddReserve
+
+[ 2014-05-29T21:41:29+08:00 ] ::1 /library/index.php/Home/Index/search.html?q=%E5%AD%9F%E5%BA%AD%E8%8B%87
+ERR: Think\Model:relation方法不存在！
+
+[ 2014-05-29T22:07:32+08:00 ] 127.0.0.1 /library/index.php/Home/Index/search.html?q=%E6%97%85%E6%B8%B8
+ERR: Think\Model:qurey方法不存在！
+

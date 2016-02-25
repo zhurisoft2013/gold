@@ -1,0 +1,169 @@
+<extend name="Tmpl:base" />
+<block name="title">添加文章</block>
+<block name="js">
+
+	<script>
+
+	$(function(){
+
+ 		var validator = $("#frmAddUser").validate({
+			rules: {
+				username: "required",
+				// category:{required: true,min:1},
+			},
+			messages: {
+				username: "请输入用户名",
+				// category: "必须选择文章栏目" ,
+			},
+			// the errorPlacement has to take the layout into account
+			errorPlacement: function(error, element) {
+				error.insertAfter(element.parent().find('label:first'));
+			},
+			// set new class to error-labels to indicate valid fields
+			success: function(label) {
+				// set &nbsp; as text for IE
+				label.html("&nbsp;").addClass("ok");
+			}
+		});
+
+/* 		$('ul.role input:checkbox').click(function(event){
+			// event.stopPropagation();
+			// event.preventDefault();
+			// alert($(this).val());
+			alert("abc");
+ 			$(this).parent().parent().find(':checkbox').attr("checked",this.checked);
+
+ 		})*/
+
+	})
+	</script>
+</block>
+<block name="content">
+	<div class="FormWrap">
+		<h3>添加用户</h3>
+		<div class="division">
+			<form action="{:U('Admin/User/addHandle')}" method="post" id="frmAddUser">
+				<table class="liststyle data" width="100%">
+					<tbody>
+						<tr>
+							<th>登录名</th>
+							<td>
+								<input type="text" name="username" id="username" class="half" />
+								<label for="username" class="required"></label>
+							</td>
+						</tr>
+						<tr>
+							<th>昵称</th>
+							<td>
+								<input type="text" name="nickname" id="nickname" class="half" />
+							</td>
+						</tr>
+						<tr>
+							<th>密码</th>
+							<td>
+								<input type="password" name="password" class="half" />
+							</td>
+						</tr>										
+						<tr>
+							<th>状态</th>
+							<td>
+								<select name="status" id="status" >
+									<option value="1" selected="selected">正常</option>
+									<option value="0">锁定</option>
+									
+								</select>
+	
+							</td>
+						</tr>
+						<tr>
+							<th>管理模块</th>
+							<td>
+								<ul class="role">
+									<volist name="category" id="vo">
+									<li>
+									<label><input type="checkbox" name="role[]" id="" value="{$vo.id}" />{$vo.title}</label>
+									<notempty name="vo['child']">
+									<ul>
+									</notempty>
+									<volist name="vo['child']" id="v">
+										<li><label><input type="checkbox" name="role[]" id="" value="{$v.id}" />{$v.title}</label>
+										<notempty name="v['child']">
+										<ul>
+										</notempty>
+											<volist name="v['child']" id="v1">
+												<li><label><input type="checkbox" name="role[]" id="" value="{$v1.id}" />{$v1.title}</label></li>
+											</volist>
+										<notempty name="v['child']">	
+										</ul>
+										</notempty>
+										</li>
+									</volist>
+									<notempty name="vo['child']">
+									</ul>
+									</notempty>
+									</li>
+									</volist>
+								</ul>
+
+							</td>
+						</tr>
+
+						<tr>
+							<td colspan="2" class="ta-center">
+								<input type="submit" value="保存添加" />
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+	</div>
+<script>
+	function bindNodes(selector,parentNode){
+		var parent = $(selector).find(" > li");
+		parent.each(function(index, element){
+			var child = $(element).find("> ul > li"),child2 = null;
+			if(child.length == 0){
+				return;
+			}
+			child.each(function(index,e){
+				$(this).data("parentNode",[element]);
+				if($(this).find("> ul").length > 0){
+					var _child = $(this);
+					child2 = getChild(_child);
+					child2.each(function(index,e){
+						$(this).data("parentNode",[element,_child]);
+					});
+					$(_child).find(" > label").click(toggleChilds);
+				}
+			})
+			$(element).find(" > label").click(toggleChilds);
+			child.add(child2).find("> label > input[type=checkbox]").click(function(){
+				var parentNode = $($(this).parent().parent()[0]).data("parentNode");
+				if($(this).is(":checked")){
+					$(parentNode).each(function(){
+						$(this).find("> label input[type=checkbox]").attr("checked","checked");
+					});
+				}
+			});
+		});
+	}
+	function getChild(selector){
+		var child = $(selector).find("> ul > li");
+		if(child.find("> ul").length > 0){
+			return [child].concat(getChild(child));
+		}else{
+			return child;
+		}
+	}
+	function toggleChilds(){
+		var isCheck = $(this).find("input[type=checkbox]").is(":checked")
+		if(isCheck){
+			$(this).parent().find("> ul input[type=checkbox]").attr("checked","checked");
+		}else{
+			$(this).parent().find("> ul input[type=checkbox]").removeAttr("checked");
+		}
+	}
+	bindNodes($(".role"));	
+</script>
+</block>

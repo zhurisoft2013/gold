@@ -1,0 +1,9 @@
+[ 2014-06-11T19:40:15+08:00 ] ::1 /gold/index.php/Admin/Category/addHandle.html
+ERR: Think\Model:validat1e方法不存在！
+
+[ 2014-06-11T19:50:14+08:00 ] ::1 /gold/index.php/Admin/Unit/addHandle.html
+ERR: 无法加载控制器:Unit
+
+[ 2014-06-11T20:33:39+08:00 ] ::1 /gold/index.php/Admin/Blog/toRecycle/id/17.html
+ERR: 无法加载控制器:Blog
+

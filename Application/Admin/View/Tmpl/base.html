@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title><block name="title">黄金珠宝知识数据库后台管理</block></title>
+	<!-- Favicons --> 
+	<link rel="shortcut icon" type="image/png" HREF="__PUBLIC__/img/favicons/favicon.png"/>
+	<link rel="icon" type="image/png" HREF="__PUBLIC__/img/favicons/favicon.png"/>
+	<link rel="apple-touch-icon" HREF="__PUBLIC__/img/favicons/apple.png" />
+	<!-- Main Stylesheet --> 
+	<css href="__PUBLIC__/css/style.css" />
+	<css href="__PUBLIC__/css/admin.css" />
+	<!-- Your Custom Stylesheet --> 
+	<block name="css">
+		<css href="__PUBLIC__/css/custom.css" />
+		
+	</block>
+	<!-- jQuery with plugins -->
+	<js href="__PUBLIC__/js/jquery-1.11.0.min.js" />
+	<js href="__PUBLIC__/js/jquery.validate.min.js" />
+	<js href="__PUBLIC__/js/messages_zh.js" />
+	<js href="__PUBLIC__/js/gotop.js" />
+	<js href="__PUBLIC__/js/layer/layer.min.js" />
+	<script>
+	$(function(){
+		var pwd_url="{:U('Admin/User/changePWD')}";
+		var reg_url="{:U('User/reg')}";
+		var addbookname_url="{:U('Admin/Book/addName')}";
+		var updbook_url="{:U('Admin/Book/edit','','')}";
+		layer.use('extend/layer.ext.js');
+		$('#change_pwd').click(function(){
+			$.layer({
+				type : 2,
+
+				title : ['修改密码',true],
+				iframe : {src : pwd_url},
+				area : ['500px' , '240px'],
+				offset : ['150px', ''],
+
+			});
+		});
+
+	})
+	</script>
+	<block name="js"></block>	
+	
+	<!-- Internet Explorer Fixes --> 
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/css/ie.css"/>
+	<script src="__PUBLIC__/js/html5.js"></script>
+	<![endif]-->
+	<!--Upgrade MSIE5.5-7 to be compatible with MSIE8: http://ie7-js.googlecode.com/svn/version/2.1(beta3)/IE8.js -->
+	<!--[if lt IE 8]>
+	<script src="__PUBLIC__/js/IE8.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<div class="container">
+		<header class="top clearfix">
+			<a href="#" class="logo" title="黄金珠宝知识数据库管理平台"></a>
+			<block name="topnav">
+				<nav class="navs">
+					<a href="__URL__">主页</a>
+				</nav>
+			</block>
+			<!--
+			<form action="" class="topfrm">
+				<input type="text" name="search" id="">
+				<input type="submit" value="搜索">
+			</form>
+			-->
+			<block name="profile_menu">
+				<ul class="info">
+					<!--<li><a href="javascript:;" id="user_reg">用户注册</a></li>
+					<li><a href="#">个人设置</a></li>-->
+					<li class="login-info"><span class="username">{$Think.session.username}</span>，您好！</li>
+					<li><a href="#" id="change_pwd">修改密码</a></li>
+					<li><a href="#">获得帮助</a></li>
+					<li><a href="{:U('Admin/Login/logout')}">退出系统</a></li>
+				</ul>
+			</block>
+
+		</header>
+		<section class="main clearfix">
+			<aside class="sidebar1">
+				<block name="left_menu">
+				<dl class="menu">
+					<dt>文章管理</dt>
+					<dd><a href="{:U('Admin/Article/index')}"><em class="menu-icon icon-list"></em>文章列表</a></dd>
+					<dd><a href="{:U('Admin/Article/add')}"><em class="menu-icon icon-plus"></em>添加文章</a></dd>
+					<eq name="Think.Session.username" value="admin">
+					<dt>分类管理</dt>
+					<dd><a href="{:U('Admin/Category/index')}"><em class="menu-icon icon-list"></em>分类列表</a></dd>
+					<dd><a href="{:U('Admin/Category/add')}"><em class="menu-icon icon-plus"></em>添加分类</a></dd>
+					<dt>用户管理</dt>
+					<dd><a href="{:U('Admin/User/index')}"><em class="menu-icon icon-list"></em>用户列表</a></dd>
+					<dd><a href="{:U('Admin/User/add')}"><em class="menu-icon icon-plus"></em>添加用户</a></dd>
+					<dt>数据统计</dt>
+					<dd><a href="{:U('Admin/Stat/user')}"><em class="menu-icon icon-list"></em>用户统计</a></dd>
+					<dd><a href="{:U('Admin/Stat/category')}"><em class="menu-icon icon-plus"></em>栏目统计</a></dd>
+					<dd><a href="{:U('Admin/Stat/year')}"><em class="menu-icon icon-plus"></em>时间统计</a></dd>
+					<dt>附件管理</dt>
+					<dd><a href="{:U('Admin/Attachment/index')}"><em class="menu-icon icon-list"></em>附件列表</a></dd>
+				</eq>						
+<!-- 					<dt>系统设置</dt>
+<dd><a href="{:U('Admin/System/uploadSet')}"><em class="menu-icon icon-list"></em>上传设置</a></dd> -->
+
+<!-- 					<dt>留言管理</dt>
+<dd><a href="{:U('Admin/Message/index')}"><em class="menu-icon icon-list"></em>留言列表</a></dd> -->
+					<!--		
+					<dt>附件管理</dt>
+					<dd><a href="{:U('Admin/Attachment/index')}"><em class="menu-icon icon-list"></em>附件列表</a></dd>
+					<dt>上传管理</dt>
+					<dd><a href="{:U('Admin/Upload/index')}"><em class="menu-icon icon-circle-arrow-up"></em>上传测试</a></dd>
+					
+
+					
+					<dt>分类管理</dt>
+					<dd><a href="#"><em class="menu-icon icon-list"></em>分类列表</a></dd>
+					<dd><a href="#"><em class="menu-icon icon-plus"></em>添加分类</a></dd>
+					<dt>系统设置</dt>		
+					<dd><a href="{:U('Admin/System/uploadSet')}"><em class="menu-icon icon-wrench"></em>上传设置</a></dd>
+					-->		
+				</dl>
+				</block>
+			</aside>
+			<section class="content">
+				<block name="content"></block>
+			</section>
+		</section>
+
+
+	</div>
+
+	<!-- Scroll to top link -->
+	<a href="#" id="totop"> </a>
+</body>
+
+</html>

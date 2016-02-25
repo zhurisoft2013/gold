@@ -1,0 +1,496 @@
+[ 2014-05-28T13:43:31+08:00 ] ::1 /library/index.php/Admin/Book/delLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.077708s ]
+SQL: DELETE FROM `my_lecture` WHERE ( `id` = 3 ) [ RunTime:0.001351s ]
+
+[ 2014-05-28T13:44:43+08:00 ] ::1 /library/index.php/Admin/Book/delLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007019s ]
+SQL: DELETE FROM `my_lecture` WHERE ( `id` = 2 ) [ RunTime:0.000400s ]
+
+[ 2014-05-28T13:52:16+08:00 ] ::1 /library/index.php/Admin/Book/delLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008420s ]
+SQL: DELETE FROM `my_lecture` WHERE ( `id` = 1 ) [ RunTime:0.000543s ]
+
+[ 2014-05-28T13:56:06+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007670s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401206400,'江西南昌',6) [ RunTime:0.000370s ]
+
+[ 2014-05-28T13:56:19+08:00 ] ::1 /library/index.php/Admin/Book/delLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008592s ]
+SQL: DELETE FROM `my_lecture` WHERE ( `id` = 7 ) [ RunTime:0.000452s ]
+
+[ 2014-05-28T13:57:29+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007715s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401206400,'香港TVB',1) [ RunTime:0.000432s ]
+
+[ 2014-05-28T13:57:36+08:00 ] ::1 /library/index.php/Admin/Book/delLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.010428s ]
+SQL: DELETE FROM `my_lecture` WHERE ( `id` = 8 ) [ RunTime:0.000605s ]
+
+[ 2014-05-28T13:58:59+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007404s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401206400,'江西南昌',8) [ RunTime:0.000364s ]
+
+[ 2014-05-28T13:59:02+08:00 ] ::1 /library/index.php/Admin/Book/delLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007448s ]
+SQL: DELETE FROM `my_lecture` WHERE ( `id` = 9 ) [ RunTime:0.000479s ]
+
+[ 2014-05-28T13:59:58+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003428s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008208s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401206400,'江西南昌',6) [ RunTime:0.000405s ]
+
+[ 2014-05-28T13:59:59+08:00 ] ::1 /library/index.php/Admin/Book/delLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008933s ]
+SQL: DELETE FROM `my_lecture` WHERE ( `id` = 10 ) [ RunTime:0.000438s ]
+
+[ 2014-05-28T14:02:21+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.009061s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401206400,'江西南昌',6) [ RunTime:0.000456s ]
+
+[ 2014-05-28T14:02:23+08:00 ] ::1 /library/index.php/Admin/Book/delLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.072987s ]
+SQL: DELETE FROM `my_lecture` WHERE ( `id` = 11 ) [ RunTime:0.000512s ]
+
+[ 2014-05-28T14:04:25+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.009407s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401206400,'江西南昌',6) [ RunTime:0.000419s ]
+
+[ 2014-05-28T14:44:51+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007184s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401259440,'江西南昌',8) [ RunTime:0.001027s ]
+
+[ 2014-05-28T15:21:07+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002763s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.010552s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001886s ]
+
+[ 2014-05-28T15:21:12+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008788s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=9 WHERE ( `id` = 13 ) [ RunTime:0.000558s ]
+
+[ 2014-05-28T15:21:32+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.012487s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2014-05-28T15:21:44+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008214s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=10 WHERE ( `id` = 13 ) [ RunTime:0.000395s ]
+
+[ 2014-05-28T15:22:50+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007821s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001778s ]
+
+[ 2014-05-28T15:24:09+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008294s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=10 WHERE ( `id` = 13 ) [ RunTime:0.000442s ]
+
+[ 2014-05-28T15:47:51+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007719s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=6 WHERE ( `id` = 12 ) [ RunTime:0.000535s ]
+
+[ 2014-05-28T15:50:30+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.009058s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=12 WHERE ( `id` = 13 ) [ RunTime:0.000378s ]
+
+[ 2014-05-28T15:52:50+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007473s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=10 WHERE ( `id` = 13 ) [ RunTime:0.000424s ]
+
+[ 2014-05-28T15:54:27+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008991s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=12 WHERE ( `id` = 13 ) [ RunTime:0.000419s ]
+
+[ 2014-05-28T15:55:00+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.009813s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=10 WHERE ( `id` = 13 ) [ RunTime:0.000784s ]
+
+[ 2014-05-28T15:56:44+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002206s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008840s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=12 WHERE ( `id` = 13 ) [ RunTime:0.000443s ]
+
+[ 2014-05-28T15:56:44+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+
+[ 2014-05-28T15:57:15+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.010073s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=10 WHERE ( `id` = 13 ) [ RunTime:0.000462s ]
+
+[ 2014-05-28T15:57:15+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+
+[ 2014-05-28T15:57:50+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.009411s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=12 WHERE ( `id` = 13 ) [ RunTime:0.000530s ]
+
+[ 2014-05-28T15:57:50+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008165s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2014-05-28T16:00:39+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007735s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401206400,'江西南昌',7) [ RunTime:0.000418s ]
+
+[ 2014-05-28T16:00:56+08:00 ] ::1 /library/index.php/Admin/Book/delLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007350s ]
+SQL: DELETE FROM `my_lecture` WHERE ( `id` = 14 ) [ RunTime:0.000445s ]
+
+[ 2014-05-28T17:11:05+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008712s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=6 WHERE ( `id` = 13 ) [ RunTime:0.000528s ]
+
+[ 2014-05-28T17:11:06+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008824s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2014-05-28T17:11:51+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008105s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=8 WHERE ( `id` = 13 ) [ RunTime:0.000467s ]
+
+[ 2014-05-28T17:11:51+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002160s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.004845s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000537s ]
+
+[ 2014-05-28T17:11:57+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008677s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌2',`num`=8 WHERE ( `id` = 13 ) [ RunTime:0.000401s ]
+
+[ 2014-05-28T17:11:57+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.004846s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000422s ]
+
+[ 2014-05-28T17:16:46+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.010165s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌2',`num`=10 WHERE ( `id` = 13 ) [ RunTime:0.000452s ]
+
+[ 2014-05-28T17:16:46+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.005901s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000388s ]
+
+[ 2014-05-28T17:17:04+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.009266s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401206400,'江西南昌',10) [ RunTime:0.000434s ]
+
+[ 2014-05-28T17:17:19+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002214s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007165s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=10 WHERE ( `id` = 15 ) [ RunTime:0.000426s ]
+
+[ 2014-05-28T17:17:19+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007949s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000394s ]
+
+[ 2014-05-28T17:19:50+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.009891s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401261900,'江西南昌',5) [ RunTime:0.000467s ]
+
+[ 2014-05-28T17:21:48+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007840s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=5 WHERE ( `id` = 16 ) [ RunTime:0.000523s ]
+
+[ 2014-05-28T17:21:49+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008791s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000421s ]
+
+[ 2014-05-28T17:23:17+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008601s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401262200,'江西南昌',8) [ RunTime:0.000426s ]
+
+[ 2014-05-28T17:23:24+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007145s ]
+SQL: UPDATE `my_lecture` SET `time`=0,`address`='江西南昌',`num`=9 WHERE ( `id` = 17 ) [ RunTime:0.000414s ]
+
+[ 2014-05-28T17:23:24+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.005868s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000573s ]
+
+[ 2014-05-28T17:24:33+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008005s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (2,1401263400,'江西南昌',8) [ RunTime:0.000850s ]
+
+[ 2014-05-28T17:24:38+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007166s ]
+SQL: UPDATE `my_lecture` SET `time`=1401263400,`address`='江西南昌',`num`=8 WHERE ( `id` = 18 ) [ RunTime:0.000416s ]
+
+[ 2014-05-28T17:24:38+08:00 ] ::1 /library/index.php/Admin/Book/get_lecture/id/18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.005194s ]
+SQL: SELECT * FROM `my_lecture` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000389s ]
+
+[ 2014-05-28T19:43:47+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+
+[ 2014-05-28T19:43:49+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+
+[ 2014-05-28T19:43:53+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+
+[ 2014-05-28T19:45:03+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+
+[ 2014-05-28T19:45:12+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002481s ]
+
+[ 2014-05-28T19:46:19+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+
+[ 2014-05-28T19:46:34+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+
+[ 2014-05-28T19:46:36+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002591s ]
+
+[ 2014-05-28T19:47:58+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+
+[ 2014-05-28T19:48:05+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+
+[ 2014-05-28T19:52:36+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+
+[ 2014-05-28T19:53:14+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+
+[ 2014-05-28T19:53:40+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+
+[ 2014-05-28T20:02:04+08:00 ] ::1 /library/index.php/Admin/Book/addLecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008686s ]
+SQL: INSERT INTO `my_lecture` (`bid`,`time`,`address`,`num`) VALUES (4,1401206400,'江西南昌',6) [ RunTime:0.000510s ]
+
+[ 2014-05-28T20:02:30+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008216s ]
+SQL: UPDATE `my_lecture` SET `time`=1401292800,`address`='江西南昌2',`num`=9 WHERE ( `id` = 19 ) [ RunTime:0.000502s ]
+
+[ 2014-05-28T20:05:37+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.008438s ]
+SQL: UPDATE `my_lecture` SET `time`=1401206400,`address`='江西南昌',`num`=90 WHERE ( `id` = 19 ) [ RunTime:0.000485s ]
+
+[ 2014-05-28T20:07:11+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007496s ]
+SQL: UPDATE `my_lecture` SET `time`=1401379200,`address`='江西南昌2',`num`=900 WHERE ( `id` = 19 ) [ RunTime:0.000419s ]
+
+[ 2014-05-28T20:07:42+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007244s ]
+SQL: UPDATE `my_lecture` SET `time`=1401379200,`address`='江西南昌2',`num`=900 WHERE ( `id` = 19 ) [ RunTime:0.000381s ]
+
+[ 2014-05-28T20:07:51+08:00 ] ::1 /library/index.php/Admin/Book/update_lecture.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `my_lecture` [ RunTime:0.007346s ]
+SQL: UPDATE `my_lecture` SET `time`=1401206400,`address`='江西南昌2',`num`=900 WHERE ( `id` = 19 ) [ RunTime:0.000378s ]
+

@@ -1,0 +1,40 @@
+<extend name="Tmpl:base" />
+<block name="title">月份统计</block>
+<block name="css">
+	<style>
+		table.stylized th,table.stylized td {
+			line-height:18px;
+			padding:4px 12px;
+		}
+	</style>
+</block>
+<block name="js">
+
+</block>
+<block name="content">
+	<h3 >月份统计列表</h3><hr />
+	<table class="stylized full">
+<!-- 	<table class="liststyle full">
+		<colgroup class="ColColorBlue"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorOrange"></colgroup> -->
+		<thead>
+			<tr>
+				<th>月份</th>
+				<th>点击数</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="list" id="vo">
+				<tr>
+					<td>{$vo.stat_month}</td>
+					<td>{$vo.click}</td>			
+				</tr>
+			</volist>
+
+		</tbody>
+	</table>	
+</block>

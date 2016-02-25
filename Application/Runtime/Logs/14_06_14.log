@@ -1,0 +1,1682 @@
+[ 2014-06-14T12:04:27+08:00 ] ::1 /gold/index.php/Home/Ueditor/Index.html?action=config&&noCache=1402718666931
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007157s ]
+ERR: 无法加载控制器:Ueditor
+
+[ 2014-06-14T12:04:29+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1402718669776
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007697s ]
+
+[ 2014-06-14T12:05:45+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=catchimage&userid=1&username=admin&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+NOTIC: [8] Undefined index: Content-Type D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 398 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.010859s ]
+SQL: INSERT INTO `my_attachment` (`filename`,`filepath`,`filesize`,`fileext`,`ori_filename`,`fullfilename`,`hash`,`module`,`action`,`userid`,`isimage`,`createtime`,`ip`) VALUES ('539bca18e6f23.png','./Public/uploads/1/remote/',18492,'.png','0df431adcbef760974709f742cdda3cc7dd99ee5.jpg','/public/uploads/1/remote/539bca18e6f23.png','539bca18e6f23.png','unknown','unknown',1,0,1402718745,'0.0.0.0') [ RunTime:0.056185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2014-06-14T12:05:57+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.011861s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('abc',2,100,'<p>这种不可思议的变化，可以称之为“乌龙球效应”！</p><p class=\"image\"><img src=\"__ROOT__/Public/uploads/1/remote/539bca18e6f23.png\"/></p><p>中国的“塞翁失马”这个小故事细究起来</p><p><br/></p>',1402718757) [ RunTime:0.011745s ]
+
+[ 2014-06-14T12:06:16+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008350s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('abc',2,100,'<p>这种不可思议的变化，可以称之为“乌龙球效应”！</p><p class=\"image\"><img src=\"__ROOT__/Public/uploads/1/remote/539bca18e6f23.png\"/></p><p>中国的“塞翁失马”这个小故事细究起来</p><p><br/></p>',1402718775) [ RunTime:0.000448s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.009537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2014-06-14T12:06:17+08:00 ] ::1 /gold/index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.012711s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2014-06-14T12:06:17+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1402718777404
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2014-06-14T12:07:03+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=uploadimage&userid=1&username=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\gold\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.007956s ]
+SQL: INSERT INTO `my_attachment` (`filename`,`filepath`,`filesize`,`fileext`,`ori_filename`,`fullfilename`,`hash`,`module`,`action`,`userid`,`isimage`,`createtime`,`ip`) VALUES ('539bca675d323.jpg','1/201406/',18183,'jpg','7b98cc91492184a01c4fb508b7bf69b2.jpg','/public/uploads/1/201406/539bca675d323.jpg','f9d23253373cad3783372729e263b534','unknown','unknown',1,1,1402718823,'0.0.0.0') [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2014-06-14T12:07:08+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=uploadimage&userid=1&username=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\gold\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.007346s ]
+SQL: INSERT INTO `my_attachment` (`filename`,`filepath`,`filesize`,`fileext`,`ori_filename`,`fullfilename`,`hash`,`module`,`action`,`userid`,`isimage`,`createtime`,`ip`) VALUES ('539bca6c7f0b3.jpg','1/201406/',45746,'jpg','cd1cb7d672facab8dc6b2c9403c741cd.jpg','/public/uploads/1/201406/539bca6c7f0b3.jpg','f73682f8174d592ab9e4b793496dd05e','unknown','unknown',1,1,1402718828,'0.0.0.0') [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2014-06-14T12:07:22+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.033843s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402718842) [ RunTime:0.000363s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.008039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2014-06-14T12:36:56+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010387s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402720616) [ RunTime:0.000575s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.005995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2014-06-14T12:37:57+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009687s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402720677) [ RunTime:0.000556s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.006451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2014-06-14T12:39:05+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008143s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402720745) [ RunTime:0.000452s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.006825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2014-06-14T12:39:29+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.082649s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402720769) [ RunTime:0.000424s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.007204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2014-06-14T12:40:09+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007918s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402720809) [ RunTime:0.000565s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.006672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2014-06-14T12:42:29+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007604s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402720949) [ RunTime:0.000467s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.006740s ]
+SQL: SHOW COLUMNS FROM `my_article_attach` [ RunTime:0.004141s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `my_article_attach`
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca675d323.jpg' ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca6c7f0b3.jpg' ) LIMIT 1   [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2014-06-14T12:43:31+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009884s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402721011) [ RunTime:0.000545s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.010995s ]
+SQL: SHOW COLUMNS FROM `my_article_attach` [ RunTime:0.004839s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `my_article_attach`
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca675d323.jpg' ) LIMIT 1   [ RunTime:0.000440s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 3 ) [ RunTime:0.000439s ]
+SQL: SELECT * FROM `my_article_attach` WHERE ( `article_id` = 11 ) AND ( `aid` = '3' ) LIMIT 1   [ RunTime:0.000346s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `my_article_attach` WHERE ( `article_id` = 11 ) AND ( `aid` = '3' ) LIMIT 1  
+SQL: INSERT INTO `my_article_attach` (`article_id`,`aid`,`fullfilename`) VALUES (11,'3','/public/uploads/1/201406/539bca675d323.jpg') [ RunTime:0.000289s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : INSERT INTO `my_article_attach` (`article_id`,`aid`,`fullfilename`) VALUES (11,'3','/public/uploads/1/201406/539bca675d323.jpg')
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca6c7f0b3.jpg' ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 4 ) [ RunTime:0.000257s ]
+SQL: SELECT * FROM `my_article_attach` WHERE ( `article_id` = 11 ) AND ( `aid` = '4' ) LIMIT 1   [ RunTime:0.000275s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `my_article_attach` WHERE ( `article_id` = 11 ) AND ( `aid` = '4' ) LIMIT 1  
+SQL: INSERT INTO `my_article_attach` (`article_id`,`aid`,`fullfilename`) VALUES (11,'4','/public/uploads/1/201406/539bca6c7f0b3.jpg') [ RunTime:0.000242s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : INSERT INTO `my_article_attach` (`article_id`,`aid`,`fullfilename`) VALUES (11,'4','/public/uploads/1/201406/539bca6c7f0b3.jpg')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2014-06-14T12:43:56+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.071777s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402721036) [ RunTime:0.000389s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.007308s ]
+SQL: SHOW COLUMNS FROM `my_article_attach` [ RunTime:0.004939s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `my_article_attach`
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca675d323.jpg' ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 3 ) [ RunTime:0.000430s ]
+SQL: SELECT * FROM `my_article_attach` WHERE ( `article_id` = 12 ) AND ( `aid` = '3' ) LIMIT 1   [ RunTime:0.000457s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `my_article_attach` WHERE ( `article_id` = 12 ) AND ( `aid` = '3' ) LIMIT 1  
+SQL: INSERT INTO `my_article_attach` (`article_id`,`aid`,`fullfilename`) VALUES (12,'3','/public/uploads/1/201406/539bca675d323.jpg') [ RunTime:0.000408s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : INSERT INTO `my_article_attach` (`article_id`,`aid`,`fullfilename`) VALUES (12,'3','/public/uploads/1/201406/539bca675d323.jpg')
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca6c7f0b3.jpg' ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 4 ) [ RunTime:0.000683s ]
+SQL: SELECT * FROM `my_article_attach` WHERE ( `article_id` = 12 ) AND ( `aid` = '4' ) LIMIT 1   [ RunTime:0.000864s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `my_article_attach` WHERE ( `article_id` = 12 ) AND ( `aid` = '4' ) LIMIT 1  
+SQL: INSERT INTO `my_article_attach` (`article_id`,`aid`,`fullfilename`) VALUES (12,'4','/public/uploads/1/201406/539bca6c7f0b3.jpg') [ RunTime:0.000446s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : INSERT INTO `my_article_attach` (`article_id`,`aid`,`fullfilename`) VALUES (12,'4','/public/uploads/1/201406/539bca6c7f0b3.jpg')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2014-06-14T12:46:48+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008857s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402721208) [ RunTime:0.000536s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.006733s ]
+SQL: SHOW COLUMNS FROM `my_article_attach` [ RunTime:0.003373s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `my_article_attach`
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca675d323.jpg' ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 3 ) [ RunTime:0.000368s ]
+SQL: SELECT * FROM `my_article_attach` WHERE ( `article_id` = 13 ) AND ( `attachment_id` = '3' ) LIMIT 1   [ RunTime:0.000366s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `my_article_attach` WHERE ( `article_id` = 13 ) AND ( `attachment_id` = '3' ) LIMIT 1  
+SQL: INSERT INTO `my_article_attach` (`article_id`,`attachment_id`,`fullfilename`) VALUES (13,'3','/public/uploads/1/201406/539bca675d323.jpg') [ RunTime:0.000304s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : INSERT INTO `my_article_attach` (`article_id`,`attachment_id`,`fullfilename`) VALUES (13,'3','/public/uploads/1/201406/539bca675d323.jpg')
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca6c7f0b3.jpg' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 4 ) [ RunTime:0.000282s ]
+SQL: SELECT * FROM `my_article_attach` WHERE ( `article_id` = 13 ) AND ( `attachment_id` = '4' ) LIMIT 1   [ RunTime:0.000327s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `my_article_attach` WHERE ( `article_id` = 13 ) AND ( `attachment_id` = '4' ) LIMIT 1  
+SQL: INSERT INTO `my_article_attach` (`article_id`,`attachment_id`,`fullfilename`) VALUES (13,'4','/public/uploads/1/201406/539bca6c7f0b3.jpg') [ RunTime:0.000283s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : INSERT INTO `my_article_attach` (`article_id`,`attachment_id`,`fullfilename`) VALUES (13,'4','/public/uploads/1/201406/539bca6c7f0b3.jpg')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2014-06-14T12:47:58+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008748s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402721278) [ RunTime:0.000415s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.007176s ]
+SQL: SHOW COLUMNS FROM `my_article_attach` [ RunTime:0.003495s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `my_article_attach`
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca675d323.jpg' ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 3 ) [ RunTime:0.000327s ]
+SQL: SELECT * FROM `my_article_attach` WHERE ( `article_id` = 14 ) AND ( `attachment_id` = '3' ) LIMIT 1   [ RunTime:0.000343s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `my_article_attach` WHERE ( `article_id` = 14 ) AND ( `attachment_id` = '3' ) LIMIT 1  
+SQL: INSERT INTO `my_article_attach` (`article_id`,`attachment_id`,`fullfilename`) VALUES (14,'3','/public/uploads/1/201406/539bca675d323.jpg') [ RunTime:0.000244s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : INSERT INTO `my_article_attach` (`article_id`,`attachment_id`,`fullfilename`) VALUES (14,'3','/public/uploads/1/201406/539bca675d323.jpg')
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca6c7f0b3.jpg' ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 4 ) [ RunTime:0.000288s ]
+SQL: SELECT * FROM `my_article_attach` WHERE ( `article_id` = 14 ) AND ( `attachment_id` = '4' ) LIMIT 1   [ RunTime:0.000336s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `my_article_attach` WHERE ( `article_id` = 14 ) AND ( `attachment_id` = '4' ) LIMIT 1  
+SQL: INSERT INTO `my_article_attach` (`article_id`,`attachment_id`,`fullfilename`) VALUES (14,'4','/public/uploads/1/201406/539bca6c7f0b3.jpg') [ RunTime:0.000273s ]
+ERR: 1146:Table 'gold.my_article_attach' doesn't exist
+ [ SQL语句 ] : INSERT INTO `my_article_attach` (`article_id`,`attachment_id`,`fullfilename`) VALUES (14,'4','/public/uploads/1/201406/539bca6c7f0b3.jpg')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2014-06-14T12:48:47+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010246s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402721327) [ RunTime:0.000392s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.007462s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.006090s ]
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca675d323.jpg' ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 3 ) [ RunTime:0.000297s ]
+SQL: SELECT * FROM `my_article_attachment` WHERE ( `article_id` = 15 ) AND ( `attachment_id` = 3 ) LIMIT 1   [ RunTime:0.000204s ]
+ERR: 非法数据对象！:[fullfilename=>/public/uploads/1/201406/539bca675d323.jpg]
+
+[ 2014-06-14T12:51:20+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008581s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402721480) [ RunTime:0.000712s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.006677s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.006534s ]
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca675d323.jpg' ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 3 ) [ RunTime:0.000296s ]
+SQL: SELECT * FROM `my_article_attachment` WHERE ( `article_id` = 16 ) AND ( `attachment_id` = 3 ) LIMIT 1   [ RunTime:0.000186s ]
+ERR: 非法数据对象！:[fullfilename=>/public/uploads/1/201406/539bca675d323.jpg]
+
+[ 2014-06-14T12:53:05+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.071318s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402721585) [ RunTime:0.000409s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.008364s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.006267s ]
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca675d323.jpg' ) LIMIT 1   [ RunTime:0.000359s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 3 ) [ RunTime:0.000415s ]
+SQL: SELECT * FROM `my_article_attachment` WHERE ( `article_id` = 17 ) AND ( `attachment_id` = 3 ) LIMIT 1   [ RunTime:0.000354s ]
+ERR: 非法数据对象！:[fullfilename=>/public/uploads/1/201406/539bca675d323.jpg]
+
+[ 2014-06-14T12:54:52+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008554s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('周慧敏',4,100,'<p><img alt=\"7b98cc91492184a01c4fb508b7bf69b2.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca675d323.jpg\" title=\"539bca675d323.jpg\"/><img alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\" src=\"__ROOT__/Public/uploads/1/201406/539bca6c7f0b3.jpg\" title=\"539bca6c7f0b3.jpg\"/></p>',1402721692) [ RunTime:0.000457s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.008018s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.006213s ]
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bca675d323.jpg' ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 3 ) [ RunTime:0.000301s ]
+SQL: SELECT * FROM `my_article_attachment` WHERE ( `article_id` = 18 ) AND ( `attachment_id` = 3 ) LIMIT 1   [ RunTime:0.000230s ]
+ERR: 非法数据对象！:[fullfilename=>/public/uploads/1/201406/539bca675d323.jpg]
+
+[ 2014-06-14T12:59:39+08:00 ] ::1 /gold/index.php/Admin/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.074154s ]
+ERR: 非法数据对象！:[fullfilename=>/public/uploads/1/201406/539bca675d323.jpg]
+
+[ 2014-06-14T12:59:54+08:00 ] ::1 /gold/index.php/Admin/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.007821s ]
+ERR: 非法数据对象！:[fullfilename=>539bca675d323.jpg]
+
+[ 2014-06-14T13:01:38+08:00 ] ::1 /gold/index.php/Admin/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2014-06-14T13:01:47+08:00 ] ::1 /gold/index.php/Admin/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009613s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000456s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2014-06-14T13:01:47+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1402722107650
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2014-06-14T13:02:01+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=uploadimage&encode=utf-8&userid=1&username=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\gold\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.010223s ]
+SQL: INSERT INTO `my_attachment` (`filename`,`filepath`,`filesize`,`fileext`,`ori_filename`,`fullfilename`,`hash`,`module`,`action`,`userid`,`isimage`,`createtime`,`ip`) VALUES ('539bd749d15a0.jpg','1/201406/',45746,'jpg','cd1cb7d672facab8dc6b2c9403c741cd.jpg','/public/uploads/1/201406/539bd749d15a0.jpg','f73682f8174d592ab9e4b793496dd05e','unknown','unknown',1,1,1402722121,'0.0.0.0') [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2014-06-14T13:02:11+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.020777s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`) VALUES ('关于在关联模2',5,100,'<p><img src=\"__ROOT__/Public/uploads/1/201406/539bd749d15a0.jpg\" title=\"539bd749d15a0.jpg\" alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\"/></p>',1402722131) [ RunTime:0.000457s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.006410s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.006369s ]
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bd749d15a0.jpg' ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 5 ) [ RunTime:0.000344s ]
+SQL: SELECT * FROM `my_article_attachment` WHERE ( `article_id` = 19 ) AND ( `attachment_id` = 5 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: INSERT INTO `my_article_attachment` (`article_id`,`attachment_id`,`fullfilename`) VALUES (19,5,'/public/uploads/1/201406/539bd749d15a0.jpg') [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2014-06-14T13:27:01+08:00 ] ::1 /gold/index.php/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008789s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.008982s ]
+SQL: SELECT `id`,`bookname`,`sex`,`mobile`,`summary`,`hot` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10   [ RunTime:0.000365s ]
+ERR: 1054:Unknown column 'bookname' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`bookname`,`sex`,`mobile`,`summary`,`hot` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2014-06-14T13:27:05+08:00 ] ::1 /gold/index.php/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002184s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008410s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT `id`,`bookname`,`sex`,`mobile`,`summary`,`hot` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10   [ RunTime:0.000527s ]
+ERR: 1054:Unknown column 'bookname' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`bookname`,`sex`,`mobile`,`summary`,`hot` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2014-06-14T13:28:45+08:00 ] ::1 /gold/index.php/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009469s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000338s ]
+SQL: SELECT `id`,`bookname`,`sex`,`mobile`,`summary`,`hot` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10   [ RunTime:0.000313s ]
+ERR: 1054:Unknown column 'bookname' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`bookname`,`sex`,`mobile`,`summary`,`hot` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2014-06-14T13:28:52+08:00 ] ::1 /gold/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.007923s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000661s ]
+ERR: 模板不存在:D:\wamp\www\gold/Application/Admin/View/Category/index.html
+
+[ 2014-06-14T13:29:04+08:00 ] ::1 /gold/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008303s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined variable: pageinfo D:\wamp\www\gold\Application\Runtime\Cache\Admin\d2404f9283eadf7d60cdded7b6b55c15.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2014-06-14T13:29:07+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009993s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT `id`,`bookname`,`sex`,`mobile`,`summary`,`hot` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10   [ RunTime:0.000278s ]
+ERR: 1054:Unknown column 'bookname' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`bookname`,`sex`,`mobile`,`summary`,`hot` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2014-06-14T13:30:19+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008675s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT `id`,`bookname`,`sex`,`mobile`,`summary`,`hot` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10   [ RunTime:0.000232s ]
+ERR: 1054:Unknown column 'bookname' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`bookname`,`sex`,`mobile`,`summary`,`hot` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2014-06-14T13:31:44+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009810s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT `content`,`1` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10   [ RunTime:0.000271s ]
+ERR: 1054:Unknown column '1' in 'field list'
+ [ SQL语句 ] : SELECT `content`,`1` FROM `my_article` ORDER BY `hot` desc,`id` desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2014-06-14T13:33:01+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000382s ]
+SQL: SELECT `content`,`1` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000281s ]
+ERR: 1054:Unknown column '1' in 'field list'
+ [ SQL语句 ] : SELECT `content`,`1` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2014-06-14T13:33:03+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007504s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000288s ]
+SQL: SELECT `content`,`1` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000289s ]
+ERR: 1054:Unknown column '1' in 'field list'
+ [ SQL语句 ] : SELECT `content`,`1` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2014-06-14T13:34:15+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000400s ]
+SQL: SELECT `content`,`1` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000355s ]
+ERR: 1054:Unknown column '1' in 'field list'
+ [ SQL语句 ] : SELECT `content`,`1` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2014-06-14T13:34:27+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008635s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000338s ]
+SQL: SELECT `content`,`1` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000262s ]
+ERR: 1054:Unknown column '1' in 'field list'
+ [ SQL语句 ] : SELECT `content`,`1` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10  
+NOTIC: [8] Undefined variable: book D:\wamp\www\gold\Application\Admin\Controller\ArticleController.class.php 第 24 行.
+
+[ 2014-06-14T13:34:39+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008529s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000591s ]
+SQL: SELECT `content`,`1` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000330s ]
+ERR: 1054:Unknown column '1' in 'field list'
+ [ SQL语句 ] : SELECT `content`,`1` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2014-06-14T13:35:40+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.001522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2014-06-14T13:35:55+08:00 ] ::1 /gold/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008669s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000314s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 10,10   [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2014-06-14T13:36:00+08:00 ] ::1 /gold/index.php/Admin/Article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2014-06-14T13:36:22+08:00 ] ::1 /gold/index.php/Admin/Article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008538s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2014-06-14T13:38:27+08:00 ] ::1 /gold/index.php/Admin/Article/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.007424s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008238s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000963s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2014-06-14T13:38:28+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1402724307956
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2014-06-14T13:41:28+08:00 ] ::1 /gold/index.php/Admin/Article/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009620s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007146s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2014-06-14T13:41:28+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1402724488513
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2014-06-14T13:46:47+08:00 ] ::1 /gold/index.php/Admin/Article/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.011236s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008687s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2014-06-14T13:46:47+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1402724807481
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2014-06-14T13:47:07+08:00 ] ::1 /gold/index.php/Admin/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010785s ]
+SQL: UPDATE `my_article` SET `title`='关于在关联模2',`category_id`=0,`sort`=100,`content`='<p><img src=\"__ROOT__/Public/uploads/1/201406/539bd749d15a0.jpg\" title=\"539bd749d15a0.jpg\" alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\"/>123</p>',`create_time`=1402724827 WHERE ( `id` = 19 ) [ RunTime:0.000726s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.009115s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.007183s ]
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` IN ('/public/uploads/1/201406/539bd749d15a0.jpg') )  [ RunTime:0.000363s ]
+SQL: SELECT `aid` FROM `my_article_attachment` WHERE ( `article_id` = 1 )  [ RunTime:0.000176s ]
+ERR: 1054:Unknown column 'aid' in 'field list'
+ [ SQL语句 ] : SELECT `aid` FROM `my_article_attachment` WHERE ( `article_id` = 1 ) 
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 5 ) [ RunTime:0.000391s ]
+ERR: 非法数据对象！:[aid=>5]
+
+[ 2014-06-14T13:48:23+08:00 ] ::1 /gold/index.php/Admin/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009725s ]
+SQL: UPDATE `my_article` SET `title`='关于在关联模2',`category_id`=0,`sort`=100,`content`='<p><img src=\"__ROOT__/Public/uploads/1/201406/539bd749d15a0.jpg\" title=\"539bd749d15a0.jpg\" alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\"/>123</p>',`create_time`=1402724903 WHERE ( `id` = 19 ) [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.006535s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.006012s ]
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` IN ('/public/uploads/1/201406/539bd749d15a0.jpg') )  [ RunTime:0.000384s ]
+SQL: SELECT `attachment_id` FROM `my_article_attachment` WHERE ( `article_id` = 1 )  [ RunTime:0.000274s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 5 ) [ RunTime:0.000426s ]
+ERR: 非法数据对象！:[aid=>5]
+
+[ 2014-06-14T13:48:26+08:00 ] ::1 /gold/index.php/Admin/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008328s ]
+SQL: UPDATE `my_article` SET `title`='关于在关联模2',`category_id`=0,`sort`=100,`content`='<p><img src=\"__ROOT__/Public/uploads/1/201406/539bd749d15a0.jpg\" title=\"539bd749d15a0.jpg\" alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\"/>123</p>',`create_time`=1402724906 WHERE ( `id` = 19 ) [ RunTime:0.000453s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.006474s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.006770s ]
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` IN ('/public/uploads/1/201406/539bd749d15a0.jpg') )  [ RunTime:0.000313s ]
+SQL: SELECT `attachment_id` FROM `my_article_attachment` WHERE ( `article_id` = 1 )  [ RunTime:0.000175s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 5 ) [ RunTime:0.000246s ]
+ERR: 非法数据对象！:[aid=>5]
+
+[ 2014-06-14T13:50:04+08:00 ] ::1 /gold/index.php/Admin/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008684s ]
+SQL: UPDATE `my_article` SET `title`='关于在关联模2',`category_id`=0,`sort`=100,`content`='<p><img src=\"__ROOT__/Public/uploads/1/201406/539bd749d15a0.jpg\" title=\"539bd749d15a0.jpg\" alt=\"cd1cb7d672facab8dc6b2c9403c741cd.jpg\"/>123</p>',`create_time`=1402725004 WHERE ( `id` = 19 ) [ RunTime:0.000524s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.006350s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.008004s ]
+SQL: SELECT `id`,`fullfilename` FROM `my_attachment` WHERE ( `fullfilename` IN ('/public/uploads/1/201406/539bd749d15a0.jpg') )  [ RunTime:0.001109s ]
+SQL: SELECT `attachment_id` FROM `my_article_attachment` WHERE ( `article_id` = 1 )  [ RunTime:0.000684s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite+1 WHERE ( `id` = 5 ) [ RunTime:0.000579s ]
+SQL: INSERT INTO `my_article_attachment` (`article_id`,`attachment_id`,`fullfilename`) VALUES (1,5,'/public/uploads/1/201406/539bd749d15a0.jpg') [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2014-06-14T13:50:25+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1402725025444
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001812s ]
+
+[ 2014-06-14T13:50:27+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.012067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000634s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2014-06-14T13:50:30+08:00 ] ::1 /gold/index.php/Admin/Article/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.007549s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007299s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2014-06-14T13:50:31+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1402725031606
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002286s ]
+
+[ 2014-06-14T21:23:40+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1402752219838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003202s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2014-06-14T21:53:50+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009885s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000372s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000639s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2014-06-14T21:54:53+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2014-06-14T21:55:00+08:00 ] ::1 /gold/index.php/Admin/Article/add/pid/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009678s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2014-06-14T21:55:00+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1402754100889
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002304s ]
+
+[ 2014-06-14T21:55:08+08:00 ] ::1 /gold/index.php/Admin/Article/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009331s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009118s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2014-06-14T21:55:08+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1402754108839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+NOTIC: [8] Undefined index: userid D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2014-06-14T21:56:01+08:00 ] ::1 /gold/index.php/Home/Ueditor/Index.html?action=config&&noCache=1402754161411
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+ERR: 无法加载控制器:Ueditor
+
+[ 2014-06-14T21:56:23+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000704s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2014-06-14T21:56:29+08:00 ] ::1 /gold/index.php/Admin/Article/delete/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009115s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000451s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::delete() should be compatible with Think\Model::delete($options = Array) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.007835s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.006449s ]
+SQL: SELECT `id` FROM `my_attachment` WHERE ( `fullfilename` = '/public/uploads/1/201406/539bd749d15a0.jpg' ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: UPDATE `my_attachment` SET `cite`=cite-1 WHERE ( `id` = 5 ) [ RunTime:0.019391s ]
+SQL: DELETE FROM `my_article_attachment` WHERE ( `article_id` = 19 ) AND ( `attachment_id` = 5 ) [ RunTime:0.000378s ]
+SQL: DELETE FROM `my_article` WHERE ( `id` = 19 ) [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-06-14T21:56:30+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005061s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.021894s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000863s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000606s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [8] Undefined index: category D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002416s ]
+
+[ 2014-06-14T22:01:17+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000303s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2014-06-14T22:01:44+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010543s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.007394s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.019522s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2014-06-14T22:01:49+08:00 ] ::1 /gold/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008711s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 10,10   [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.006662s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000451s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\gold\Application\Runtime\Cache\Admin\eb31a9d4964ae3f212b62d806045ccab.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+

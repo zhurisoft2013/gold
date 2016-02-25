@@ -1,0 +1,15 @@
+<extend name="Tmpl:base" />
+<block name="content">
+    <div class="category-list">
+        <volist name="category_list" id="vo">
+            <div class="cate">
+                <dl>
+                    <dt><a href="{:U('Home/Index/articleList',array('cid'=>$vo['id']))}">{$vo.title}</a></dt>
+                    <volist name="vo.Article" id="v">
+                        <dd><a href="{:U('Home/Index/article',array('id'=>$v['id']))}" title="{$v.title}">{$v.title|mb_substr=###,0,12,'utf-8'}</a></dd>
+                    </volist>
+                </dl>
+            </div>    
+        </volist>
+    </div>
+</block>

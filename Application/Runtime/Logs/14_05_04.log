@@ -1,0 +1,18 @@
+[ 2014-05-04T11:13:13+08:00 ] ::1 /library/index.php/Admin/User/changePWD.html
+ERR: 无法加载控制器:User
+
+[ 2014-05-04T11:13:46+08:00 ] ::1 /library/index.php/Admin/Blog/index.html
+ERR: 无法加载控制器:Blog
+
+[ 2014-05-04T11:14:00+08:00 ] ::1 /library/index.php/Admin/User/reg.html
+ERR: 无法加载控制器:User
+
+[ 2014-05-04T11:14:05+08:00 ] ::1 /library/index.php/Admin/User/changePWD.html
+ERR: 无法加载控制器:User
+
+[ 2014-05-04T14:09:56+08:00 ] ::1 /power/index.php/Admin/Unit
+ERR: Unknown database 'library'
+
+[ 2014-05-04T21:54:33+08:00 ] ::1 /power/index.php/Admin/Unit/index.html
+ERR: XML标签语法错误 : name="$Think.session.level" value="0" /
+

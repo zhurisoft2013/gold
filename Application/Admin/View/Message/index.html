@@ -1,0 +1,83 @@
+<extend name="Tmpl:base" />
+<block name="title">留言列表</block>
+<block name="css">
+    <style>
+        .msg{
+            /*border:1px solid #004066;*/
+            margin:10px 0px;
+            min-height: 300px;
+            /*width:90%; */
+        }
+
+        /*.msg h3{
+            background: #004066;
+            padding: 6px 0px;
+            text-align: center;;
+            font-weight: normal;
+            color:#fff;
+        }*/
+        .msg ul{
+            list-style: none outside none;
+            margin:2px 4px;
+        }
+        .msg ul li{
+            /*padding-left: 40px;*/
+            position: relative;
+            vertical-align: top;
+            border-bottom: 1px dotted #ddd;
+            padding:2px 10px 2px 60px;
+        }
+        .msg-name{
+                color: #379BE9;
+        }
+        .msg-time{
+            color:#999;
+            padding:0px 16px;
+        }
+        .msg-content{
+            font-size: 14px;
+            line-height: 18px;
+            margin: 3px 0 6px;
+            word-break: break-all;
+        }
+        .msg-content p{
+            word-wrap: break-word;
+        }
+        .del-btn{
+            position: absolute;
+            top:10px;
+            left:0px;
+            display: block;
+            padding:3px 8px;
+            background: #666;
+            color:#fff;
+            text-decoration: none;
+        }
+
+
+    </style>
+</block>
+<block name="content">
+    <h3>留言列表</h3><hr />
+    <div class="msg">
+      <ul>
+      <volist name="message" id="vo">
+        <li>
+          <div class="msg-header">
+            <a class="del-btn"  href="{:U('Admin/Message/delete',array('id'=>$vo['id']))}">删除</a>
+            <span class="msg-name">书友（ip:{$vo.ip}）</span>
+            <span class="msg-time">在{$vo.time|date="Y年m月d日 H:i",###}&nbsp;对{$vo.bookname}&nbsp;留言</span>
+          </div>
+          <div class="msg-content">
+            <p>
+              {$vo.content}
+            </p>
+          </div>
+        </li>
+      </volist>
+          <li>
+              <div class="manu">{$pageinfo}</div>
+          </li>
+      </ul>
+    </div>
+</block>

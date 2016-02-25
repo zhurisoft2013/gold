@@ -1,0 +1,2121 @@
+[ 2014-11-07T13:14:32+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011162s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.084919s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.066389s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.015491s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.043707s ]
+SQL: SELECT * FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.007510s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.046007s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='1' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.376442s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='2' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.145769s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='3' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000351s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='4' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.049233s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='5' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.012413s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='6' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.047948s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='7' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000383s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='8' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000452s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='9' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.085065s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='10' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000501s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='11' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000364s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='12' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000402s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='13' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.302603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.302793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021025s ]
+
+[ 2014-11-07T13:15:41+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.021609s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000416s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2014-11-07T13:17:16+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.026271s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000525s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2014-11-07T13:18:00+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.011555s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000459s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000277s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2014-11-07T13:41:55+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.357887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.358081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012654s ]
+
+[ 2014-11-07T13:41:58+08:00 ] ::1 /gold/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.172671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011233s ]
+
+[ 2014-11-07T13:42:00+08:00 ] ::1 /gold/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002741s ]
+
+[ 2014-11-07T13:42:00+08:00 ] ::1 /gold/index.php/Admin/Login/verify/0.012138438367240934
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2014-11-07T13:42:00+08:00 ] ::1 /gold/index.php/Admin/Login/verify/0.6397139443004674
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2014-11-07T13:42:13+08:00 ] ::1 /gold/index.php/Admin/Login/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.055419s ]
+SQL: SELECT `id`,`username`,`nickname`,`password`,`role` FROM `my_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.043445s ]
+SQL: UPDATE `my_user` SET `logintime`=1415338933,`loginip`='0.0.0.0' WHERE ( `id` = 1 ) [ RunTime:0.238555s ]
+SQL: SHOW COLUMNS FROM `my_log` [ RunTime:0.084552s ]
+SQL: INSERT INTO `my_log` (`userid`,`username`,`log_time`,`log_ip`,`module`,`controller`,`action`,`event`,`auditing`,`reason`,`remark`) VALUES (1,'admin',1415338933,'0.0.0.0','Admin','Login','check','用户登录','成功','','') [ RunTime:0.139215s ]
+
+[ 2014-11-07T13:42:13+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003192s ]
+
+[ 2014-11-07T13:42:19+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-11-07T13:44:11+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+ERR: Could not open D:\wamp\www\gold/Application/test.xlsx for reading! File does not exist.
+
+[ 2014-11-07T13:44:52+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+ERR: Could not open /gold/test.xlsx for reading! File does not exist.
+
+[ 2014-11-07T13:45:19+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+ERR: Could not open D:\wamp\www\gold/Application/test.xlsx for reading! File does not exist.
+
+[ 2014-11-07T13:45:39+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2014-11-07T13:46:28+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2014-11-07T13:49:59+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+ERR: Could not open D:\wamp\www\gold/Application/test1.xlsx for reading! File does not exist.
+
+[ 2014-11-07T13:50:18+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2014-11-07T13:52:22+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2014-11-07T14:47:45+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004240s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.026000s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000871s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000804s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021377s ]
+
+[ 2014-11-07T14:47:59+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.017594s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000234s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.007262s ]
+SQL: SELECT * FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.018695s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007808s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='1' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.074301s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='2' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.049324s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='3' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000462s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='4' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.031172s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='5' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000462s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='6' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.036333s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='7' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000462s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='8' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000463s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='9' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.038006s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='10' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000526s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='11' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000320s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='12' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000307s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='13' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000691s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002106s ]
+
+[ 2014-11-07T14:48:05+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2256.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009583s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.005819s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 4 ) ORDER BY `sort` asc  [ RunTime:0.008589s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.018696s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.014237s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2256 ) [ RunTime:0.079076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2014-11-07T15:06:58+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2256.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009945s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.006846s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 4 ) ORDER BY `sort` asc  [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.006714s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.004578s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2256 ) [ RunTime:0.000440s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2014-11-07T15:07:09+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001638s ]
+
+[ 2014-11-07T15:07:15+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8] Undefined index: create_time D:\wamp\www\gold\Application\Admin\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: create_time D:\wamp\www\gold\Application\Admin\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: create_time D:\wamp\www\gold\Application\Admin\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: create_time D:\wamp\www\gold\Application\Admin\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: create_time D:\wamp\www\gold\Application\Admin\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: create_time D:\wamp\www\gold\Application\Admin\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: create_time D:\wamp\www\gold\Application\Admin\Controller\IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.312687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.313007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2014-11-07T15:07:44+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001846s ]
+
+[ 2014-11-07T15:08:39+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2256.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.030853s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.017084s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000512s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000567s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 4 ) ORDER BY `sort` asc  [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008482s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.006750s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2256 ) [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2014-11-07T15:08:40+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2256.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008064s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.006565s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 4 ) ORDER BY `sort` asc  [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009046s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005350s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2256 ) [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2014-11-07T15:10:10+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+
+[ 2014-11-07T15:10:21+08:00 ] ::1 /gold/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2014-11-07T15:11:11+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2256.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.011127s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007389s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 4 ) ORDER BY `sort` asc  [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.005696s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005984s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2256 ) [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2014-11-07T15:11:13+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2256.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.016404s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.006094s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 4 ) ORDER BY `sort` asc  [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008394s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2256 ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005369s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2256 ) [ RunTime:0.000423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2014-11-07T15:11:17+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008882s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2014-11-07T15:13:06+08:00 ] ::1 /gold/index.php/Admin/Attachment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.012319s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_attachment` LIMIT 1   [ RunTime:0.016282s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::delete() should be compatible with Think\Model::delete($options = Array) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.007405s ]
+SQL: SELECT * FROM `my_attachment` ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.037403s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010919s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM my_article_attachment AS a, my_article AS b WHERE a.article_id = b.id AND a. attachment_id='867' [ RunTime:0.034170s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM my_article_attachment AS a, my_article AS b WHERE a.article_id = b.id AND a. attachment_id='866' [ RunTime:0.026704s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM my_article_attachment AS a, my_article AS b WHERE a.article_id = b.id AND a. attachment_id='865' [ RunTime:0.000472s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM my_article_attachment AS a, my_article AS b WHERE a.article_id = b.id AND a. attachment_id='864' [ RunTime:0.000305s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM my_article_attachment AS a, my_article AS b WHERE a.article_id = b.id AND a. attachment_id='863' [ RunTime:0.000311s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM my_article_attachment AS a, my_article AS b WHERE a.article_id = b.id AND a. attachment_id='862' [ RunTime:0.000295s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM my_article_attachment AS a, my_article AS b WHERE a.article_id = b.id AND a. attachment_id='861' [ RunTime:0.000311s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM my_article_attachment AS a, my_article AS b WHERE a.article_id = b.id AND a. attachment_id='859' [ RunTime:0.000314s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM my_article_attachment AS a, my_article AS b WHERE a.article_id = b.id AND a. attachment_id='860' [ RunTime:0.000324s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\gold\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM my_article_attachment AS a, my_article AS b WHERE a.article_id = b.id AND a. attachment_id='857' [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2014-11-07T15:13:14+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2131.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.012190s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009156s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2131 ) LIMIT 1   [ RunTime:0.000380s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 4 ) ORDER BY `sort` asc  [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007827s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2131 ) LIMIT 1   [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008430s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2131 ) [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2014-11-07T15:13:22+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2131.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.012781s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008513s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2131 ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 4 ) ORDER BY `sort` asc  [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007490s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2131 ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005138s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2131 ) [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2014-11-07T15:23:43+08:00 ] ::1 /gold/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+NOTIC: [8] Undefined variable: str_ireplace D:\wamp\www\gold\Application\Admin\Controller\IndexController.class.php 第 18 行.
+
+[ 2014-11-07T15:41:32+08:00 ] ::1 /gold/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2014-11-07T15:44:48+08:00 ] ::1 /gold/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008645s ]
+SQL: INSERT INTO `my_article` (`title`,`content`,`create_time`,`click`) VALUES ('钻石琢形 花式切工','<BR>&nbsp;&nbsp;&nbsp;&nbsp;琢形是指钻石的切割的形状，由于钻石是天然结晶矿物，结晶出来的形状有多种，另外在形成过程中还会受到地质作用的破坏，因此开采的钻石原石形状各异，加之钻石昂贵，因此切割时常常根据其形状来加工，以充分利用，这样加工的钻石有多种多样，通常分为两大类：圆钻和异形钻，市面上的钻石最常见的是标准形圆钻切工，有57面。异形钻又称花式切工，主要包括八种：马眼钻、椭圆钻、心形钻、梨形钻、公主钻、祖母绿钻、长方钻、玫瑰钻等，对于花工切工钻石来说，重要的并不是它的切割比例，而',1393377780,4),('Chanel首选港站','<P>&nbsp;&nbsp;&nbsp;&nbsp;首次以香港为巡迴展首站的Chanel 2009年高级珠宝系列终于登场，灵感以一个见证品牌高级珠宝系列诞生的年份为题——1932年，所以设计上当然少不了伴？品牌成长的彗星、山茶花、蝴蝶结等经典元素。令人惊叹的是，今昔作品对照下，竟然没有天壤之别，而经过岁月打磨的新钻饰，更能彰显品牌珠宝的艺术风范。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;要数现今能同时在时装舞台及珠宝界拥有殿堂级地位的品牌，香奈儿（Chanel）绝对是佼佼者。有人会说，品',1393377780,3),('全手工定做彩钻女戒过程1(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程1.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程1(视频)</A></P>',1393377780,4),('全手工定做彩钻女戒过程2(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程2.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程2(视频)</A></P>',1393377780,6),('全手工定做彩钻女戒过程3(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程3.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程3(视频)</A></P>',1393377780,10),('全手工定做彩钻女戒过程5(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做异型彩钻女戒过程5.rar\" target=_blank>点击下载:全手工定做异型彩钻女戒过程5(视频)</A></P>',1393377840,6),('全手工定做彩钻女戒过程6(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做异型彩钻女戒过程6.rar\" target=_blank>点击下载:全手工定做异型彩钻女戒过程6(视频)</A></P>',1393377840,8) [ RunTime:0.081616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2014-11-07T15:45:44+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2161.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.010459s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.017867s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2161 ) LIMIT 1   [ RunTime:0.000644s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 1 ) ORDER BY `sort` asc  [ RunTime:0.012944s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.016193s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2161 ) LIMIT 1   [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.006988s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2161 ) [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2014-11-07T15:45:52+08:00 ] ::1 /gold/index.php/Home/Index/article/id/22161.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.020448s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.017646s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 22161 ) LIMIT 1   [ RunTime:0.000754s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007870s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 22161 ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 22161 ) [ RunTime:0.000340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 5 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 61 行.
+NOTIC: [8] Undefined index: create_time D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 62 行.
+NOTIC: [8] Undefined index: click D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2014-11-07T15:46:07+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2261.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008600s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.006648s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2261 ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc  [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007300s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2261 ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005501s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2261 ) [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2014-11-07T15:46:34+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2262.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009206s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007424s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2262 ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc  [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008110s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2262 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.006041s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2262 ) [ RunTime:0.000319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2014-11-07T15:48:11+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2261.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.012407s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008691s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2261 ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc  [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007076s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2261 ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.006438s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2261 ) [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2014-11-07T17:16:35+08:00 ] ::1 /gold/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.012138s ]
+SQL: INSERT INTO `my_article` (`title`,`content`,`create_time`,`click`) VALUES ('钻石琢形 花式切工','<BR>&nbsp;&nbsp;&nbsp;&nbsp;琢形是指钻石的切割的形状，由于钻石是天然结晶矿物，结晶出来的形状有多种，另外在形成过程中还会受到地质作用的破坏，因此开采的钻石原石形状各异，加之钻石昂贵，因此切割时常常根据其形状来加工，以充分利用，这样加工的钻石有多种多样，通常分为两大类：圆钻和异形钻，市面上的钻石最常见的是标准形圆钻切工，有57面。异形钻又称花式切工，主要包括八种：马眼钻、椭圆钻、心形钻、梨形钻、公主钻、祖母绿钻、长方钻、玫瑰钻等，对于花工切工钻石来说，重要的并不是它的切割比例，而',1393377780,4),('Chanel首选港站','<P>&nbsp;&nbsp;&nbsp;&nbsp;首次以香港为巡迴展首站的Chanel 2009年高级珠宝系列终于登场，灵感以一个见证品牌高级珠宝系列诞生的年份为题——1932年，所以设计上当然少不了伴？品牌成长的彗星、山茶花、蝴蝶结等经典元素。令人惊叹的是，今昔作品对照下，竟然没有天壤之别，而经过岁月打磨的新钻饰，更能彰显品牌珠宝的艺术风范。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;要数现今能同时在时装舞台及珠宝界拥有殿堂级地位的品牌，香奈儿（Chanel）绝对是佼佼者。有人会说，品',1393377780,3),('全手工定做彩钻女戒过程1(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程1.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程1(视频)</A></P>',1393377780,4),('全手工定做彩钻女戒过程2(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程2.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程2(视频)</A></P>',1393377780,6),('全手工定做彩钻女戒过程3(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程3.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程3(视频)</A></P>',1393377780,10),('全手工定做彩钻女戒过程5(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做异型彩钻女戒过程5.rar\" target=_blank>点击下载:全手工定做异型彩钻女戒过程5(视频)</A></P>',1393377840,6),('全手工定做彩钻女戒过程6(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做异型彩钻女戒过程6.rar\" target=_blank>点击下载:全手工定做异型彩钻女戒过程6(视频)</A></P>',1393377840,8) [ RunTime:0.012436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016184s ]
+
+[ 2014-11-07T17:16:38+08:00 ] ::1 /gold/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.036193s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.024571s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: pageinfo D:\wamp\www\gold\Application\Runtime\Cache\Admin\d2404f9283eadf7d60cdded7b6b55c15.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2014-11-07T19:39:58+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.050877s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.027540s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000475s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017849s ]
+
+[ 2014-11-07T19:41:13+08:00 ] ::1 /gold/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2014-11-07T19:43:53+08:00 ] ::1 /gold/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.032900s ]
+SQL: INSERT INTO `my_article` (`category_id`,`title`,`content`,`create_time`,`click`,`remark`) VALUES (47,'钻石琢形 花式切工','<BR>&nbsp;&nbsp;&nbsp;&nbsp;琢形是指钻石的切割的形状，由于钻石是天然结晶矿物，结晶出来的形状有多种，另外在形成过程中还会受到地质作用的破坏，因此开采的钻石原石形状各异，加之钻石昂贵，因此切割时常常根据其形状来加工，以充分利用，这样加工的钻石有多种多样，通常分为两大类：圆钻和异形钻，市面上的钻石最常见的是标准形圆钻切工，有57面。异形钻又称花式切工，主要包括八种：马眼钻、椭圆钻、心形钻、梨形钻、公主钻、祖母绿钻、长方钻、玫瑰钻等，对于花工切工钻石来说，重要的并不是它的切割比例，而是它的对称性，因此购买这种切工的钻石时，主要看钻石的对称性。下面分别加以说明： <BR>&nbsp;&nbsp;&nbsp;&nbsp;1、马眼钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;马眼钻又称橄榄钻，马眼钻在现代钻石磨工中有“琢形王后”之称，按照理想比例加工的马眼钻，其出火胜过所有琢形的钻石，由于市面上的异形钻很少，因此对马眼钻的挑选不象圆形钻的要求那么高，净度、颜色可参考圆形钻，切工主要考虑长宽比的要求，一般长宽比在1.75:1-2.25:1为最好，全深比一般在60%左右，肩部不能太高，腰围不能太尖，从台而看去，腰围呈圆弧形，如图，两边对称性要好，另外用放大镜观察亭部常有黑色阴影，称为“领结效应”，“领结效应”越不明显越好。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;2、椭圆钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;椭圆钻也是一种曾经风行一时的一种琢形，长宽比应在1.33:1-1.7:1左右，全深比在60%-65%左右，另外其肩部也不能太高。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;3、心形钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;心形钻的款式来源于古印度，标准的心形钻有63个面，长宽比正常为1:1，从台面看去，两肩应呈圆弧形，不应有尖角。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;4、梨形钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;梨形钻琢形又称泪滴形，如图，也曾是一种很流形的琢形，长宽比应在1.5:1-1.75:1，肩部也不能太高。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;5、祖母绿型钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;祖母绿型钻是一种倒角的多边形切工，呈阶梯状，可以有方形、长方形、三角形、菱形等等，是仅次于圆形钻的一种最流行的一种琢形，标准的琢形有58个面，这种切工的钻石，容易看到内部的包体，因此对净度的要求较高，另外出火也较差。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;6、公主型钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;公主型钻一般为正方形或长方形，冠部瓣面呈放射状，底部瓣面呈山峰状，通常有57个瓣面。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;7、长方钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;长方型钻整体呈长条形，侧重于根据形状，其长宽比没有多大限制，通常用于小钻，可做群镶，可做配钻。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;8、玫瑰型钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;玫瑰型钻有很多系列，最常见的是称作“时尚玫瑰”的圆刻面型钻，这种切工出火较差，加工时主要是考虑保重，主要以小钻为主，国外名表中的镶钻通常以这种琢形为主。',1393377780,4,'old'),(47,'Chanel首选港站','<P>&nbsp;&nbsp;&nbsp;&nbsp;首次以香港为巡迴展首站的Chanel 2009年高级珠宝系列终于登场，灵感以一个见证品牌高级珠宝系列诞生的年份为题——1932年，所以设计上当然少不了伴？品牌成长的彗星、山茶花、蝴蝶结等经典元素。令人惊叹的是，今昔作品对照下，竟然没有天壤之别，而经过岁月打磨的新钻饰，更能彰显品牌珠宝的艺术风范。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;要数现今能同时在时装舞台及珠宝界拥有殿堂级地位的品牌，香奈儿（Chanel）绝对是佼佼者。有人会说，品牌的高级珠宝多年来的设计变化不大，甚至十分类同，所採用的设计灵感都离不开彗星、山茶花、蝴蝶结等；然而个人认为，若一个品牌可单凭几个经典图案，便能在珠宝界立足数十年，功力不容忽视。历史悠久的品牌，需要一些具代表性的Signature Design多于不断求变的设计，因为这样才是永恆象征。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;取名1932的最新高级珠宝系列，顾名思义是致敬之作，当中更有参考自1932年的彗星项链Comete而设计的新款式，包括Comete Fontaine项链、以星形设计的3 Etoiles指环及Voie Lactee钻石腕表，而这古董项链在当时来说，其无扣式的弹簧扣设计，加上流？外形，是珠宝设计的一大突破，展现银河繁星划过星空的美景。此外，熟悉品牌的捧场客，相信也不会对山茶花感陌生，在新系列之中亦不难找到山茶花及极具女性化蝴蝶结的纵影，以钻石镶嵌的山茶花及蝴蝶结点缀于项链、耳环或指环上，流露Chanel女士的独有美态。由即日（3月1日）起至3月中，客人可于中环太子大厦品牌专门店欣赏这批全新高级珠宝。</P>',1393377780,3,'old'),(47,'全手工定做彩钻女戒过程1(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程1.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程1(视频)</A></P>',1393377780,4,'old'),(47,'全手工定做彩钻女戒过程2(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程2.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程2(视频)</A></P>',1393377780,6,'old'),(47,'全手工定做彩钻女戒过程3(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程3.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程3(视频)</A></P>',1393377780,10,'old'),(47,'全手工定做彩钻女戒过程5(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做异型彩钻女戒过程5.rar\" target=_blank>点击下载:全手工定做异型彩钻女戒过程5(视频)</A></P>',1393377840,6,'old'),(47,'全手工定做彩钻女戒过程6(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做异型彩钻女戒过程6.rar\" target=_blank>点击下载:全手工定做异型彩钻女戒过程6(视频)</A></P>',1393377840,8,'old'),(47,'全手工定做彩钻女戒过程7(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做异型彩钻女戒过程7.rar\" target=_blank>点击下载:全手工定做异型彩钻女戒过程7(视频)</A></P>',1393377840,6,'old'),(47,'宝石的分类与加工','<P>全世界有色宝石的产值相当可观，每年的矿产宝石约值30亿美元,相当于全球镍或锌矿的年产值。随着人民生活水平的不断提高，五光十色的宝石制品开始走进千家万户。但人们对宝石的种类、品质标准与价格等还知之甚少。实际上，宝石的鉴定、开采、加工和交易过程均很复杂，出现问题时所采取的方法也与其它矿业部门有很大不同。为了使人们对宝石有更多的了解，下面就介绍一下与此有关的情况。 _x000D_\n<P>一、什么是宝石？ _x000D_\n<P>宝石是指色泽艳丽、经久耐用并能切割、打磨制成首饰和其它装饰品的天然矿物或聚合体。一般说的宝石是指经宝石工匠们加工过的精品，而这里要说的宝石是没精加工打磨过的。“有色宝石”是指除钻石之外的宝石矿物。国际珠宝、首饰、钻石、珍珠和宝石协会以及国际有色宝石协会对宝石的命名和加工改色以达到增值目地的方法有许多具体规定，允许采用一些物理和化学方法（如加热和着色）提高宝石的质量；一些宝石也可以在实验室人工合成。虽然人造宝石的色泽更好，但远不如天然宝石稀贵。尽管某些用玻璃、塑料或廉价绿松石染色制成的“假宝石”几乎能以假乱真，但通过光学分析不难分辨真伪。 _x000D_\n<P>影响宝石价值的因素有：（1）吸引力，（2）颜色和清澈度，（3）耐磨性和硬度（作镶嵌戒面用时犹为重要），（4）珍稀程度，（5）款式，（6）大小（重量）。世界上大约有250余种宝石矿物，但很珍贵的品种并不多。宝石矿物可按照其化学组成分为以下几类。一、氧化物类：（1） 金绿宝石（变石）、（2）刚玉型红宝石、海蓝宝石；石英和玉髓岩；烟色水晶、紫色水晶、黄晶；“虎眼”石、红色和绿色玉髓、碧玉和玛瑙等。（3） 蛋白石，主要包括稀贵蛋白石、火焰石和普通蛋白石。二、硅酸盐类：祖母绿、海蓝色宝石、金色绿柱石、鸡血石、绿宝石。（4）石榴石：贵石榴石（铁铝石榴石）、红石榴石（镁铝石榴石）、斜煌石（锰铝石榴石）；橄榄石，翡翠和软玉。（5）黝帘石。（6）莹石：月亮石、沙金石、天青石和天兰石。三、磷酸盐类：绿松石。四、碳酸盐：方解石、孔雀石和菱镁矿。 _x000D_\n<P>此外，还有一些矿物也可归于宝石的范畴，但它们仅是一些矿物样品收藏家和专业工匠感兴趣的对象，这里就不再赘述。 _x000D_\n<P>二、全球矿产宝石值多少？ _x000D_\n<P>因为缺乏即全面又可靠的统计数据和很大一部分宝石的交易是在黑市成交的，所以对全球的宝石产量和产值只能做粗略的估算。这里列举的宝石价格是宝石从原产地出口的价格。全球矿产宝石年产值约为60～80亿美元。其中，钻石的产值占50%。“三大宝石”祖母绿、红宝石和蓝宝石的产值为15～20亿美元（占宝石总产值的30～36%）。其中产自非洲赞比亚和津巴布韦的祖母绿的产值占总量的10～15%，约值10亿美元。蓝宝石和电气石的产值约为2～3亿美元。其它较贵重贵宝石的总产值在3000～9000万美元之间，这其中包括：玛瑙、硅酸盐类宝石、绿松石、天青石、天兰石、烟色水晶和玫瑰色水晶。 _x000D_\n<P>全世界锌、镁、铀矿或镍矿、高岭土或者石棉的年产值同有色宝石的年产值相近；而绿松石的产值则相当于锡的产值；蓝宝石和海蓝宝石的产值与钨矿或钒矿亦或云母、石墨或重晶石的产值相近。甚至玫瑰色水晶的产值也同锑矿或硅线石的产值相当。 _x000D_\n<P>三、宝石的定价 _x000D_\n<P>给宝石定价要比给贵金属或有色金属定价要困难的多。原因是宝石的质地和大小的差异变化大，还没有类似伦敦金属交易市场那样的公开定价方式和机构。虽然宝石价格的波动不大,且对经济和其它情况的变化反应迟缓，但东南亚的这场经济危机对宝石市场也有严重影响。从长远来看，宝石市场的前景还是好的。因为亚洲和美洲的发展中国家以及东欧国家的中产阶级对首饰珠宝的购买力日益走强。</P>',1393293480,5,'old'),(47,'LV等珠宝首饰的制作过程','<SPAN class=\"tdlinexp STYLE6\">_x000D_\n<P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100635233.jpg\"> _x000D_\n<P>　　<FONT color=#000000>LV等名牌的珠宝一向给人很高雅精致的感觉，他的珠宝打造又是怎样的呢？　 </FONT>_x000D_\n<P><FONT color=#000000>　　其实他们都有自己的设计师，先设计好草图，设计好后，就有伟大的师傅去完成这件作品。师傅 </FONT>_x000D_\n<TABLE align=left>_x000D_\n<TBODY>_x000D_\n<TR>_x000D_\n<TD><FONT color=#000000></FONT></TD></TR></TBODY></TABLE><FONT color=#000000>会先看珠宝设计的颜色配合，然后订出能做好配合的用料金属以及宝石。一般难度大的珠宝首饰会选用18K金制，因为18K金的硬度适中，不会像铂金过硬或者黄金过软。而宝石会选用各式天然宝石。宝石要配合做好的金模具来选择质量大小，形状。天然的宝石级别当然会用最好的，颜色也找最相似同级的。这样镶制起来会是最完美的。　 </FONT>_x000D_\n<P><FONT color=#000000>　　小小的吊坠或其他首饰，少的镶制几颗宝石，多的要镶几十或上百颗也不出奇。因此师傅的手工是很重要的，他们个个都力求尽善尽美。到后面的程序就是为宝石与金属打磨抛光、金属某些部位会使用喷磨砂。最后还有激光打印，18K、Pt950、0.45ct之类，品牌上会刻上自己的名字。　 </FONT>_x000D_\n<P><FONT color=#000000>　　经过多重繁复的工序后，漂亮的珠宝才放到店上的橱窗。</FONT> </P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636901.jpg\"> </P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636647.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636383.jpg\"></P>_x000D_\n<P>&nbsp;</P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636103.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636224.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636745.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636812.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636514.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636844.jpg\"></P>_x000D_\n<P></P></SPAN>',1393293480,7,'old'),(47,'珠宝玉石产业的新技术','<P>　　珠宝产业具有悠久的历史，它即是一个资金密集型产业，同时又是一个技术密集型产业。随着我国改革开放的深入，人民生活水平的不断提高，国内珠宝市场越来越引起世界的重视，中国珠宝产业界应珍视这一千载难逢的机遇，把这一产业做大做强。为此，珠宝产业界同仁应与金融界、科技界和教育界密切配合，及时掌握国际上产业发展的最新技术和信息。 _x000D_\n<P>　　HPHT处理钻石技术钻石是宝石之王，它是世界上消费量最大的宝石品种。随着需求量的增加，优质钻石大有供不应求之势，近几年欧美一些大公司正在进行HPHT处理钻石的技术研究及开发工作，以满足社会需求。 _x000D_\n<P>　　HPHT是高温高压处理的简称，其目的是改变或改善某些特定种类钻石的天然体色，使其呈现更有价值的颜色。HPHT颜色改善过程通常包括减轻或去除钻石中的褐色。a型褐色钻石经处理后大多数呈现艳绿色、黄褐色及黄色；Ⅱa型褐色钻石经处理后大多数呈现无色，有时可呈粉色。在极少数情况下，Ⅱb型钻石或灰色钻石经处理可变为蓝色。美国的Sundance公司目前已可以提供HPHT处理业务，处理的价格是每克拉300美元。针对这一技术的发展态势，国内珠宝产业界和检测界应给予充分的关注。 _x000D_\n<P>　　红、蓝宝石改善技术由于天然红、蓝宝石资源的稀缺，目前已有多种改善处理新技术被应用于提高刚玉宝石的质量。这些处理技术主要包括：助熔剂热处理法、表面扩散处理法、深层扩散处理法及最新的铅玻璃充填法。 _x000D_\n<P>　　目前的助熔剂热处理法就是加入硼砂或硅土等助熔剂来愈合裂隙或充填开放裂口及空洞，以此提高宝石的硬度。表面扩散热处理法即往坩埚中添加致色化合物，将传热处理法不能处理的无色蓝宝石改色为彩色蓝宝石。钛和铁化合物通常被用来产出蓝色蓝宝石，而铬化合物被用来处理红宝石。这些过渡金属元素仅能在很浅的深度上扩散进入宝石并致色，因此这种处理方法能够很容易地通过浸油放大观察等方法检测出来。深层扩散处理法即将轻元素（如Be）由外部扩散至刚玉晶格中，Be元素已经被证明是作为黄色色心的稳定剂参与处理宝石的呈色机制。红宝石的铅玻璃充填法是最新的提高净度的处理技术，已于2004年中期出现于宝石市场上。这种处理法包括以高折射率玻璃（如铅玻璃或脱玻化玻璃）充填裂纹或开放裂隙，能很容易地被EDXRF（X射线衍射）检测出来。 _x000D_\n<P>　　核辐射技术在宝石中的应用利用核辐射技术，对天然宝石进行改色处理，已是当今应用宝石材料学和应用物理学研究领域里的前沿和热门课题。主要包括粒子辐射宝石赋色法、γ射线辐射宝石赋色法和中子辐射宝石赋色法。目前涉及到辐射赋色的宝石品种主要有钻石、蓝宝石、绿柱石、黄玉、电器石、锆石及养殖珍珠。 _x000D_\n<P>　　合成翡翠及再造翡翠的有关问题目前已有合成翡翠和再造翡翠出现在市场上，这一问题应该引起珠宝业界的高度重视。合成翡翠的特征如下：（1）合成翡翠样品主要由结晶物质和玻璃组成。结晶矿物为硬玉，晶体粗大，具方向性。（2）结晶质和玻璃的化学成分基本一致，接近硬玉矿物的组成。 _x000D_\n<P>　　翡翠再造品已在近两年中出现在市面上，对这种翡翠再造品的研究已取得的主要认识有：（1）与俗称“铁龙生”的翡翠再造品种非常相像。（2）化学成分中含有翡翠中不应存在的Pb。（3）密度约为3.00g／cm3，较翡翠明显偏低。 _x000D_\n<P>　　总之，科学技术快速进步已使越来越多的新技术、新方法迅速应用到珠宝产业中，以上方法技术仅是其中的一部分，这一现象必须引起国内珠宝业界的重视。</P>',1393293480,5,'old') [ RunTime:0.001368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2014-11-07T19:44:51+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008873s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000393s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005727s ]
+SQL: SELECT * FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008633s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='1' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.001163s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='2' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.020857s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='3' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000357s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='4' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.001395s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='5' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000409s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='6' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.002353s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='7' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000377s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='8' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000248s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='9' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.001831s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='10' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000616s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='11' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000352s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='12' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000286s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='13' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2014-11-07T19:44:54+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2183.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.011710s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.019889s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2183 ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 2 ) ORDER BY `sort` asc  [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.005258s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2183 ) LIMIT 1   [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005848s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000613s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2183 ) [ RunTime:0.000891s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2014-11-07T19:45:17+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2275.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.024538s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007419s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2275 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 47 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 47 ) ORDER BY `sort` asc  [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.005745s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2275 ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.007699s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='47' ) LIMIT 1   [ RunTime:0.000604s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2275 ) [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2014-11-07T19:45:26+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2276.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009647s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007915s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2276 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 47 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 47 ) ORDER BY `sort` asc  [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.005136s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2276 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.004921s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='47' ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2276 ) [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2014-11-07T19:45:35+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2277.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.010416s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007981s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2277 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 47 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 47 ) ORDER BY `sort` asc  [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.005988s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2277 ) LIMIT 1   [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.007638s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='47' ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2277 ) [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2014-11-07T19:50:05+08:00 ] ::1 /gold/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009324s ]
+SQL: INSERT INTO `my_article` (`category_id`,`title`,`content`,`create_time`,`click`,`remark`) VALUES (47,'钻石琢形 花式切工','<BR>&nbsp;&nbsp;&nbsp;&nbsp;琢形是指钻石的切割的形状，由于钻石是天然结晶矿物，结晶出来的形状有多种，另外在形成过程中还会受到地质作用的破坏，因此开采的钻石原石形状各异，加之钻石昂贵，因此切割时常常根据其形状来加工，以充分利用，这样加工的钻石有多种多样，通常分为两大类：圆钻和异形钻，市面上的钻石最常见的是标准形圆钻切工，有57面。异形钻又称花式切工，主要包括八种：马眼钻、椭圆钻、心形钻、梨形钻、公主钻、祖母绿钻、长方钻、玫瑰钻等，对于花工切工钻石来说，重要的并不是它的切割比例，而是它的对称性，因此购买这种切工的钻石时，主要看钻石的对称性。下面分别加以说明： <BR>&nbsp;&nbsp;&nbsp;&nbsp;1、马眼钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;马眼钻又称橄榄钻，马眼钻在现代钻石磨工中有“琢形王后”之称，按照理想比例加工的马眼钻，其出火胜过所有琢形的钻石，由于市面上的异形钻很少，因此对马眼钻的挑选不象圆形钻的要求那么高，净度、颜色可参考圆形钻，切工主要考虑长宽比的要求，一般长宽比在1.75:1-2.25:1为最好，全深比一般在60%左右，肩部不能太高，腰围不能太尖，从台而看去，腰围呈圆弧形，如图，两边对称性要好，另外用放大镜观察亭部常有黑色阴影，称为“领结效应”，“领结效应”越不明显越好。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;2、椭圆钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;椭圆钻也是一种曾经风行一时的一种琢形，长宽比应在1.33:1-1.7:1左右，全深比在60%-65%左右，另外其肩部也不能太高。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;3、心形钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;心形钻的款式来源于古印度，标准的心形钻有63个面，长宽比正常为1:1，从台面看去，两肩应呈圆弧形，不应有尖角。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;4、梨形钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;梨形钻琢形又称泪滴形，如图，也曾是一种很流形的琢形，长宽比应在1.5:1-1.75:1，肩部也不能太高。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;5、祖母绿型钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;祖母绿型钻是一种倒角的多边形切工，呈阶梯状，可以有方形、长方形、三角形、菱形等等，是仅次于圆形钻的一种最流行的一种琢形，标准的琢形有58个面，这种切工的钻石，容易看到内部的包体，因此对净度的要求较高，另外出火也较差。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;6、公主型钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;公主型钻一般为正方形或长方形，冠部瓣面呈放射状，底部瓣面呈山峰状，通常有57个瓣面。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;7、长方钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;长方型钻整体呈长条形，侧重于根据形状，其长宽比没有多大限制，通常用于小钻，可做群镶，可做配钻。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;8、玫瑰型钻： <BR>&nbsp;&nbsp;&nbsp;&nbsp;玫瑰型钻有很多系列，最常见的是称作“时尚玫瑰”的圆刻面型钻，这种切工出火较差，加工时主要是考虑保重，主要以小钻为主，国外名表中的镶钻通常以这种琢形为主。',1393377780,4,'old'),(47,'Chanel首选港站','<P>&nbsp;&nbsp;&nbsp;&nbsp;首次以香港为巡迴展首站的Chanel 2009年高级珠宝系列终于登场，灵感以一个见证品牌高级珠宝系列诞生的年份为题——1932年，所以设计上当然少不了伴？品牌成长的彗星、山茶花、蝴蝶结等经典元素。令人惊叹的是，今昔作品对照下，竟然没有天壤之别，而经过岁月打磨的新钻饰，更能彰显品牌珠宝的艺术风范。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;要数现今能同时在时装舞台及珠宝界拥有殿堂级地位的品牌，香奈儿（Chanel）绝对是佼佼者。有人会说，品牌的高级珠宝多年来的设计变化不大，甚至十分类同，所採用的设计灵感都离不开彗星、山茶花、蝴蝶结等；然而个人认为，若一个品牌可单凭几个经典图案，便能在珠宝界立足数十年，功力不容忽视。历史悠久的品牌，需要一些具代表性的Signature Design多于不断求变的设计，因为这样才是永恆象征。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;取名1932的最新高级珠宝系列，顾名思义是致敬之作，当中更有参考自1932年的彗星项链Comete而设计的新款式，包括Comete Fontaine项链、以星形设计的3 Etoiles指环及Voie Lactee钻石腕表，而这古董项链在当时来说，其无扣式的弹簧扣设计，加上流？外形，是珠宝设计的一大突破，展现银河繁星划过星空的美景。此外，熟悉品牌的捧场客，相信也不会对山茶花感陌生，在新系列之中亦不难找到山茶花及极具女性化蝴蝶结的纵影，以钻石镶嵌的山茶花及蝴蝶结点缀于项链、耳环或指环上，流露Chanel女士的独有美态。由即日（3月1日）起至3月中，客人可于中环太子大厦品牌专门店欣赏这批全新高级珠宝。</P>',1393377780,3,'old'),(47,'全手工定做彩钻女戒过程1(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程1.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程1(视频)</A></P>',1393377780,4,'old'),(47,'全手工定做彩钻女戒过程2(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程2.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程2(视频)</A></P>',1393377780,6,'old'),(47,'全手工定做彩钻女戒过程3(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做彩钻女戒过程3.rar\" target=_blank>点击下载:全手工定做彩钻女戒过程3(视频)</A></P>',1393377780,10,'old'),(47,'全手工定做彩钻女戒过程5(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做异型彩钻女戒过程5.rar\" target=_blank>点击下载:全手工定做异型彩钻女戒过程5(视频)</A></P>',1393377840,6,'old'),(47,'全手工定做彩钻女戒过程6(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做异型彩钻女戒过程6.rar\" target=_blank>点击下载:全手工定做异型彩钻女戒过程6(视频)</A></P>',1393377840,8,'old'),(47,'全手工定做彩钻女戒过程7(视频)','<P align=center><A href=\"__ROOT__/Public/uploads/download/全手工定做异型彩钻女戒过程7.rar\" target=_blank>点击下载:全手工定做异型彩钻女戒过程7(视频)</A></P>',1393377840,6,'old'),(47,'宝石的分类与加工','<P>全世界有色宝石的产值相当可观，每年的矿产宝石约值30亿美元,相当于全球镍或锌矿的年产值。随着人民生活水平的不断提高，五光十色的宝石制品开始走进千家万户。但人们对宝石的种类、品质标准与价格等还知之甚少。实际上，宝石的鉴定、开采、加工和交易过程均很复杂，出现问题时所采取的方法也与其它矿业部门有很大不同。为了使人们对宝石有更多的了解，下面就介绍一下与此有关的情况。 _x000D_\n<P>一、什么是宝石？ _x000D_\n<P>宝石是指色泽艳丽、经久耐用并能切割、打磨制成首饰和其它装饰品的天然矿物或聚合体。一般说的宝石是指经宝石工匠们加工过的精品，而这里要说的宝石是没精加工打磨过的。“有色宝石”是指除钻石之外的宝石矿物。国际珠宝、首饰、钻石、珍珠和宝石协会以及国际有色宝石协会对宝石的命名和加工改色以达到增值目地的方法有许多具体规定，允许采用一些物理和化学方法（如加热和着色）提高宝石的质量；一些宝石也可以在实验室人工合成。虽然人造宝石的色泽更好，但远不如天然宝石稀贵。尽管某些用玻璃、塑料或廉价绿松石染色制成的“假宝石”几乎能以假乱真，但通过光学分析不难分辨真伪。 _x000D_\n<P>影响宝石价值的因素有：（1）吸引力，（2）颜色和清澈度，（3）耐磨性和硬度（作镶嵌戒面用时犹为重要），（4）珍稀程度，（5）款式，（6）大小（重量）。世界上大约有250余种宝石矿物，但很珍贵的品种并不多。宝石矿物可按照其化学组成分为以下几类。一、氧化物类：（1） 金绿宝石（变石）、（2）刚玉型红宝石、海蓝宝石；石英和玉髓岩；烟色水晶、紫色水晶、黄晶；“虎眼”石、红色和绿色玉髓、碧玉和玛瑙等。（3） 蛋白石，主要包括稀贵蛋白石、火焰石和普通蛋白石。二、硅酸盐类：祖母绿、海蓝色宝石、金色绿柱石、鸡血石、绿宝石。（4）石榴石：贵石榴石（铁铝石榴石）、红石榴石（镁铝石榴石）、斜煌石（锰铝石榴石）；橄榄石，翡翠和软玉。（5）黝帘石。（6）莹石：月亮石、沙金石、天青石和天兰石。三、磷酸盐类：绿松石。四、碳酸盐：方解石、孔雀石和菱镁矿。 _x000D_\n<P>此外，还有一些矿物也可归于宝石的范畴，但它们仅是一些矿物样品收藏家和专业工匠感兴趣的对象，这里就不再赘述。 _x000D_\n<P>二、全球矿产宝石值多少？ _x000D_\n<P>因为缺乏即全面又可靠的统计数据和很大一部分宝石的交易是在黑市成交的，所以对全球的宝石产量和产值只能做粗略的估算。这里列举的宝石价格是宝石从原产地出口的价格。全球矿产宝石年产值约为60～80亿美元。其中，钻石的产值占50%。“三大宝石”祖母绿、红宝石和蓝宝石的产值为15～20亿美元（占宝石总产值的30～36%）。其中产自非洲赞比亚和津巴布韦的祖母绿的产值占总量的10～15%，约值10亿美元。蓝宝石和电气石的产值约为2～3亿美元。其它较贵重贵宝石的总产值在3000～9000万美元之间，这其中包括：玛瑙、硅酸盐类宝石、绿松石、天青石、天兰石、烟色水晶和玫瑰色水晶。 _x000D_\n<P>全世界锌、镁、铀矿或镍矿、高岭土或者石棉的年产值同有色宝石的年产值相近；而绿松石的产值则相当于锡的产值；蓝宝石和海蓝宝石的产值与钨矿或钒矿亦或云母、石墨或重晶石的产值相近。甚至玫瑰色水晶的产值也同锑矿或硅线石的产值相当。 _x000D_\n<P>三、宝石的定价 _x000D_\n<P>给宝石定价要比给贵金属或有色金属定价要困难的多。原因是宝石的质地和大小的差异变化大，还没有类似伦敦金属交易市场那样的公开定价方式和机构。虽然宝石价格的波动不大,且对经济和其它情况的变化反应迟缓，但东南亚的这场经济危机对宝石市场也有严重影响。从长远来看，宝石市场的前景还是好的。因为亚洲和美洲的发展中国家以及东欧国家的中产阶级对首饰珠宝的购买力日益走强。</P>',1393293480,5,'old'),(47,'LV等珠宝首饰的制作过程','<SPAN class=\"tdlinexp STYLE6\">_x000D_\n<P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100635233.jpg\"> _x000D_\n<P>　　<FONT color=#000000>LV等名牌的珠宝一向给人很高雅精致的感觉，他的珠宝打造又是怎样的呢？　 </FONT>_x000D_\n<P><FONT color=#000000>　　其实他们都有自己的设计师，先设计好草图，设计好后，就有伟大的师傅去完成这件作品。师傅 </FONT>_x000D_\n<TABLE align=left>_x000D_\n<TBODY>_x000D_\n<TR>_x000D_\n<TD><FONT color=#000000></FONT></TD></TR></TBODY></TABLE><FONT color=#000000>会先看珠宝设计的颜色配合，然后订出能做好配合的用料金属以及宝石。一般难度大的珠宝首饰会选用18K金制，因为18K金的硬度适中，不会像铂金过硬或者黄金过软。而宝石会选用各式天然宝石。宝石要配合做好的金模具来选择质量大小，形状。天然的宝石级别当然会用最好的，颜色也找最相似同级的。这样镶制起来会是最完美的。　 </FONT>_x000D_\n<P><FONT color=#000000>　　小小的吊坠或其他首饰，少的镶制几颗宝石，多的要镶几十或上百颗也不出奇。因此师傅的手工是很重要的，他们个个都力求尽善尽美。到后面的程序就是为宝石与金属打磨抛光、金属某些部位会使用喷磨砂。最后还有激光打印，18K、Pt950、0.45ct之类，品牌上会刻上自己的名字。　 </FONT>_x000D_\n<P><FONT color=#000000>　　经过多重繁复的工序后，漂亮的珠宝才放到店上的橱窗。</FONT> </P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636901.jpg\"> </P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636647.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636383.jpg\"></P>_x000D_\n<P>&nbsp;</P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636103.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636224.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636745.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636812.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636514.jpg\"></P>_x000D_\n<P align=center><IMG border=0 hspace=0 alt=\"\" align=baseline src=\"__ROOT__/Public/uploads/images/ssjgphoto/20070904100636844.jpg\"></P>_x000D_\n<P></P></SPAN>',1393293480,7,'old'),(47,'珠宝玉石产业的新技术','<P>　　珠宝产业具有悠久的历史，它即是一个资金密集型产业，同时又是一个技术密集型产业。随着我国改革开放的深入，人民生活水平的不断提高，国内珠宝市场越来越引起世界的重视，中国珠宝产业界应珍视这一千载难逢的机遇，把这一产业做大做强。为此，珠宝产业界同仁应与金融界、科技界和教育界密切配合，及时掌握国际上产业发展的最新技术和信息。 _x000D_\n<P>　　HPHT处理钻石技术钻石是宝石之王，它是世界上消费量最大的宝石品种。随着需求量的增加，优质钻石大有供不应求之势，近几年欧美一些大公司正在进行HPHT处理钻石的技术研究及开发工作，以满足社会需求。 _x000D_\n<P>　　HPHT是高温高压处理的简称，其目的是改变或改善某些特定种类钻石的天然体色，使其呈现更有价值的颜色。HPHT颜色改善过程通常包括减轻或去除钻石中的褐色。a型褐色钻石经处理后大多数呈现艳绿色、黄褐色及黄色；Ⅱa型褐色钻石经处理后大多数呈现无色，有时可呈粉色。在极少数情况下，Ⅱb型钻石或灰色钻石经处理可变为蓝色。美国的Sundance公司目前已可以提供HPHT处理业务，处理的价格是每克拉300美元。针对这一技术的发展态势，国内珠宝产业界和检测界应给予充分的关注。 _x000D_\n<P>　　红、蓝宝石改善技术由于天然红、蓝宝石资源的稀缺，目前已有多种改善处理新技术被应用于提高刚玉宝石的质量。这些处理技术主要包括：助熔剂热处理法、表面扩散处理法、深层扩散处理法及最新的铅玻璃充填法。 _x000D_\n<P>　　目前的助熔剂热处理法就是加入硼砂或硅土等助熔剂来愈合裂隙或充填开放裂口及空洞，以此提高宝石的硬度。表面扩散热处理法即往坩埚中添加致色化合物，将传热处理法不能处理的无色蓝宝石改色为彩色蓝宝石。钛和铁化合物通常被用来产出蓝色蓝宝石，而铬化合物被用来处理红宝石。这些过渡金属元素仅能在很浅的深度上扩散进入宝石并致色，因此这种处理方法能够很容易地通过浸油放大观察等方法检测出来。深层扩散处理法即将轻元素（如Be）由外部扩散至刚玉晶格中，Be元素已经被证明是作为黄色色心的稳定剂参与处理宝石的呈色机制。红宝石的铅玻璃充填法是最新的提高净度的处理技术，已于2004年中期出现于宝石市场上。这种处理法包括以高折射率玻璃（如铅玻璃或脱玻化玻璃）充填裂纹或开放裂隙，能很容易地被EDXRF（X射线衍射）检测出来。 _x000D_\n<P>　　核辐射技术在宝石中的应用利用核辐射技术，对天然宝石进行改色处理，已是当今应用宝石材料学和应用物理学研究领域里的前沿和热门课题。主要包括粒子辐射宝石赋色法、γ射线辐射宝石赋色法和中子辐射宝石赋色法。目前涉及到辐射赋色的宝石品种主要有钻石、蓝宝石、绿柱石、黄玉、电器石、锆石及养殖珍珠。 _x000D_\n<P>　　合成翡翠及再造翡翠的有关问题目前已有合成翡翠和再造翡翠出现在市场上，这一问题应该引起珠宝业界的高度重视。合成翡翠的特征如下：（1）合成翡翠样品主要由结晶物质和玻璃组成。结晶矿物为硬玉，晶体粗大，具方向性。（2）结晶质和玻璃的化学成分基本一致，接近硬玉矿物的组成。 _x000D_\n<P>　　翡翠再造品已在近两年中出现在市面上，对这种翡翠再造品的研究已取得的主要认识有：（1）与俗称“铁龙生”的翡翠再造品种非常相像。（2）化学成分中含有翡翠中不应存在的Pb。（3）密度约为3.00g／cm3，较翡翠明显偏低。 _x000D_\n<P>　　总之，科学技术快速进步已使越来越多的新技术、新方法迅速应用到珠宝产业中，以上方法技术仅是其中的一部分，这一现象必须引起国内珠宝业界的重视。</P>',1393293480,5,'old') [ RunTime:0.001565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2014-11-07T19:52:22+08:00 ] ::1 /gold/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.011540s ]
+
+[ 2014-11-07T20:10:58+08:00 ] ::1 /gold/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2014-11-07T20:10:59+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2261.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.011205s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008032s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2261 ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.018798s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2261 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2261 ) [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 5 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 61 行.
+NOTIC: [8] Undefined index: create_time D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 62 行.
+NOTIC: [8] Undefined index: click D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2014-11-07T20:11:26+08:00 ] ::1 /gold/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2014-11-07T20:15:03+08:00 ] ::1 /gold/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2014-11-07T20:15:12+08:00 ] ::1 /gold/index.php/Admin/Stat/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.018415s ]
+SQL: SELECT `id`,`username`,`nickname` FROM `my_user`  [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.019143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) LIMIT 1   [ RunTime:0.019158s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) AND ( `create_time` > 1414757712 ) LIMIT 1   [ RunTime:0.015241s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) AND ( `create_time` > 1412770512 ) LIMIT 1   [ RunTime:0.017723s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) LIMIT 1   [ RunTime:0.014755s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) AND ( `create_time` > 1414757712 ) LIMIT 1   [ RunTime:0.016533s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) AND ( `create_time` > 1412770512 ) LIMIT 1   [ RunTime:0.015042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2014-11-07T20:15:17+08:00 ] ::1 /gold/index.php/Admin/Stat/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.049748s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.027153s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 1   [ RunTime:0.059681s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 1   [ RunTime:0.010476s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('29') ) LIMIT 1   [ RunTime:0.001696s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('29') ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('30') ) LIMIT 1   [ RunTime:0.000383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('30') ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('31') ) LIMIT 1   [ RunTime:0.003691s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('31') ) LIMIT 1   [ RunTime:0.000548s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('32') ) LIMIT 1   [ RunTime:0.003241s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('32') ) LIMIT 1   [ RunTime:0.000529s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) LIMIT 1   [ RunTime:0.035269s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) LIMIT 1   [ RunTime:0.012906s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('33','34','35','36','37','38','39') ) LIMIT 1   [ RunTime:0.022864s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('33','34','35','36','37','38','39') ) LIMIT 1   [ RunTime:0.001050s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('34') ) LIMIT 1   [ RunTime:0.001057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('34') ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('35') ) LIMIT 1   [ RunTime:0.005333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('35') ) LIMIT 1   [ RunTime:0.000718s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('36') ) LIMIT 1   [ RunTime:0.005663s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('36') ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('37') ) LIMIT 1   [ RunTime:0.002502s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('37') ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('38') ) LIMIT 1   [ RunTime:0.000581s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('38') ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('39') ) LIMIT 1   [ RunTime:0.003018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('39') ) LIMIT 1   [ RunTime:0.000841s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('40') ) LIMIT 1   [ RunTime:0.003386s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('40') ) LIMIT 1   [ RunTime:0.000662s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('41') ) LIMIT 1   [ RunTime:0.002978s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('41') ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('42') ) LIMIT 1   [ RunTime:0.000845s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('42') ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) LIMIT 1   [ RunTime:0.006509s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) LIMIT 1   [ RunTime:0.000519s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('44') ) LIMIT 1   [ RunTime:0.005568s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('44') ) LIMIT 1   [ RunTime:0.000436s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('45') ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('45') ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) LIMIT 1   [ RunTime:0.003752s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('46') ) LIMIT 1   [ RunTime:0.000897s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('46') ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('47') ) LIMIT 1   [ RunTime:0.002272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('47') ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) LIMIT 1   [ RunTime:0.005332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('48') ) LIMIT 1   [ RunTime:0.002322s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('48') ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('49') ) LIMIT 1   [ RunTime:0.003246s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('49') ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('6') ) LIMIT 1   [ RunTime:0.004587s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('6') ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('7') ) LIMIT 1   [ RunTime:0.001074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('7') ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) LIMIT 1   [ RunTime:0.004703s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('50') ) LIMIT 1   [ RunTime:0.001695s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('50') ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('51') ) LIMIT 1   [ RunTime:0.003409s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('51') ) LIMIT 1   [ RunTime:0.000434s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('9') ) LIMIT 1   [ RunTime:0.001625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('9') ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('10') ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('10') ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('11') ) LIMIT 1   [ RunTime:0.001888s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('11') ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('12') ) LIMIT 1   [ RunTime:0.002168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('12') ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT SUM(click) AS tp_sum FROM `my_article` WHERE ( `category_id` IN ('13') ) LIMIT 1   [ RunTime:0.002114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('13') ) LIMIT 1   [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2014-11-07T20:15:44+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2277.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008726s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.019041s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2277 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.011285s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2277 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2277 ) [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 5 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 61 行.
+NOTIC: [8] Undefined index: create_time D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 62 行.
+NOTIC: [8] Undefined index: click D:\wamp\www\gold\Application\Runtime\Cache\Home\140e7ce7f360770d10df6638e86bbc1f.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2014-11-07T20:15:47+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.010670s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000429s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.006299s ]
+SQL: SELECT * FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.037277s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='1' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.001163s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='2' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.001471s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='3' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000277s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='4' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.001302s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='5' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000246s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='6' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.004672s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='7' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.001275s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='8' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000244s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='9' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.001620s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='10' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.000356s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='11' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.001599s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='12' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.002895s ]
+SQL: SELECT `id`,`title` FROM `my_article` WHERE ( 1=1 AND category_id='13' ) ORDER BY sort asc,id desc LIMIT 5   [ RunTime:0.002956s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2014-11-07T20:37:44+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.035583s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000450s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000351s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010323s ]
+SQL: SELECT * FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.017183s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000496s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000293s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000251s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000268s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000313s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000322s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000310s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2014-11-07T20:37:46+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009134s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000440s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000322s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007213s ]
+SQL: SELECT * FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.024207s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000463s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000423s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000278s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2014-11-07T20:38:16+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009441s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000442s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.013446s ]
+SQL: SELECT * FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008782s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000748s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000283s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000450s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000358s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000284s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000276s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2014-11-07T20:39:17+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.015749s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000618s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000405s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.017206s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005196s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000441s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000211s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2014-11-07T20:40:29+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.013662s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000439s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000322s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.022906s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.004968s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000668s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000519s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN (null) ) LIMIT 5   [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2014-11-07T20:41:21+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.010608s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000405s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.012430s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.004920s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000475s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 5   [ RunTime:0.000478s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) LIMIT 5   [ RunTime:0.000425s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) LIMIT 5   [ RunTime:0.000512s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) LIMIT 5   [ RunTime:0.000826s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) LIMIT 5   [ RunTime:0.000590s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('6') ) LIMIT 5   [ RunTime:0.000575s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('7') ) LIMIT 5   [ RunTime:0.000587s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) LIMIT 5   [ RunTime:0.000675s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('9') ) LIMIT 5   [ RunTime:0.000767s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('10') ) LIMIT 5   [ RunTime:0.000561s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('11') ) LIMIT 5   [ RunTime:0.000585s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('12') ) LIMIT 5   [ RunTime:0.000724s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('13') ) LIMIT 5   [ RunTime:0.000509s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2014-11-07T20:41:40+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.021452s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000801s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000673s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.019489s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008564s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000499s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 5   [ RunTime:0.000469s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) LIMIT 5   [ RunTime:0.010540s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) LIMIT 5   [ RunTime:0.000436s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) LIMIT 5   [ RunTime:0.000351s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) LIMIT 5   [ RunTime:0.000428s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('6') ) LIMIT 5   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('7') ) LIMIT 5   [ RunTime:0.000302s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) LIMIT 5   [ RunTime:0.000380s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('9') ) LIMIT 5   [ RunTime:0.000561s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('10') ) LIMIT 5   [ RunTime:0.000306s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('11') ) LIMIT 5   [ RunTime:0.000284s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('12') ) LIMIT 5   [ RunTime:0.000300s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('13') ) LIMIT 5   [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2014-11-07T20:41:41+08:00 ] ::1 /gold/index.php/Home/Index/article/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009584s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.014863s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000372s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008045s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.004836s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 28 ) [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2014-11-07T20:41:53+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2444.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.010946s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009140s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2444 ) LIMIT 1   [ RunTime:0.000579s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 48 ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 48 ) ORDER BY `sort` asc  [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007239s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2444 ) LIMIT 1   [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005438s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='48' ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2444 ) [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2014-11-07T20:42:17+08:00 ] ::1 /gold/index.php/Home/Index/article/id/2447.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.010378s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010575s ]
+SQL: SELECT `Category_id` FROM `my_article` WHERE ( `id` = 2447 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 48 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 48 ) ORDER BY `sort` asc  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.005858s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 2447 ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.004434s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='48' ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: UPDATE `my_article` SET `click`=click+1 WHERE ( `id` = 2447 ) [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2014-11-07T20:42:38+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.011109s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 15   [ RunTime:0.000445s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007339s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.004629s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000455s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 5   [ RunTime:0.000393s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) LIMIT 5   [ RunTime:0.000310s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) LIMIT 5   [ RunTime:0.000297s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) LIMIT 5   [ RunTime:0.000356s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) LIMIT 5   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('6') ) LIMIT 5   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('7') ) LIMIT 5   [ RunTime:0.000280s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) LIMIT 5   [ RunTime:0.000296s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('9') ) LIMIT 5   [ RunTime:0.000495s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('10') ) LIMIT 5   [ RunTime:0.000275s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('11') ) LIMIT 5   [ RunTime:0.000273s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('12') ) LIMIT 5   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('13') ) LIMIT 5   [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+

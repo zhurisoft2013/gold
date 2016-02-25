@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title><block name="title">系统后台管理</block></title>
+	<!-- Favicons --> 
+	<link rel="shortcut icon" type="image/png" HREF="__PUBLIC__/img/favicons/favicon.png"/>
+	<link rel="icon" type="image/png" HREF="__PUBLIC__/img/favicons/favicon.png"/>
+	<link rel="apple-touch-icon" HREF="__PUBLIC__/img/favicons/apple.png" />
+	<!-- Main Stylesheet --> 
+	<css href="__PUBLIC__/css/style.css" />
+
+	<!-- Your Custom Stylesheet --> 
+	<block name="css">
+
+	</block>
+	<!-- jQuery with plugins -->
+	<js href="__PUBLIC__/js/jquery-1.11.0.min.js" />
+	<js href="__PUBLIC__/js/jquery.validate.min.js" />
+	<js href="__PUBLIC__/js/messages_zh.js" />
+	<js href="__PUBLIC__/js/gotop.js" />
+	<js href="__PUBLIC__/js/layer/layer.min.js" />
+	<script>
+	$(function(){
+/*		var pwd_url="{:U('Admin/User/changePWD')}";
+		$('#change_pwd').click(function(){
+			$.layer({
+				type : 2,
+
+				title : ['修改密码',true],
+				iframe : {src : pwd_url},
+				area : ['500px' , '260px'],
+				offset : ['150px', ''],
+				close : function(index){
+					// layer.msg('您获得了子窗口标记：' + layer.getChildFrame('#name', index).val(),3,1);
+					// layer.close(index);
+				}
+			});
+		
+
+		});*/
+	})
+	</script>
+	<block name="js"></block>	
+	
+	<!-- Internet Explorer Fixes --> 
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/css/ie.css"/>
+	<script src="__PUBLIC__/js/html5.js"></script>
+	<![endif]-->
+	<!--Upgrade MSIE5.5-7 to be compatible with MSIE8: http://ie7-js.googlecode.com/svn/version/2.1(beta3)/IE8.js -->
+	<!--[if lt IE 8]>
+	<script src="__PUBLIC__/js/IE8.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+
+
+
+
+			<section class="content">
+				<block name="content"></block>
+			</section>
+
+
+
+
+
+	<!-- Scroll to top link -->
+	<a href="#" id="totop"> </a>
+</body>
+
+</html>

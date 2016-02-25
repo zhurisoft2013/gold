@@ -1,0 +1,6 @@
+[ 2014-05-17T16:46:59+08:00 ] ::1 /library/index.php/Admin/Login/Admin/Login/index
+ERR: 非法操作:Admin
+
+[ 2014-05-17T16:52:53+08:00 ] ::1 /library/index.php/Admin/Login/check.html
+ERR: 错误的查询条件:[name=>admin]
+

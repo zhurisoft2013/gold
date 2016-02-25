@@ -1,0 +1,63 @@
+<extend name="Tmpl:base" />
+<block name="title">用户密码修改</block>
+<block name="js">
+<script>
+$(function(){
+	$('#send-btn').click(function(){
+		var p=$('input[name=password]').val();
+		var rp=$('input[name=repassword]').val();
+		if (p!=rp) {
+			alert('密码和确认密码不一致！');
+			return false;
+		}else{
+			frmPWD.submit();
+		}
+	})
+	
+})
+</script>
+</block>
+<block name="content">
+	<div class="FormWrap">
+		<h3>用户密码修改</h3>
+		<div class="division">
+			<form action="{:U('Admin/User/updPWD')}" method="post" id="frmEditUser" name="frmPWD">
+				<table class="liststyle data" width="100%">
+					<tbody>
+						<tr>
+							<th>登录名</th>
+							<td>
+								<strong> {$user.username}</strong>
+								<input type="hidden" name="id" value="{$user.id}" />
+							</td>
+						</tr>
+						<tr>
+							<th>昵称</th>
+							<td>
+								{$user.nickname}
+							</td>
+						</tr>
+						<tr>
+							<th>密码</th>
+							<td>
+								<input type="password" name="password" class="half" />
+							</td>
+						</tr>						
+						<tr>
+							<th>确认密码</th>
+							<td>
+								<input type="password" name="repassword" class="half" />
+							</td>
+						</tr>	
+
+						<tr>
+							<td colspan="2" class="ta-center">
+								<input type="button" value="保存添加" id="send-btn" />
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+	</div>
+</block>

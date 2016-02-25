@@ -1,0 +1,9 @@
+[ 2014-05-22T08:23:29+08:00 ] ::1 /library/index.php/home/
+ERR: Think\Model:fields方法不存在！
+
+[ 2014-05-22T09:50:17+08:00 ] ::1 /library/index.php/home//id/2
+ERR: 无法加载控制器:Id
+
+[ 2014-05-22T09:52:04+08:00 ] ::1 /library/index.php/home/index/bookShow/id/2
+ERR: Think\Model:relation方法不存在！
+

@@ -1,0 +1,66 @@
+<extend name="Tmpl:base" />
+<block name="title">附件详细信息</block>
+<block name="content">
+<div class="FormWrap">
+     <h3>附件基本信息</h3>
+    <div class="division">
+        <table width="100%" class="liststyle data forform">
+          <tbody><tr>
+            <th>id</th>
+            <td>{$attach.id}</td>
+          </tr>
+          <tr>
+            <th>模块</th>
+            <td>{$attach.module}</td>
+          </tr>
+          <tr>
+            <th>控制器</th>
+            <td>{$attach.controller}</td>
+          </tr>
+          <tr>
+            <th>操作</th>
+            <td>{$attach.action}</td>
+          </tr>
+          <tr>
+            <th>原文件名</th>
+            <td>{$attach.ori_filename}</td>
+          </tr>          
+          <tr>
+            <th>文件名</th>
+            <td>{$attach.filename}</td>
+          </tr>
+          <tr>
+            <th>文件大小</th>
+            <td>{$attach.filesize|byte_format|}</td>
+          </tr>
+          <tr>
+            <th>扩展名</th>
+            <td>{$attach.fileext}</td>
+          </tr>  
+          <tr>
+            <th>用户id</th>
+            <td>{$attach.userid}</td>
+          </tr>
+          <tr>
+            <th>上传时间</th>
+            <td>{$attach.createtime|date="Y-m-d H:i:s",###}</td>
+          </tr>
+           <tr>
+            <th>上传ip</th>
+            <td>{$attach.ip}</td>
+          </tr>
+          <tr>
+            <th>引用数</th>
+            <td>{$attach.cite}</td>
+          </tr>
+
+        </tbody>
+        </table>
+    </div>
+</div>
+<eq name="attach.isimage" value="1">
+    <img src="__ROOT__{$attach.fullfilename}" alert="{$attach.filename}" />
+<else />
+    <a href="__ROOT__{$attach.fullfilename}">{$attach.filename}</a>
+</eq>
+</block>

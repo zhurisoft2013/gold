@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页-模板页</title>
+    <link rel="stylesheet" href="./Public/css/reset.css" />
+    <link rel="stylesheet" href="./Public/css/front.css" />
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <form action="{:U('Home/Index/search')}" method="post" id="frmLogin">
+                <p><input type="text" name="username" placeholder="ID" size="12" maxlength="60" class="txt" />
+                <input type="password" name="password" placeholder="PASSWORD" size="12" maxlength="60" class="txt"  />
+                <input type="submit" value="GO" class="btn">
+                </p>
+            </form>
+        </div>
+        <div class="header">
+            <h1><a href="#">罗图-黄金珠宝数据库</a></h1>
+            <ul>
+                <li><a href="#">黄金</a></li>
+                <li><a href="#">珠宝</a></li>
+                <li><a href="#">销售经营</a></li>
+                <li><a href="#">加工鉴定</a></li>
+                <li><a href="#">珠宝设计</a></li>
+                <li><a href="#">深圳珠宝品牌</a></li>
+                <li><a href="#">黄金期货</a></li>
+                <li><a href="#">黄金行情</a></li>
+                <li><a href="#">专题论文</a></li>                
+                <li><a href="#">潮流新款</a></li>
+                <li><a href="#">相关刊物</a></li>
+                <li><a href="#">市场资讯</a></li>
+                <li><a href="#">首饰佩戴</a></li>
+                <li><a href="#">文化常识</a></li>
+                <li><a href="#">等级评估</a></li>
+            </ul>
+        </div>
+        <div class="sidebar1">
+            <form action="#" method="post" id="frmSearch">
+                <h3>关键字查询</h3>
+                <p><input type="text" name="q" placeholder="输入关键字" size="12" maxlength="60" class="txt" /></p>
+                <p style=""><input type="submit" value="开始查询" class="btn" /></p>
+            </form>
+        </div>
+        <div class="content">
+            <div class="list">
+            <h4>[学院新闻] 内容列表</h4>
+            <ul>
+            <li>[<a href="display_class.asp?id=65">学院新闻</a>]&nbsp;&nbsp;<a href="display_content.asp?id=20140608113024533" title="文明离校倡议书&lt;br /&gt;添加时间：2014-6-8" class="newslist  " target="_blank">文明离校倡议书</a>&nbsp;&nbsp;<span class="Time">2014-6-8</span></li>
+            <li>[<a href="display_class.asp?id=65">学院新闻</a>]&nbsp;&nbsp;<a href="display_content.asp?id=20140512092425112" title="林金官博士兼职教授受聘仪式暨学术报告会在我校举行&lt;br /&gt;添加时间：2014-5-12" class="newslist  " target="_blank">林金官博士兼职教授受聘仪式暨学术报告会在我校举行</a>&nbsp;&nbsp;<span class="Time">2014-5-12</span></li>
+            <li>[<a href="display_class.asp?id=65">学院新闻</a>]&nbsp;&nbsp;<a href="display_content.asp?id=20140505175431661" title="山高水长师恩不忘，德泽绵绵母校情深&lt;br /&gt;添加时间：2014-5-5" class="newslist  " target="_blank">山高水长师恩不忘，德泽绵绵母校情深</a>&nbsp;&nbsp;<span class="Time">2014-5-5</span></li>
+            <li>[<a href="display_class.asp?id=65">学院新闻</a>]&nbsp;&nbsp;<a href="display_content.asp?id=20140429105702544" title="理学院举行2014自制物理教具评比&lt;br /&gt;添加时间：2014-4-29" class="newslist  " target="_blank">理学院举行2014自制物理教具评比</a>&nbsp;&nbsp;<span class="Time">2014-4-29</span></li>
+            <li class="page">共有8页，61条信息，当前第1页&nbsp;&nbsp;&nbsp;&nbsp;<a href="display_class.asp?page=2&amp;lowlevel=False&amp;id=65&amp;pagesize=8">下一页</a>&nbsp;&nbsp;<a href="display_class.asp?page=8&amp;lowlevel=False&amp;id=65&amp;pagesize=8">尾页</a>&nbsp;&nbsp;</li>
+        </ul></div>
+        </div>
+       
+        <div class="footer clearfloat">
+                <h2><a href="#">罗图-黄金珠宝数据库</a></h2>
+                <ul>
+                    <li><a href="#">知识产权声明</a></li>
+                    <li><a href="#">服务承诺</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">客户服务</a></li>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+        </div>
+    </div>
+
+</body>
+</html>

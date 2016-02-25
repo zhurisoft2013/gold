@@ -1,0 +1,44 @@
+<extend name="Tmpl:base" />
+<block name="title">年度统计</block>
+<block name="css">
+	<style>
+		table.stylized th,table.stylized td {
+			line-height:18px;
+			padding:4px 12px;
+		}
+	</style>
+</block>
+<block name="js">
+
+</block>
+<block name="content">
+	<h3 >年度统计列表</h3><hr />
+	<table class="stylized full">
+<!-- 	<table class="liststyle full">
+		<colgroup class="ColColorBlue"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorOrange"></colgroup> -->
+		<thead>
+			<tr>
+				<th>年份</th>
+				<th>点击数</th>
+				<th>操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="list" id="vo">
+				<tr>
+					<td>{$vo.stat_year}</td>
+					<td>{$vo.all_click}</td>
+					<td>
+						<a href="{:U('Admin/Stat/month',array('year'=>$vo['stat_year']))}" class="abtn" title="查看月统计"><em class="btn-icon icon-list-alt"></em>查看月统计</a>
+					</td>					
+				</tr>
+			</volist>
+
+		</tbody>
+	</table>	
+</block>

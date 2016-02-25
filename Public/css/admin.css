@@ -1,0 +1,281 @@
+	.container{
+		background: #3d3d3d;
+	}
+	.top{
+		background:  #252525;
+		/*border-bottom: 2px solid #606060;*/
+		height: 49px;
+		line-height: 49px;
+		min-width: 1000px;
+		padding: 0 5px;
+		position: relative;
+		top:0px;left: 0px;
+		z-index: 99999;
+		/*width:100%;*/
+		margin: 0 auto;
+/*		position:fixed;
+		width:100%;*/
+	}
+	.logo{
+		display: inline;
+		float: left;
+		height: 36px;
+		margin-top: 6px;
+		width: 280px;
+		background: url('../images/logo.png') no-repeat 0 0;
+	}
+	 .navs {
+		float: left;
+		height: 45px;
+		padding: 0 0 3px 25px;
+	}
+	.navs a{
+		
+		color:#d8d8d8;
+		display: inline-block;
+		height: 49px;
+		line-height: 48px;
+		text-align: center;
+		width: 90px;
+		float:left;
+		text-decoration: none;
+		font-size: 18px;
+		font-family: 微软雅黑;
+		border-right: 2px solid #2A2B2D;
+	}
+	.navs a.current{
+		font-weight: bold;
+		color: #FFFFFF !important;
+	}
+	.navs a:hover{
+		font-weight: bold;
+		background-color: #0F0F0F;
+	}
+	.topfrm{
+		float: right;	
+		text-align: right;
+	}
+
+	.info{
+		float: right;
+		height: 36px;
+		margin-top: 0px;
+		text-align: right;
+		list-style: none outside none;
+	}
+	.info li{
+		border-right: 1px solid #393939;
+		color: #D8D8D8;
+		display: inline-block;
+		font: 12px/16px "SimSun";
+		height: 16px;
+		margin: 10px 0;
+		padding: 0 10px;
+		vertical-align: middle;
+	}
+	.info li a{
+		color:#d8d8d8;
+		text-decoration: none;
+	}
+	.info li a:hover{
+		color:#fff;
+		text-decoration: underline;
+	}
+
+	.main{
+		box-shadow: 1px 1px 3px #000000;
+		padding-top: 1px;
+		position: relative;
+		/*border: 2px solid blue;*/
+	}
+	.sidebar1{
+		color: #FFFFFF;
+		left: 0;
+		min-height: 300px;
+		position: absolute;
+		top: 0;
+		width: 143px;
+		float: left;
+		/*position: fixed;*/
+	}
+
+	.sidebar1 ul.nav{
+		padding: 23px 0 10px;
+		list-style: none outside none;
+	}
+	.sidebar1 ul.nav li{
+		border-bottom:1px solid #4d4d4d;
+	}
+	.sidebar1 ul.nav li a{
+		cursor: pointer;
+		display: block;
+		height: 34px;
+		line-height: 34px;
+		padding-left: 44px;
+		position: relative;
+		color:#aaa;
+		text-decoration: none;
+
+	}
+	.sidebar1 ul.nav li a:hover{
+		background: #4d4d4d;
+	}
+	.sidebar1 ul.nav li a .icon{
+		display: block;
+		height: 20px;
+		left: 15px;
+		position: absolute;
+		top: 10px;
+		width: 20px;
+	}
+	.sidebar1  ul.nav li a .i-share{
+		background: url('../images/share.png') no-repeat 0 0;
+	}
+	.sidebar1 dl.menu{
+		border-top: 1px solid #393939;
+		border-bottom: 1px solid #4E4E4E;
+	}
+	.sidebar1 dl.menu dt{
+		border-left: 8px solid #DD4B39;
+		border-bottom:1px solid #DD4B39;
+		color: #DD4B39;
+		font-size: 16px;
+		margin:10px 3px 0px;
+		padding-left: 10px;
+	}
+	.sidebar1 dl.menu dd{
+		/*margin-top: 3px;*/
+		border-bottom: 1px solid #393939;
+		border-top: 1px solid #4E4E4E;
+		/*border-bottom:1px solid #4d4d4d;*/
+		
+	}
+	.sidebar1 dl.menu dd a{
+		color: #aaa;
+		font-size: 14px;
+		display: block;
+		cursor: pointer;
+		text-decoration: none;
+		/*background: url('../images/share.png') no-repeat 2px 6px;*/
+		padding: 5px 0 5px 30px;
+		position:relative;
+	}
+	.menu-icon{
+		background: url("../img/icons-white.png") no-repeat 0 0;
+		display: block;
+		height: 20px;
+		width: 20px;
+		top: 8px;
+		left: 9px;
+		position: absolute;
+		opacity: 0.5;
+	}
+	.sidebar1 dl.menu dd a:hover{
+		background-color: #4d4d4d;
+		color:#fff;
+	}
+	.sidebar1 dl.menu dd a:hover .menu-icon{
+		opacity: 1;
+	}
+
+	.sidebar2{
+		background: url("./images/aside-right-shadow.jpg") repeat-y scroll right top #F0F0F0;
+		border-right: 1px solid #C6C8CC;
+		padding-top: 10px;
+/*		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;*/
+		float:left;
+		width: 209px;
+		z-index: 900;
+	}
+	.sidebar2 dl.menu{
+		/*border-bottom: 1px solid #8C8C8C;*/
+		padding-bottom: 15px;
+	}
+
+	.sidebar2 dl.menu dt{
+		background: url("../images/aside-hover-on.png") repeat-y scroll 0 -33px rgba(0, 0, 0, 0);
+		font-weight: bold;
+		font-size: 16px;
+		height: 31px;
+		line-height: 31px;
+		cursor: pointer;
+		display: block;
+		margin: 0 auto;
+		padding-left: 35px;
+		position: relative;
+		color:#333;
+
+	}
+	.sidebar2 .img-icon{
+		
+		height: 20px;
+		width: 20px;
+		margin: 0;
+		position: absolute;
+		top: 6px;
+		left: 12px;		
+	}
+	.sidebar2 .img-title{
+		background: url('../images/ti.png') no-repeat 0 0;
+	}
+	.sidebar2 .img-item{
+		background: url('../images/ti.png') no-repeat 0 0;
+	}
+	.sidebar2 dl.menu dd{
+		/*margin-top: 3px;*/
+		/*border-bottom:1px solid #4d4d4d;*/
+		/*margin-left: 10px;*/
+		
+	}
+	.sidebar2 dl.menu dd a{
+		position: relative;
+		color: #333333;
+		display: block;
+		font-size: 14px;
+		height: 31px;
+		line-height: 31px;
+		padding: 1px 20px;
+		text-decoration: none;
+		 padding-left: 36px;
+	}
+	.sidebar2 dl.menu dd a:hover {
+		background: url("../images/aside-hover-on.png") repeat-y scroll 0 0px rgba(0, 0, 0, 0);
+	}
+
+	.content{
+		/*background: #f2f2f2;*/
+		background:#fff;
+		min-height: 580px;
+		margin-left: 143px;
+		overflow-y: auto;
+		padding: 18px;
+	}
+	.content2{
+		/*background: #f2f2f2;*/
+		background:#fff;
+		min-height: 580px;
+		margin-left: 210px;
+		overflow-y: auto;
+		padding-left: 18px;
+	}
+
+	.iframe{
+		min-height: 580px;
+		width: 100%;
+	}
+
+	.content h3{
+		position: relative;
+	}
+	.content .frmFind{
+		position: absolute;
+		right: 6px;
+		top:0px;
+		font-size: 12px;
+		font-family: 宋体;
+		font-weight: normal;
+
+	}

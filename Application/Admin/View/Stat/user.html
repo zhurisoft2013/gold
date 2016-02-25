@@ -1,0 +1,48 @@
+<extend name="Tmpl:base" />
+<block name="title">时间统计</block>
+<block name="css">
+	<style>
+		table.stylized th,table.stylized td {
+			line-height:18px;
+			padding:4px 12px;
+		}
+	</style>
+</block>
+<block name="js">
+
+</block>
+<block name="content">
+	<h3 >时间统计列表</h3><hr />
+	<table class="stylized full">
+<!-- 	<table class="liststyle full">
+		<colgroup class="ColColorBlue"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorOrange"></colgroup> -->
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>登录名</th>
+ 				<th>昵称</th>
+				<th>近7天文章数</th>
+				<th>近一月文章数</th>
+				<th>所有文章数</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="list" id="vo">
+				<tr>
+					<td>{$vo.id}</td>
+					<td>{$vo.username}</td>
+					<td>{$vo.nickname}</td>
+					<td>{$vo.all_week_count}</td>
+					<td>{$vo.all_month_count}</td>
+					<td>{$vo.all_count}</td>					
+				</tr>
+			</volist>
+
+		</tbody>
+	</table>	
+</block>

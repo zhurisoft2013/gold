@@ -1,0 +1,1011 @@
+[ 2014-11-15T13:57:06+08:00 ] ::1 /gold/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.254381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.254561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018365s ]
+
+[ 2014-11-15T13:57:07+08:00 ] ::1 /gold/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2014-11-15T13:57:07+08:00 ] ::1 /gold/index.php/Admin/Login/verify/0.29820798699168827
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2014-11-15T13:57:07+08:00 ] ::1 /gold/index.php/Admin/Login/verify/0.1869451078043748
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2014-11-15T14:49:06+08:00 ] ::1 /gold/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005582s ]
+
+[ 2014-11-15T14:49:06+08:00 ] ::1 /gold/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003028s ]
+
+[ 2014-11-15T14:49:06+08:00 ] ::1 /gold/index.php/Admin/Login/verify/0.8533366265801083
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2014-11-15T14:49:07+08:00 ] ::1 /gold/index.php/Admin/Login/verify/0.8428625670322242
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2014-11-15T14:49:19+08:00 ] ::1 /gold/index.php/Admin/Login/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002296s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010756s ]
+SQL: SELECT `id`,`username`,`nickname`,`password`,`role` FROM `my_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.102229s ]
+SQL: UPDATE `my_user` SET `logintime`=1416034159,`loginip`='0.0.0.0' WHERE ( `id` = 1 ) [ RunTime:0.041168s ]
+SQL: SHOW COLUMNS FROM `my_log` [ RunTime:0.010063s ]
+SQL: INSERT INTO `my_log` (`userid`,`username`,`log_time`,`log_ip`,`module`,`controller`,`action`,`event`,`auditing`,`reason`,`remark`) VALUES (1,'admin',1416034159,'0.0.0.0','Admin','Login','check','用户登录','成功','','') [ RunTime:0.007050s ]
+
+[ 2014-11-15T14:49:19+08:00 ] ::1 /gold/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2014-11-15T14:49:23+08:00 ] ::1 /gold/index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002701s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.011289s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003695s ]
+
+[ 2014-11-15T14:49:23+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1416034163817
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+NOTIC: [8] Undefined index: module D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 68 行.
+NOTIC: [8] Undefined index: controller D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 69 行.
+NOTIC: [8] Undefined index: actionname D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2014-11-15T14:52:59+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.010647s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000852s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.031916s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.005985s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.020880s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005909s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000854s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.345844s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:1.605008s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.531599s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.056435s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.358761s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('6') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.178064s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('7') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.031396s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.161373s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('9') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.067037s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('10') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000604s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('11') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.081771s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('12') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.105069s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('13') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.141332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2014-11-15T14:56:28+08:00 ] ::1 /gold/index.php/Home/Index/articleList/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.012099s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000650s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000585s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008437s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005944s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000661s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 1   [ RunTime:0.030182s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) ORDER BY `top` desc,`id` desc LIMIT 0,15   [ RunTime:0.010864s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000505s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000400s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000618s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT `title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2014-11-15T14:56:50+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010901s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top`,`creator`,`remark` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.020764s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008682s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000155s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2014-11-15T14:56:59+08:00 ] ::1 /gold/index.php/Admin/Article/edit/id/8743.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002215s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008657s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008158s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 8743 ) LIMIT 1   [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2014-11-15T14:57:00+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1416034620249
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+NOTIC: [8] Undefined index: module D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 68 行.
+NOTIC: [8] Undefined index: controller D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 69 行.
+NOTIC: [8] Undefined index: actionname D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2014-11-15T14:57:09+08:00 ] ::1 /gold/index.php/Admin/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.012029s ]
+SQL: UPDATE `my_article` SET `title`='鞍山抽检贵金属 3种黄金饰品不合格',`category_id`=29,`top`=1,`sort`=100,`content`='<p style=\"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 2em; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\">7月14日，从省工商局获悉，省工商局委托鞍山市工商局对辖区内贵重金属商品抽检表明，3种黄<a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/huangjin/\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">金饰</span></a>品不合格。</p><p>_x000D_</p><p style=\"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 2em; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\">为切实保障消费者的权益，省工商局委托鞍山市工商局对其辖区内流通领域贵金属类商品进行了质量抽查检验。结果表明，标称北京<a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/brand/daimengde.html\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">戴梦得</span></a>古珀首饰有限公司生产的 18K金项链，品牌名为 I－TALY，标准规定贵金属纯度为含金量≥750‰ ，实测值含金量为749.3‰；标称<a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/brand/qianxi.html\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">千禧之星珠宝</span></a>股份有限公司YH2千足金项链 ，标准规定贵金属纯度为999‰，实测值含金量为997.8‰；标称为<a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/brand/qianxi.html\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">千禧之星</span></a><a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">珠宝</span></a>股份有限公司生产的千禧之星750手链，品名Au750，标准规定贵金属纯度含金量为750‰，实测值为743.3‰。</p><p>_x000D_</p><p style=\"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 2em; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\"><span style=\"DISPLAY: inline! important; FLOAT: none; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 28px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\">省工商部门相关负责人表示，消费者购买黄金饰品时需要注意自己购买的金饰品含金量是否足，千万别被不法商家所忽悠.</span></p>',`create_time`=1416034629 WHERE ( `id` = 8743 ) [ RunTime:0.059274s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::delete() should be compatible with Think\Model::delete($options = Array) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.014738s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.008318s ]
+SQL: SELECT `attachment_id` FROM `my_article_attachment` WHERE ( `article_id` = 1 )  [ RunTime:0.033958s ]
+SQL: SHOW COLUMNS FROM `my_log` [ RunTime:0.010647s ]
+SQL: INSERT INTO `my_log` (`userid`,`username`,`log_time`,`log_ip`,`module`,`controller`,`action`,`event`,`auditing`,`reason`,`remark`) VALUES (1,'admin',1416034629,'0.0.0.0','Admin','Article','update','修改文章','成功','id',1) [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2014-11-15T14:57:09+08:00 ] ::1 /gold/index.php/Admin/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+ERR: 非法访问
+
+[ 2014-11-15T14:57:10+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.012770s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top`,`creator`,`remark` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.018924s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.011056s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000372s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000355s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2014-11-15T14:57:14+08:00 ] ::1 /gold/index.php/Home/Index/articleList/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008327s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000356s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.008337s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.007689s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000606s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 1   [ RunTime:0.000530s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) ORDER BY `top` desc,`id` desc LIMIT 0,15   [ RunTime:0.006331s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000668s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT `title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2014-11-15T14:57:32+08:00 ] ::1 /gold/index.php/Admin/Article/edit/id/8743.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000638s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008971s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007077s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 8743 ) LIMIT 1   [ RunTime:0.000572s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2014-11-15T14:57:33+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1416034653415
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+NOTIC: [8] Undefined index: module D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 68 行.
+NOTIC: [8] Undefined index: controller D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 69 行.
+NOTIC: [8] Undefined index: actionname D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2014-11-15T14:57:36+08:00 ] ::1 /gold/index.php/Admin/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009852s ]
+SQL: UPDATE `my_article` SET `title`='鞍山抽检贵金属 3种黄金饰品不合格',`category_id`=29,`sort`=100,`content`='<p style=\"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 2em; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\">7月14日，从省工商局获悉，省工商局委托鞍山市工商局对辖区内贵重金属商品抽检表明，3种黄<a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/huangjin/\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">金饰</span></a>品不合格。</p><p>_x000D_</p><p style=\"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 2em; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\">为切实保障消费者的权益，省工商局委托鞍山市工商局对其辖区内流通领域贵金属类商品进行了质量抽查检验。结果表明，标称北京<a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/brand/daimengde.html\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">戴梦得</span></a>古珀首饰有限公司生产的 18K金项链，品牌名为 I－TALY，标准规定贵金属纯度为含金量≥750‰ ，实测值含金量为749.3‰；标称<a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/brand/qianxi.html\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">千禧之星珠宝</span></a>股份有限公司YH2千足金项链 ，标准规定贵金属纯度为999‰，实测值含金量为997.8‰；标称为<a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/brand/qianxi.html\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">千禧之星</span></a><a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">珠宝</span></a>股份有限公司生产的千禧之星750手链，品名Au750，标准规定贵金属纯度含金量为750‰，实测值为743.3‰。</p><p>_x000D_</p><p style=\"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 2em; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\"><span style=\"DISPLAY: inline! important; FLOAT: none; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 28px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\">省工商部门相关负责人表示，消费者购买黄金饰品时需要注意自己购买的金饰品含金量是否足，千万别被不法商家所忽悠.</span></p>',`create_time`=1416034656,`top`=0 WHERE ( `id` = 8743 ) [ RunTime:0.000722s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::delete() should be compatible with Think\Model::delete($options = Array) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.010517s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.009279s ]
+SQL: SELECT `attachment_id` FROM `my_article_attachment` WHERE ( `article_id` = 1 )  [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `my_log` [ RunTime:0.008210s ]
+SQL: INSERT INTO `my_log` (`userid`,`username`,`log_time`,`log_ip`,`module`,`controller`,`action`,`event`,`auditing`,`reason`,`remark`) VALUES (1,'admin',1416034656,'0.0.0.0','Admin','Article','update','修改文章','成功','id',1) [ RunTime:0.000424s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001943s ]
+
+[ 2014-11-15T14:57:38+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009675s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top`,`creator`,`remark` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.017161s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.006597s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000359s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000613s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000260s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2014-11-15T14:57:40+08:00 ] ::1 /gold/index.php/Admin/Article/edit/id/8742.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.052285s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.007540s ]
+SQL: SELECT * FROM `my_article` WHERE ( `id` = 8742 ) LIMIT 1   [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001900s ]
+
+[ 2014-11-15T14:57:41+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1416034661575
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+NOTIC: [8] Undefined index: module D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 68 行.
+NOTIC: [8] Undefined index: controller D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 69 行.
+NOTIC: [8] Undefined index: actionname D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2014-11-15T14:57:45+08:00 ] ::1 /gold/index.php/Admin/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.011654s ]
+SQL: UPDATE `my_article` SET `title`='黄金首饰开始热卖 金条销售相对冷清',`category_id`=29,`top`=1,`sort`=100,`content`='<p style=\"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 2em; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\">昨日，采访了市内各大商场、超市，虽然不是周末，却依然看到<a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/huangjin/\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">黄金首饰</span></a>开始热卖。</p><p>_x000D_</p><p style=\"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 2em; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\">其中，广百百货的佳盛<a style=\"COLOR: rgb(55,126,188); TEXT-DECORATION: underline\" href=\"http://zhubao.cngold.org/\" target=\"_blank\"><span style=\"font-family:宋体;font-size:16px\">珠宝</span></a>柜台介绍，适合夏季、秋季佩戴的3D效果的首饰卖得比较好，进入7月以来，每日都能成交二三十件。而东山百货的婚嫁黄金首饰持续热销，花地湾店，周三上午，一位客人一次买了三对龙凤镯，自言用于恭贺亲戚结婚。</p><p>_x000D_</p><p style=\"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 2em; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\">由于部分企业仍在做夏季促销，千足金首饰的价格差被拉大，目前在298~345元/克之间不等，平均价格约为329元/克，较6月底的价格走高了约7元/克，幅度不算大。</p><p>_x000D_</p><p style=\"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 2em; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\">不过，多数商家反映，金条销售相对冷清，由于金价反弹，目前广州市的投资型金条价格也普遍走高到了273元/克以上的位置；熟客仍在等待跌价，不愿意轻易出手。</p><p>_x000D_</p><p style=\"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 30px; WORD-SPACING: 0px; FONT: 14px/30px SimSun; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); TEXT-INDENT: 2em; PADDING-TOP: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); orphans: auto; widows: auto; webkit-text-stroke-width: 0px\">个别超市的小规格产品、银条开始热销，亚洲国际大酒店京鑫超市的20克重金条、1公斤银条卖断了货。</p>',`create_time`=1416034665 WHERE ( `id` = 8742 ) [ RunTime:0.000558s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::delete() should be compatible with Think\Model::delete($options = Array) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.009823s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.006398s ]
+SQL: SELECT `attachment_id` FROM `my_article_attachment` WHERE ( `article_id` = 1 )  [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `my_log` [ RunTime:0.081645s ]
+SQL: INSERT INTO `my_log` (`userid`,`username`,`log_time`,`log_ip`,`module`,`controller`,`action`,`event`,`auditing`,`reason`,`remark`) VALUES (1,'admin',1416034665,'0.0.0.0','Admin','Article','update','修改文章','成功','id',1) [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2014-11-15T14:57:46+08:00 ] ::1 /gold/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.009351s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT `id`,`title`,`create_time`,`del`,`click`,`category_id`,`sort`,`top`,`creator`,`remark` FROM `my_article` ORDER BY `top` desc,`id` desc LIMIT 0,10   [ RunTime:0.024914s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.008243s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000866s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000307s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2014-11-15T14:57:54+08:00 ] ::1 /gold/index.php/Home/Index/articleList/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.009144s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000356s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.012573s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.004896s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000424s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 1   [ RunTime:0.000504s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) ORDER BY `top` desc,`id` desc LIMIT 0,15   [ RunTime:0.007755s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000612s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000155s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT `title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2014-11-15T14:58:12+08:00 ] ::1 /gold/index.php/Home/Index/articleList/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.109269s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000830s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000423s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.006519s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.007094s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000841s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) LIMIT 1   [ RunTime:0.000699s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given D:\wamp\www\gold\Application\Home\Controller\IndexController.class.php 第 64 行.
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) ORDER BY `top` desc,`id` desc LIMIT 0,15   [ RunTime:0.009976s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000444s ]
+SQL: SELECT `id`,`title` FROM `my_category` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000515s ]
+SQL: SELECT `title` FROM `my_category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2014-11-15T15:00:54+08:00 ] ::1 /gold/index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.072929s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2014-11-15T15:00:55+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1416034855401
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+NOTIC: [8] Undefined index: module D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 68 行.
+NOTIC: [8] Undefined index: controller D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 69 行.
+NOTIC: [8] Undefined index: actionname D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2014-11-15T15:05:31+08:00 ] ::1 /gold/index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.188177s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.172992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2014-11-15T15:05:32+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1416035132006
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+NOTIC: [8] Undefined index: module D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 68 行.
+NOTIC: [8] Undefined index: controller D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 69 行.
+NOTIC: [8] Undefined index: actionname D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2014-11-15T15:07:05+08:00 ] ::1 /gold/index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.010510s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000596s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\gold\Application\Runtime\Cache\Admin\62d378f935dc17ff5e91ec9a5d9fcf6c.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2014-11-15T15:07:06+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1416035226429
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+NOTIC: [8] Undefined index: module D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 68 行.
+NOTIC: [8] Undefined index: controller D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 69 行.
+NOTIC: [8] Undefined index: actionname D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2014-11-15T15:07:51+08:00 ] ::1 /gold/index.php/Admin/Article/addHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.054715s ]
+SQL: INSERT INTO `my_article` (`title`,`category_id`,`sort`,`content`,`create_time`,`creator`) VALUES ('测试cookie',36,100,'<p>测试<br/></p>',1416035270,1) [ RunTime:0.000385s ]
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+NOTIC: [2048] Declaration of Common\Model\AttachmentRelationModel::delete() should be compatible with Think\Model::delete($options = Array) D:\wamp\www\gold\Application\Common\Model\AttachmentRelationModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.031160s ]
+SQL: SHOW COLUMNS FROM `my_article_attachment` [ RunTime:0.010136s ]
+SQL: SHOW COLUMNS FROM `my_log` [ RunTime:0.011164s ]
+SQL: INSERT INTO `my_log` (`userid`,`username`,`log_time`,`log_ip`,`module`,`controller`,`action`,`event`,`auditing`,`reason`,`remark`) VALUES (1,'admin',1416035270,'0.0.0.0','Admin','Article','addHandle','添加文章','成功','id',8744) [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2014-11-15T15:07:52+08:00 ] ::1 /gold/index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.015522s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2014-11-15T15:07:53+08:00 ] ::1 /gold/index.php/Admin/Ueditor/Index.html?action=config&&noCache=1416035273765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+NOTIC: [8] Undefined index: module D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 68 行.
+NOTIC: [8] Undefined index: controller D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 69 行.
+NOTIC: [8] Undefined index: actionname D:\wamp\www\gold\Application\Admin\Controller\UeditorController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+

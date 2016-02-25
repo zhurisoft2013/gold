@@ -1,0 +1,14 @@
+<extend name="Tmpl:base" />
+<block name="content">
+    <div class="content">
+        <div class="list">
+            <h4>[ {$category_name} ] 文章列表</h4>
+            <ul>
+                <volist name="article_list" id="vo">
+                <li><a href="{:U('Home/Index/article',array('id'=>$vo['id']))}" title="{$vo.title}" class="newslist" target="_blank"><eq name="vo['top']" value="1">[推荐] </eq>{$vo.title}</a>&nbsp;&nbsp;<span class="Time">{$vo.create_time|date="Y-m-d",###}</span></li>
+                </volist>
+            </ul>
+            <div class="manu">{$pageinfo}</div>
+        </div>
+    </div>
+</block>

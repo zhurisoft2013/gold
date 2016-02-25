@@ -1,0 +1,64 @@
+<extend name="Tmpl:no" />
+<block name="js">
+	<script>
+	$(function(){
+		var url="{:U('Admin/User/savePWD')}";
+		var index = parent.layer.getFrameIndex(window.name);
+
+		
+		$('#save').click(function(){
+			var orgpwd=$('#frmChangePWD input[name=orgpwd]').val();
+			var newpwd=$('#frmChangePWD input[name=newpwd]').val();
+			var repwd=$('#frmChangePWD input[name=repwd]').val();
+			// alert(orgpwd+newpwd+repwd);
+			if (newpwd!=repwd) {
+				alert('密码与确认密码不一致！')
+				$('#frmChangePWD input[name=newpwd]').focus();
+				return false;
+			};
+			$.post(url,{orgpwd:orgpwd,newpwd:newpwd,repwd:repwd},function(data){
+				if (data.status==1) {
+					alert('密码修改成功');
+					parent.layer.close(index);
+
+				}else{
+					alert(data.info);
+				}
+			})
+		})
+	})
+	</script>
+</block>
+<block name="title">修改密码</block>
+<block name="content">
+	<div class="FormWrap">
+			<form action="" method="post" id="frmChangePWD">
+				<table class="liststyle data" width="100%">
+					<tr>
+						<th>原密码</th>
+						<td>
+							<input type="password" name="orgpwd" />
+						</td>
+					</tr>
+					<tr>
+						<th>新密码</th>
+						<td>
+							<input type="password" name="newpwd" />
+						</td>
+					</tr>
+					<tr>
+						<th>确认密码</th>
+						<td>
+							<input type="password" name="repwd" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="ta-center">
+							<input type="button" value="保存" id="save" class="btn btn-blue" />
+						</td>
+					</tr>
+				</table>
+			</form>
+
+	</div>
+</block>

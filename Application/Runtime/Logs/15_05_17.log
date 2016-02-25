@@ -1,0 +1,30 @@
+[ 2015-05-17T06:09:12+08:00 ] ::1 /gold/index.php/Admin/Stat/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020097s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.040112s ]
+SQL: SELECT `id`,`username`,`nickname` FROM `my_user`  [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.010584s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) LIMIT 1   [ RunTime:0.166086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) AND ( `create_time` > 1431209352 ) LIMIT 1   [ RunTime:0.003400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 1 ) AND ( `create_time` > 1429222152 ) LIMIT 1   [ RunTime:0.003881s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) LIMIT 1   [ RunTime:0.004060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) AND ( `create_time` > 1431209352 ) LIMIT 1   [ RunTime:0.003440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE ( `creator` = 2 ) AND ( `create_time` > 1429222152 ) LIMIT 1   [ RunTime:0.005473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.281447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.281697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014968s ]
+

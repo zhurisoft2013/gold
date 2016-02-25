@@ -1,0 +1,140 @@
+[ 2015-05-30T22:47:51+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011657s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.142604s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000465s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.317962s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.020000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000685s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.086708s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.003790s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000365s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.002267s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000386s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('6') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.003415s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('7') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000431s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.003182s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('9') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.016570s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('10') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000575s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('11') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000370s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('12') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000301s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('13') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.297143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.297392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015886s ]
+
+[ 2015-05-30T22:47:58+08:00 ] ::1 /gold/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2015-05-30T22:48:02+08:00 ] ::1 /gold/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.023430s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined variable: pageinfo D:\wamp\www\gold\Application\Runtime\Cache\Admin\d2404f9283eadf7d60cdded7b6b55c15.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2015-05-30T22:48:19+08:00 ] ::1 /gold/index.php/Admin/Category/edit/id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.017357s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.008140s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.005783s ]
+SQL: SELECT * FROM `my_category` WHERE ( `id` = 29 ) LIMIT 1   [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000671s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2015-05-30T23:00:35+08:00 ] ::1 /gold/index.php/Admin/Category/add/pid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.016222s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004015s ]
+

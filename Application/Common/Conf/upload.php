@@ -1,0 +1,1 @@
+<?php	return array ( 'UPLOAD_ROOT_PATH' => './Public/uploads/', 'UPLOAD_SAVE_PATH' => '', 'THUMB' => '1', 'WATER' => '1', 'WATER_TEXT' => '罗湖区图书馆', 'WATER_IMAGE' => '', 'WATER_POSITION' => '9', );?>

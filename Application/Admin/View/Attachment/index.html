@@ -1,0 +1,173 @@
+<extend name="Tmpl:base" />
+<block name="title">上传附件列表</block>
+<block name="js">
+	<js href="__PUBLIC__/js/table.js" />
+</block>
+<block name="content">
+	<h3>附件列表</h3><hr />
+	<table class="stylized full">
+<!-- 	<table class="liststyle full">
+		<colgroup class="ColColorBlue"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorOrange"></colgroup> -->
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>模块</th>
+				<th>控制器</th>
+				<th>文件名</th>
+				<th>大小</th>
+				<th>扩展名</th>
+				<th>用户</th>
+				<th>时间</th>
+				<th>IP</th>
+				<th>引用</th>
+				<th>操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="list" id="vo">
+				<tr>
+					<td <gt name="vo.cite" value="0">class="title"</gt>>
+						<gt name="vo.cite" value="0">
+						<div>
+							<a href="#"><b>{$vo.id}</b></a>
+							<div class="listingDetails">
+								<div class="pad">
+									<b>引用该附件的文章</b>
+									<ul>
+									<volist name="vo.Article" id="v">
+										<li>{$v.id}）<a href="{:U('Home/Index/article',array('id'=>$v['id']))}" target="_blank">{$v.title}</a></li>
+									</volist>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<else />
+							{$vo.aid}
+						</gt>
+					</td>
+					<td>{$vo.module}</td>
+					<td>{$vo.controller}</td>
+					<td>{$vo.filename|basename}</td>
+					<td>{$vo.filesize|byte_format}</td>
+					<td>{$vo.fileext}</td>
+					<td>{$vo.userid}</td>
+					<td>{$vo.createtime|date='Y-m-d h:i:s',###}</td>
+					<td>{$vo.ip}</td>
+					<td>{$vo.cite}</td>
+					<td>
+						<a href="{:U('Admin/Attachment/detail',array('id'=>$vo['id']))}" target="_blank" class="abtn"><em class="btn-icon icon-eye-open"></em>查看</a>&nbsp;<a href="{:U('Admin/Attachment/delete',array('aid'=>$vo['id']))}" class="abtn"><em class="btn-icon icon-trash"></em>删除</a></td>
+					</td>
+				</tr>
+			</volist>
+			<tr>
+				<td colspan="10"><div class="manu">{$pageinfo}</div></td>
+			</tr>
+		</tbody>
+	</table>
+
+</block>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>附件列表</title>
+	<meta name="description" content="附件列表" />
+	<meta name="keywords" content="附件列表" />
+	<!-- Main Stylesheet --> 
+	<link rel="stylesheet" href="__PUBLIC__/css/style.css" type="text/css" />
+	<!-- Your Custom Stylesheet --> 
+	<link rel="stylesheet" href="__PUBLIC__/css/custom.css" type="text/css" />
+
+	<!-- jQuery with plugins -->
+	<script type="text/javascript" SRC="__PUBLIC__/js/jquery-1.8.3.min.js"></script>
+	<script src="__PUBLIC__/js/jquery.validate.min.js"></script>
+	<script src="__PUBLIC__/js/messages_zh.js"></script>
+	<js href="__PUBLIC__/js/table.js" />
+
+	<!-- Internet Explorer Fixes --> 
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/css/ie.css"/>
+	<script src="__PUBLIC__/js/html5.js"></script>
+	<![endif]-->
+	<!--Upgrade MSIE5.5-7 to be compatible with MSIE8: http://ie7-js.googlecode.com/svn/version/2.1(beta3)/IE8.js -->
+	<!--[if lt IE 8]>
+	<script src="__PUBLIC__/js/IE8.js"></script>
+	<![endif]-->
+	<style>
+
+	</style>
+
+</head>
+<body>
+	<h3>附件列表</h3><hr />
+	<table class="stylized full">
+<!-- 	<table class="liststyle full">
+		<colgroup class="ColColorBlue"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorOrange"></colgroup> -->
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>模块</th>
+				<th>文件名</th>
+				<th>大小</th>
+				<th>扩展名</th>
+				<th>用户</th>
+				<th>时间</th>
+				<th>IP</th>
+				<th>引用</th>
+				<th>操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="list" id="vo">
+				<tr>
+					<td <gt name="vo.cite" value="0">class="title"</gt>>
+						<gt name="vo.cite" value="0">
+						<div>
+							<a href="#"><b>{$vo.aid}</b></a>
+							<div class="listingDetails">
+								<div class="pad">
+									<b>引用该附件的文章</b>
+									<ul>
+									<volist name="vo.Blog" id="v">
+										<li>{$v.id}）{$v.title}</li>
+									</volist>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<else />
+							{$vo.aid}
+						</gt>
+					</td>
+					<td>{$vo.module}</td>
+					<td>{$vo.filename|basename}</td>
+					<td>{$vo.filesize}</td>
+					<td>{$vo.fileext}</td>
+					<td>{$vo.username}</td>
+					<td>{$vo.createtime|date='Y-m-d h:i:s',###}</td>
+					<td>{$vo.uploadip}</td>
+					<td>{$vo.cite}</td>
+					<td>
+						<a href="__ROOT__/{$vo.fullfilename}" target="_blank" class="abtn"><em class="btn-icon icon-eye-open"></em>查看</a>&nbsp;<a href="{:U('Admin/Attachment/delete',array('id'=>$vo['aid']))}" class="abtn"><em class="btn-icon icon-trash"></em>删除</a></td>
+					</td>
+				</tr>
+			</volist>
+			<tr>
+				<td colspan="10"><div class="manu">{$pageinfo}</div></td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+
+</html>

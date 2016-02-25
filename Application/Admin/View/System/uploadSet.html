@@ -1,0 +1,114 @@
+<extend name="Tmpl:base" />
+<block name="title">上传设置</block>
+<block name="content">
+	
+	<div class="FormWrap">
+		<h3>上传设置</h3>
+		<div class="division">
+		<form action="{:U('Admin/System/saveUploadSet')}" method="post">
+			<table class="liststyle data" width="100%">
+				<tbody>
+					<tr>
+						<th>上传根路径(RootPath)</th>
+						<td>
+							<input type="text" name="UPLOAD_ROOT_PATH" class="half" value="{$Think.config.UPLOAD_ROOT_PATH}" />
+						</td>
+					</tr>
+					<tr>
+						<th>上传子路径(SavePath)</th>
+						<td>
+							<input type="text" name="UPLOAD_SAVE_PATH" class="half" value="{$Think.config.UPLOAD_SAVE_PATH}" />
+						</td>
+					</tr>
+					<tr>
+						<th>缩略图方式</th>
+						<td>
+							<label for="NOTHUMB">
+								<input type="radio" name="THUMB" id="NOTHUMB" value="0" <eq name="Think.config.THUMB" value="0">checked="checked"</eq> />
+								无缩略图
+							</label>
+							<label for="SCALE">
+								<input type="radio" name="THUMB" id="SCALE" value="1"  <eq name="Think.config.THUMB" value="1">checked="checked"</eq> />
+								等比例缩放
+							</label>
+							<label for="FILLED">
+								<input type="radio" name="THUMB" id="FILLED" value="2" <eq name="Think.config.THUMB" value="2">checked="checked"</eq> />
+								缩放后填充
+							</label>
+							<label for="CENTER">
+								<input type="radio" name="THUMB" id="CENTER" value="3" <eq name="Think.config.THUMB" value="3">checked="checked"</eq> />
+								居中裁剪
+							</label>
+							<label for="NORTHWEST">
+								<input type="radio" name="THUMB" id="NORTHWEST" value="4" <eq name="Think.config.THUMB" value="4">checked="checked"</eq> />
+								左上角裁剪
+							</label>
+							<label for="SOUTHEAST">
+								<input type="radio" name="THUMB" id="SOUTHEAST" value="5" <eq name="Think.config.THUMB" value="5">checked="checked"</eq> />
+								右上角裁剪
+							</label>
+							<label for="FIXED">
+								<input type="radio" name="THUMB" id="FIXED" value="6" <eq name="Think.config.THUMB" value="6">checked="checked"</eq> />
+								固定尺寸缩放
+							</label>
+
+						</td>
+					</tr>
+					<tr>
+						<th>水印</th>
+						<td>
+							<label for="WATER">
+								<input type="radio" name="WATER" id="WATER" value="0" <eq name="Think.config.WATER" value="0">checked="checked"</eq> />无水印 <br />
+							</label>
+							<label for="waterText">
+								<input type="radio" name="WATER" id="waterText" value="1"  <eq name="Think.config.WATER" value="1">checked="checked"</eq>  />水印文字
+							</label><input type="text" name="WATER_TEXT" value="{$Think.config.WATER_TEXT}" /><br />
+							<label for="waterPic">
+								<input type="radio" name="WATER" id="waterPic"  value="2" <eq name="Think.config.WATER" value="2">checked="checked"</eq> />水印图片
+							</label><input type="text" name="WATER_IMAGE" value="{$Think.config.WATER_IMAGE}" /> <br />
+						</td>
+					</tr>
+					<tr>	
+						<th>水印位置</th>
+						<td>
+							<label for="POSITION_NORTHWEST">
+								<input type="radio" name="WATER_POSITION" id="POSITION_NORTHWEST" value="1" <eq name="Think.config.WATER_POSITION" value="1">checked="checked"</eq> />左上角
+							</label>			
+							<label for="POSITION_NORTH">
+								<input type="radio" name="WATER_POSITION" id="POSITION_NORTH" value="2" <eq name="Think.config.WATER_POSITION" value="2">checked="checked"</eq> />上居中
+							</label>
+							<label for="POSITION_NORTHEAST">
+								<input type="radio" name="WATER_POSITION" id="POSITION_NORTHEAST" value="3" <eq name="Think.config.WATER_POSITION" value="3">checked="checked"</eq> />右上角
+							</label>			
+							<label for="POSITION_WEST">
+								<input type="radio" name="WATER_POSITION" id="POSITION_WEST" value="4" <eq name="Think.config.WATER_POSITION" value="4">checked="checked"</eq> />左居中
+							</label> 
+							<label for="POSITION_CENTER">
+								<input type="radio" name="WATER_POSITION" id="POSITION_CENTER" value="5" <eq name="Think.config.WATER_POSITION" value="5">checked="checked"</eq> />居中
+							</label>			
+							<label for="POSITION_EAST">
+								<input type="radio" name="WATER_POSITION" id="POSITION_EAST" value="6" <eq name="Think.config.WATER_POSITION" value="6">checked="checked"</eq> />右居中
+							</label>			
+							<label for="POSITION_SOUTHWEST">
+								<input type="radio" name="WATER_POSITION" id="POSITION_SOUTHWEST" value="7" <eq name="Think.config.WATER_POSITION" value="7">checked="checked"</eq> />左居中
+							</label>
+							<label for="POSITION_SOUTH">
+								<input type="radio" name="WATER_POSITION" id="POSITION_SOUTH" value="8" />下居中
+							</label>
+							<label for="POSITION_SOUTHEAST">
+								<input type="radio" name="WATER_POSITION" id="POSITION_SOUTHEAST" value="9"  <eq name="Think.config.WATER_POSITION" value="9">checked="checked"</eq>  />右下脚
+							</label> 
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="ta-center">
+							<input type="submit" value="保存设置" class="btn btn-black" />
+						</td>
+					</tr>					
+				</tbody>
+
+			</table>
+		</form>
+		</div>
+	</div>
+</block>

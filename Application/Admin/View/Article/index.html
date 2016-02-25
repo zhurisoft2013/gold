@@ -1,0 +1,76 @@
+<extend name="Tmpl:base" />
+<block name="title">文章列表</block>
+<block name="css">
+	<style>
+		table.stylized th,table.stylized td {
+			line-height:18px;
+			padding:4px 12px;
+		}
+	</style>
+</block>
+<block name="js">
+<script>
+	function p_del(){
+		var msg = "您真的确定要删除吗？\n\n请确认！";
+		if (confirm(msg)==true){
+			return true;
+		}else{
+			return false;
+		}
+	}
+</script>
+</block>
+<block name="content">
+	<h3 >文章列表<form action="{:U('Admin/Article/index')}" method="post" class="frmFind">
+		按类别查看：<select name="category_id" id="category" >
+			<option value="0">所有文章</option>
+			<foreach name="category" item="vo">
+
+				<option value="{$vo.id}">{$vo.fullname}</option>
+			</foreach>
+
+		</select>
+		<input type="submit" value="查看">
+	</form></h3><hr />
+	<table class="stylized full">
+<!-- 	<table class="liststyle full">
+		<colgroup class="ColColorBlue"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorGreen"></colgroup>
+		<colgroup class="ColColorOrange"></colgroup> -->
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>标题</th>
+ 				<th>建立时间</th>
+				<th>热度</th>
+				<th>类别</th>
+				<th>排序</th>
+				<th>操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="list" id="vo">
+				<tr>
+					<td>{$vo.id}</td>
+					<td>{$vo.title}</td>
+					<td>{$vo.create_time|date="Y-m-d",###}</td>
+					<td>{$vo.click}</td>
+					<td>{$vo.category}</td>
+					 <td>{$vo.sort}</td>
+					<td>
+						<a href="{:U('Admin/Article/edit',array('id'=>$vo['id']))}" class="abtn"><em class="btn-icon icon-edit"></em>修改文章</a>&nbsp;
+						<a onclick="javascript:return p_del()" href="{:U('Admin/Article/delete',array('id'=>$vo['id']))}" class="abtn"><em class="btn-icon icon-trash"></em>删除文章</a>
+						<a href="{:U('Home/Index/article',array('id'=>$vo['id']))}" class="abtn" target="_blank"><em class="btn-icon  icon-list-alt"></em>查看文章</a>					
+
+					</td>
+				</tr>
+			</volist>
+			<tr>
+				<td colspan="6"><div class="manu">{$pageinfo}</div></td>
+			</tr>
+		</tbody>
+	</table>	
+</block>

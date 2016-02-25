@@ -1,0 +1,68 @@
+[ 2014-05-20T08:33:09+08:00 ] ::1 /library/index.php/Admin/Book/addBaseInfo.html
+ERR: 错误的查询条件:[bid=>9]
+
+[ 2014-05-20T08:41:36+08:00 ] ::1 /library/index.php/Admin/Blog/addContactInfo.html
+ERR: 无法加载控制器:Blog
+
+[ 2014-05-20T08:42:25+08:00 ] ::1 /library/index.php/Admin/Book/addContactInfo.html
+ERR: 非法数据对象！:[qq=>376417318]
+
+[ 2014-05-20T08:45:29+08:00 ] ::1 /library/index.php/Admin/Book/addContactInfo.html
+ERR: 非法数据对象！:[qq=>376417318]
+
+[ 2014-05-20T08:46:03+08:00 ] ::1 /library/index.php/Admin/Book/addContactInfo.html
+ERR: 非法数据对象！:[qq=>376417318]
+
+[ 2014-05-20T10:42:11+08:00 ] ::1 /library/index.php/Admin/Attachment/upload_img.html
+ERR: 无法加载控制器:Attachment
+
+[ 2014-05-20T11:21:56+08:00 ] ::1 /library/index.php/Admin/Attachment/upload_img.html
+ERR: 非法操作:upload_img
+
+[ 2014-05-20T11:23:05+08:00 ] ::1 /library/index.php/Admin/Attachment/cropImg.html
+ERR: 不存在的图像文件
+
+[ 2014-05-20T11:27:20+08:00 ] ::1 /library/index.php/Admin/Attachment/cropImg.html
+ERR: 不存在的图像文件
+
+[ 2014-05-20T11:27:53+08:00 ] ::1 /library/index.php/Admin/Attachment/cropImg.html
+ERR: 不存在的图像文件
+
+[ 2014-05-20T21:55:47+08:00 ] ::1 /library/index.php/Admin/Book/pic
+ERR: 非法操作:pic
+
+[ 2014-05-20T21:57:24+08:00 ] ::1 /library/index.php/Admin/Book/pic
+ERR: 非法操作:pic
+
+[ 2014-05-20T22:09:54+08:00 ] ::1 /library/index.php/Admin/Attachment/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.026102s ]
+SQL: SELECT * FROM `my_attachment` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000822s ]
+NOTIC: [2] unlink(/Public/uploads/Pic/537b621162c6e.jpg): No such file or directory D:\wamp\www\library\Application\Admin\Controller\AttachmentController.class.php 第 577 行.
+SQL: DELETE FROM `my_attachment` WHERE ( `id` = 5 ) [ RunTime:0.023821s ]
+
+[ 2014-05-20T22:31:14+08:00 ] ::1 /library/index.php/Admin/Book/del_pic.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `my_book_attachment` [ RunTime:0.011308s ]
+SQL: SELECT * FROM `my_book_attachment` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000667s ]
+SQL: DELETE FROM `my_book_attachment` WHERE ( `id` = 9 ) [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `my_attachment` [ RunTime:0.139976s ]
+SQL: SELECT * FROM `my_attachment` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: DELETE FROM `my_attachment` WHERE ( `id` = 10 ) [ RunTime:0.000434s ]
+
+[ 2014-05-20T22:55:16+08:00 ] ::1 /library/index.php/Admin/Book/add1.html/pid/11
+ERR: 非法操作:add1.html
+
+[ 2014-05-20T22:56:07+08:00 ] ::1 /library/index.php/Admin/Book/edit_pictitle.html/pid/12
+ERR: 非法操作:edit_pictitle.html
+
+[ 2014-05-20T22:56:51+08:00 ] ::1 /library/index.php/Admin/Book/edit_pictitle.html/pid/13
+ERR: 非法操作:edit_pictitle.html
+
+[ 2014-05-20T22:57:41+08:00 ] ::1 /library/index.php/Admin/Book/edit_pictitle.html/pid/14
+ERR: 非法操作:edit_pictitle.html
+

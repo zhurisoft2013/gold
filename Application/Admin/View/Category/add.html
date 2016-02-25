@@ -1,0 +1,78 @@
+<extend name="Tmpl:base" />
+<block name="title">添加分类</block>
+<block name="js">
+	<script>
+		$(function(){
+			$("#cid").change(function(){
+				if($("#cid").val()!=0){
+					$("#showMenu").attr('checked',false);
+					$("#menu").hide();	
+				}else{
+					// $("#showMenu").attr('checked',true);
+					$("#menu").show();
+				}
+				
+			})
+		})
+	</script>
+</block>
+<block name="content">
+	<div class="FormWrap">
+		<h3>添加分类</h3>
+		<div class="division">
+			<form action="{:U('Admin/Category/addHandle')}" method="post" id="frmAddCategory">
+				<table class="liststyle data" width="100%">
+					<tbody>
+						<tr>
+							<th>父分类</th>
+							<td>
+							<select name="pid" id="cid">
+								<option value="0">顶级分类</option>
+								<foreach name="category" item="vo">
+									<option value="{$vo.id}" 
+									<eq name="pid" value="$vo['id']">
+										selected="selected"
+									</eq>
+									>&nbsp;{$vo.fullname}</option>
+								</foreach>	
+							</select>
+							</td>
+						</tr>
+						<tr>
+							<th>是否显示</th>
+							<td>
+								<label><input type="radio" name="status" value="1" checked="checked" />显示</label>
+								<label><input type="radio" name="status" value="0" />隐藏</label>
+							</td>
+						</tr>
+						<tr>
+							<th>分类名称</th>
+							<td>
+								<input type="text" name="title" />
+
+							</td>
+						</tr>
+						<tr>
+							<th>分类排序</th>
+							<td>
+								<input type="text" name="sort"  value="100" />
+							</td>
+						</tr>
+						<tr id="menu" <neq name="pid" value="0">style="display:none;"</neq><notpresent name="pid">style="display:none;"</notpresent> >
+							<th>是否显示在首页菜单</th>
+							<td>
+								<label><input type="checkbox" name="show_menu" id="show_menu" value="1" >作为首页菜单项</label>
+							</td>
+						</tr>						
+						<tr>
+							<td colspan="2" class="ta-center">
+								<input type="submit" value="保存添加" />
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+	</div>	
+
+</block>

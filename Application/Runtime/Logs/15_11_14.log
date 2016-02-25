@@ -1,0 +1,45 @@
+[ 2015-11-14T17:34:33+08:00 ] ::1 /gold/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.040375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040808s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\gold\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.048933s ]
+SQL: SELECT `id`,`title` FROM `my_category` ORDER BY `sort` asc,`id` asc LIMIT 12   [ RunTime:0.000408s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: cid D:\wamp\www\gold\Application\Home\Controller\CommonController.class.php 第 34 行.
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `my_category` WHERE ( `pid` = null ) ORDER BY `sort` asc  [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.229779s ]
+SQL: SELECT `id`,`pid`,`title` FROM `my_category` WHERE ( `pid` = 0 ) ORDER BY `sort` asc,`id` asc  [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `my_category` [ RunTime:0.004899s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\gold\Application\Class\Category.class.php 第 38 行.
+SQL: SELECT * FROM `my_category` ORDER BY `sort` asc,`id` asc  [ RunTime:0.000653s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('1','29','30','31','32') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.019510s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('2','33','34','35','36','37','38','39','40','41','42') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.003522s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('3','44','45') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000363s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('4','46','47') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.002362s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('5','48','49') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000448s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('6') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.002123s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('7') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000399s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('8','50','51') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.003057s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('9') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.002108s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('10') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000503s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('11') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000335s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('12') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000355s ]
+SQL: SELECT * FROM `my_article` WHERE ( `category_id` IN ('13') ) ORDER BY `top` desc,`create_time` desc LIMIT 5   [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.227388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022633s ]
+

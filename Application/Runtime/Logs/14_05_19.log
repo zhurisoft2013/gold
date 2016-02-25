@@ -1,0 +1,147 @@
+[ 2014-05-19T10:43:23+08:00 ] ::1 /library/index.php/Admin/Book/Add.html
+ERR: Think\Model:fields方法不存在！
+
+[ 2014-05-19T11:11:14+08:00 ] ::1 /library/index.php/Admin/Book/css/kandytabs.css
+ERR: 非法操作:css
+
+[ 2014-05-19T11:11:14+08:00 ] ::1 /library/index.php/Admin/Book/js/kandytabs.pack.js
+ERR: 非法操作:js
+
+[ 2014-05-19T11:11:14+08:00 ] ::1 /library/index.php/Admin/Book/js/kandytabs.pack.js
+ERR: 非法操作:js
+
+[ 2014-05-19T12:40:42+08:00 ] ::1 /library/index.php/Admin/Blog/addHandle.html
+ERR: 无法加载控制器:Blog
+
+[ 2014-05-19T13:52:36+08:00 ] ::1 /library/index.php/Admin/Book/Add2.html
+ERR: 非法操作:Add2
+
+[ 2014-05-19T13:53:20+08:00 ] ::1 /library/index.php/Admin/Book/Add2.html
+ERR: 非法操作:Add2
+
+[ 2014-05-19T13:53:24+08:00 ] ::1 /library/index.php/Admin/Book/Add2.html
+ERR: 非法操作:Add2
+
+[ 2014-05-19T13:54:16+08:00 ] ::1 /library/index.php/Admin/Book/Add2.html
+ERR: 非法操作:Add2
+
+[ 2014-05-19T13:55:15+08:00 ] ::1 /library/index.php/Admin/User/changePWD.html
+ERR: 无法加载控制器:User
+
+[ 2014-05-19T13:55:25+08:00 ] ::1 /library/index.php/Admin/User/reg.html
+ERR: 无法加载控制器:User
+
+[ 2014-05-19T14:54:10+08:00 ] ::1 /library/index.php/Admin/User/changePWD.html
+ERR: 无法加载控制器:User
+
+[ 2014-05-19T15:16:22+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+
+[ 2014-05-19T15:17:13+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+
+[ 2014-05-19T15:23:46+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002064s ]
+
+[ 2014-05-19T15:25:40+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.128840s ]
+SQL: INSERT INTO `my_book` (`bookname`,`reg_time`) VALUES ('',1400484339) [ RunTime:0.066293s ]
+
+[ 2014-05-19T15:28:00+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.009900s ]
+SQL: INSERT INTO `my_book` (`bookname`,`reg_time`) VALUES ('',1400484480) [ RunTime:0.065387s ]
+
+[ 2014-05-19T15:28:22+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.071766s ]
+SQL: INSERT INTO `my_book` (`bookname`,`reg_time`) VALUES ('',1400484502) [ RunTime:0.000559s ]
+
+[ 2014-05-19T15:32:27+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.009398s ]
+SQL: INSERT INTO `my_book` (`bookname`,`reg_time`) VALUES ('',1400484747) [ RunTime:0.000597s ]
+
+[ 2014-05-19T15:33:13+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.011077s ]
+SQL: INSERT INTO `my_book` (`bookname`,`reg_time`) VALUES ('',1400484793) [ RunTime:0.000656s ]
+
+[ 2014-05-19T15:35:42+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.088541s ]
+SQL: INSERT INTO `my_book` (`bookname`,`reg_time`) VALUES ('',1400484942) [ RunTime:0.000547s ]
+
+[ 2014-05-19T15:35:47+08:00 ] ::1 /library/index.php/Admin/Book/edit/id/6
+ERR: 非法操作:edit
+
+[ 2014-05-19T15:53:06+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.009618s ]
+SQL: INSERT INTO `my_book` (`bookname`,`reg_time`) VALUES ('',1400485985) [ RunTime:0.000582s ]
+
+[ 2014-05-19T15:54:24+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.009794s ]
+SQL: INSERT INTO `my_book` (`bookname`,`reg_time`) VALUES ('',1400486063) [ RunTime:0.000531s ]
+
+[ 2014-05-19T15:56:01+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+
+[ 2014-05-19T15:57:48+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+
+[ 2014-05-19T15:58:50+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+
+[ 2014-05-19T16:02:56+08:00 ] ::1 /library/index.php/Admin/Book/addName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+SQL: SHOW COLUMNS FROM `my_book` [ RunTime:0.009440s ]
+SQL: INSERT INTO `my_book` (`bookname`,`reg_time`) VALUES ('李卫东',1400486575) [ RunTime:0.000518s ]
+
+[ 2014-05-19T22:21:30+08:00 ] ::1 /library/index.php/Admin/Blog/addBaseInfo.html
+ERR: 无法加载控制器:Blog
+
+[ 2014-05-19T22:22:09+08:00 ] ::1 /library/index.php/Admin/Blog/addBaseInfo.html
+ERR: 无法加载控制器:Blog
+
+[ 2014-05-19T22:29:22+08:00 ] ::1 /library/index.php/Admin/Book/addBaseInfo.html
+ERR: 非法数据对象！:[eid=>2]
+
+[ 2014-05-19T22:30:06+08:00 ] ::1 /library/index.php/Admin/Book/addBaseInfo.html
+ERR: 非法数据对象！:[eid=>2]
+
+[ 2014-05-19T22:33:29+08:00 ] ::1 /library/index.php/Admin/Book/addBaseInfo.html
+ERR: 非法数据对象！:[eid=>2]
+
